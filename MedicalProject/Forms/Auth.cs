@@ -1,0 +1,58 @@
+﻿using MedicalProject.DB;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace MedicalProject
+{
+    public partial class Auth : Form
+    {
+        public Auth()
+        {
+            InitializeComponent();
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                
+                ConnectionDB.GenerateCFG(UsernameTextBox.Text,PasswordTextBox.Text);
+                string login = UsernameTextBox.Text;
+                if (login == "admin")
+                {
+                    ConnectionDB.conn.Open();
+                    FormLists.auth.Hide();
+                    FormLists.adminPanel.ShowDialog();
+
+                }
+                else if (login == "employee")
+                {
+                    ConnectionDB.conn.Open();
+                    FormLists.auth.Hide();
+                    FormLists.employeePanel.ShowDialog();
+                }
+            }   
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void Auth_Load(object sender, EventArgs e)
+        {
+            FormLists.auth = this;
+            UsernameTextBox.Text = "admin";
+            PasswordTextBox.Text = "admin";
+            button1_Click(new object(), new EventArgs());
+
+        }
+    }
+}
