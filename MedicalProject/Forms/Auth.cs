@@ -1,4 +1,5 @@
 ﻿using MedicalProject.DB;
+using MetroFramework.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,7 +12,7 @@ using System.Windows.Forms;
 
 namespace MedicalProject
 {
-    public partial class Auth : Form
+    public partial class Auth : MetroForm
     {
         public Auth()
         {

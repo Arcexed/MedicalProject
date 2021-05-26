@@ -38,7 +38,7 @@ namespace MedicalProject
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(98, 143);
+            this.button1.Location = new System.Drawing.Point(168, 210);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(162, 27);
             this.button1.TabIndex = 0;
@@ -48,14 +48,14 @@ namespace MedicalProject
             // 
             // PasswordTextBox
             // 
-            this.PasswordTextBox.Location = new System.Drawing.Point(98, 87);
+            this.PasswordTextBox.Location = new System.Drawing.Point(168, 154);
             this.PasswordTextBox.Name = "PasswordTextBox";
             this.PasswordTextBox.Size = new System.Drawing.Size(162, 22);
             this.PasswordTextBox.TabIndex = 1;
             // 
             // UsernameTextBox
             // 
-            this.UsernameTextBox.Location = new System.Drawing.Point(98, 42);
+            this.UsernameTextBox.Location = new System.Drawing.Point(168, 109);
             this.UsernameTextBox.Name = "UsernameTextBox";
             this.UsernameTextBox.Size = new System.Drawing.Size(162, 22);
             this.UsernameTextBox.TabIndex = 2;
@@ -63,7 +63,7 @@ namespace MedicalProject
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(38, 45);
+            this.label1.Location = new System.Drawing.Point(108, 112);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 17);
             this.label1.TabIndex = 3;
@@ -72,7 +72,7 @@ namespace MedicalProject
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 87);
+            this.label2.Location = new System.Drawing.Point(82, 154);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 17);
             this.label2.TabIndex = 4;
@@ -82,13 +82,15 @@ namespace MedicalProject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(339, 210);
+            this.ClientSize = new System.Drawing.Size(485, 335);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.UsernameTextBox);
             this.Controls.Add(this.PasswordTextBox);
             this.Controls.Add(this.button1);
+            this.MaximizeBox = false;
             this.Name = "Auth";
+            this.Resizable = false;
             this.Text = "АРМ медичного працівника";
             this.Load += new System.EventHandler(this.Auth_Load);
             this.ResumeLayout(false);

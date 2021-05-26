@@ -1,4 +1,5 @@
 ﻿using MedicalProject.DB;
+using MetroFramework.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,7 +12,7 @@ using System.Windows.Forms;
 
 namespace MedicalProject.Forms
 {
-    public partial class EmployeePanel : Form
+    public partial class EmployeePanel : MetroForm
     {
         public EmployeePanel()
         {
@@ -29,6 +30,11 @@ namespace MedicalProject.Forms
         {
             Application.Exit();
 
+        }
+
+        private void EmployeePanel_Load(object sender, EventArgs e)
+        {
+            UserNameLabel.Text = ConnectionDB.userName;
         }
     }
 }
