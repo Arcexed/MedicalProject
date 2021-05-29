@@ -85,5 +85,55 @@ namespace MedicalProject
             }
             reader.Close(); // закрываем reader
         }
+
+        private void refresh_recipe_tile_Click(object sender, EventArgs e)
+        {
+
+            recipe_show_infogrid.Rows.Clear();
+            MySqlCommand command = new MySqlCommand("SELECT id_recipe,Substance_name1,Substance_name2,Substance_name3 FROM Recipe_view", ConnectionDB.conn);
+            MySqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                recipe_show_infogrid.Rows.Add(reader[0], reader[1], reader[2], reader[3]);
+            }
+            reader.Close(); // закрываем reader
+        }
+
+        private void refresh_medicine_tile_Click(object sender, EventArgs e)
+        {
+            // TODO
+            medicine_show_infogrid.Rows.Clear();
+            MySqlCommand command = new MySqlCommand("SELECT Brand_Name,preparation_name FROM Medicine_view", ConnectionDB.conn);
+            MySqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            { 
+                medicine_show_infogrid.Rows.Add(reader[0], reader[1]);
+            }
+            reader.Close(); // закрываем reader
+        }
+
+        private void refresh_compability_tile_Click(object sender, EventArgs e)
+        {
+            compability_show_infogrid.Rows.Clear();
+            MySqlCommand command = new MySqlCommand("SELECT Disease_name,Preparation_name FROM compatibility_view", ConnectionDB.conn);
+            MySqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                compability_show_infogrid.Rows.Add(reader[0], reader[1]);
+            }
+            reader.Close(); // закрываем reader
+        }
+
+        private void refresh_medicalform_tile_Click(object sender, EventArgs e)
+        {
+            medicalform_show_infogrid.Rows.Clear();
+            MySqlCommand command = new MySqlCommand("SELECT id_form,Form_name FROM medical_form", ConnectionDB.conn);
+            MySqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                medicalform_show_infogrid.Rows.Add(reader[0], reader[1]);
+            }
+            reader.Close(); // закрываем reader
+        }
     }
 }
