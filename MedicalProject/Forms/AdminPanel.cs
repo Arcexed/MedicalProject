@@ -1,4 +1,5 @@
 ﻿using MedicalProject.DB;
+using MetroFramework;
 using MetroFramework.Forms;
 using MySql.Data.MySqlClient;
 using System;
@@ -134,6 +135,75 @@ namespace MedicalProject
                 medicalform_show_infogrid.Rows.Add(reader[0], reader[1]);
             }
             reader.Close(); // закрываем reader
+        }
+
+        private void activesubstance_add_button_Click(object sender, EventArgs e)
+        {
+            try {
+                MySqlCommand command = new MySqlCommand($"CALL add_active_substance(\"{activesubstance_add_textbox.Text}\")", ConnectionDB.conn);
+                command.ExecuteNonQuery();
+                MetroMessageBox.Show(this, $"Added record {activesubstance_add_textbox.Text}", "Succesfully", MessageBoxButtons.OK, MessageBoxIcon.Question);
+                activesubstance_add_textbox.Text = "";
+            }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+
+        private void refresh_activesubstance_tile_Click(object sender, EventArgs e)
+        {
+            activesubstance_show_infogrid.Rows.Clear();
+            MySqlCommand command = new MySqlCommand("SELECT ID_substance, Substance_name FROM active_substance", ConnectionDB.conn);
+            MySqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                activesubstance_show_infogrid.Rows.Add(reader[0], reader[1]);
+            }
+            reader.Close(); // закрываем reader
+        }
+
+        private void activesubstance_find_button_Click(object sender, EventArgs e)
+        {
+            if (activesubstance_find_textbox.Text != "")
+            {
+                activesubstance_find_infogrid.Rows.Clear();
+                MySqlCommand command = new MySqlCommand($"SELECT ID_substance, Substance_name FROM active_substance WHERE Substance_name LIKE '%{activesubstance_find_textbox.Text}%'", ConnectionDB.conn);
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    activesubstance_find_infogrid.Rows.Add(reader[0], reader[1]);
+                }
+                activesubstance_find_textbox.Text = "";
+                reader.Close(); // закрываем reader
+            }
+            else
+            {
+                MetroMessageBox.Show(this, $"Field is null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+
+            }
+        }
+
+        private void medicalform_find_button_Click(object sender, EventArgs e)
+        {
+            //TODO
+            if (medicalform_find_textbox.Text != "")
+            {
+                medicalform_find_infogrid.Rows.Clear();
+                MySqlCommand command = new MySqlCommand($"SELECT ID_form, Form_name FROM medical_form WHERE Form_name LIKE '%{medicalform_find_textbox.Text}%'", ConnectionDB.conn);
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    medicalform_find_infogrid.Rows.Add(reader[0], reader[1]);
+                }
+                medicalform_find_textbox.Text = "";
+                reader.Close(); // закрываем reader
+            }
+            else
+            {
+                MetroMessageBox.Show(this, $"Field is null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+
+            }
         }
     }
 }

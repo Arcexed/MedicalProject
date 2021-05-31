@@ -56,10 +56,19 @@ namespace MedicalProject
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
             this.UserNameLabel = new System.Windows.Forms.Label();
-            this.metroTabControl1 = new MetroFramework.Controls.MetroTabControl();
-            this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
-            this.preparation_tab_control = new MetroFramework.Controls.MetroTabControl();
+            this.adminpanel_tabcontrol = new MetroFramework.Controls.MetroTabControl();
+            this.preparation_tabpage = new MetroFramework.Controls.MetroTabPage();
+            this.preparation_tabcontrol = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage9 = new MetroFramework.Controls.MetroTabPage();
             this.refresh_preparation_tile = new MetroFramework.Controls.MetroTile();
             this.preparation_show_infogrid = new MetroFramework.Controls.MetroGrid();
@@ -74,8 +83,8 @@ namespace MedicalProject
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.metroTabPage11 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage2 = new MetroFramework.Controls.MetroTabPage();
-            this.disease_tab_control = new MetroFramework.Controls.MetroTabControl();
+            this.disease_tabpage = new MetroFramework.Controls.MetroTabPage();
+            this.disease_tabcontrol = new MetroFramework.Controls.MetroTabControl();
             this.Disease = new MetroFramework.Controls.MetroTabPage();
             this.refresh_disease_tile = new MetroFramework.Controls.MetroTile();
             this.disease_show_infogrid = new MetroFramework.Controls.MetroGrid();
@@ -84,8 +93,8 @@ namespace MedicalProject
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.metroTabPage13 = new MetroFramework.Controls.MetroTabPage();
             this.metroTabPage14 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage4 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabControl5 = new MetroFramework.Controls.MetroTabControl();
+            this.producer_tabpage = new MetroFramework.Controls.MetroTabPage();
+            this.producer_tabcontrol = new MetroFramework.Controls.MetroTabControl();
             this.producer_tab_control = new MetroFramework.Controls.MetroTabPage();
             this.refresh_producer_tile = new MetroFramework.Controls.MetroTile();
             this.producer_show_infogrid = new MetroFramework.Controls.MetroGrid();
@@ -95,8 +104,8 @@ namespace MedicalProject
             this.Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.metroTabPage21 = new MetroFramework.Controls.MetroTabPage();
             this.metroTabPage22 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage5 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabControl6 = new MetroFramework.Controls.MetroTabControl();
+            this.license_tabpage = new MetroFramework.Controls.MetroTabPage();
+            this.license_tabcontrol = new MetroFramework.Controls.MetroTabControl();
             this.license_tab_control = new MetroFramework.Controls.MetroTabPage();
             this.refresh_license_tile = new MetroFramework.Controls.MetroTile();
             this.license_show_infogrid = new MetroFramework.Controls.MetroGrid();
@@ -105,27 +114,27 @@ namespace MedicalProject
             this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.metroTabPage24 = new MetroFramework.Controls.MetroTabPage();
             this.metroTabPage25 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage6 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabControl7 = new MetroFramework.Controls.MetroTabControl();
+            this.recipe_tabpage = new MetroFramework.Controls.MetroTabPage();
+            this.recipe_tabcontrol = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage26 = new MetroFramework.Controls.MetroTabPage();
             this.refresh_recipe_tile = new MetroFramework.Controls.MetroTile();
             this.recipe_show_infogrid = new MetroFramework.Controls.MetroGrid();
             this.metroTabPage27 = new MetroFramework.Controls.MetroTabPage();
             this.metroTabPage28 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage7 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabControl8 = new MetroFramework.Controls.MetroTabControl();
+            this.medicine_tabpage = new MetroFramework.Controls.MetroTabPage();
+            this.medicine_tabcontrol = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage29 = new MetroFramework.Controls.MetroTabPage();
             this.refresh_medicine_tile = new MetroFramework.Controls.MetroTile();
             this.medicine_show_infogrid = new MetroFramework.Controls.MetroGrid();
             this.metroTabPage30 = new MetroFramework.Controls.MetroTabPage();
             this.metroTabPage31 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage8 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabControl9 = new MetroFramework.Controls.MetroTabControl();
+            this.compability_tabpage = new MetroFramework.Controls.MetroTabPage();
+            this.compaility_tabcontrol = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage18 = new MetroFramework.Controls.MetroTabPage();
             this.metroTabPage19 = new MetroFramework.Controls.MetroTabPage();
             this.metroTabPage32 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage3 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage12 = new MetroFramework.Controls.MetroTabPage();
+            this.medicalform_tabpage = new MetroFramework.Controls.MetroTabPage();
+            this.activesubstance_tabpage = new MetroFramework.Controls.MetroTabPage();
             this.ChangeUserButton = new MetroFramework.Controls.MetroButton();
             this.compability_show_infogrid = new MetroFramework.Controls.MetroGrid();
             this.refresh_compability_tile = new MetroFramework.Controls.MetroTile();
@@ -137,7 +146,7 @@ namespace MedicalProject
             this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Substance_name3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.metroTabControl2 = new MetroFramework.Controls.MetroTabControl();
+            this.medicalform_tabcontrol = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage15 = new MetroFramework.Controls.MetroTabPage();
             this.refresh_medicalform_tile = new MetroFramework.Controls.MetroTile();
             this.medicalform_show_infogrid = new MetroFramework.Controls.MetroGrid();
@@ -145,41 +154,73 @@ namespace MedicalProject
             this.metroTabPage17 = new MetroFramework.Controls.MetroTabPage();
             this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.metroTabControl1.SuspendLayout();
-            this.metroTabPage1.SuspendLayout();
-            this.preparation_tab_control.SuspendLayout();
+            this.activesubstance_tabcontrol = new MetroFramework.Controls.MetroTabControl();
+            this.metroTabPage20 = new MetroFramework.Controls.MetroTabPage();
+            this.refresh_activesubstance_tile = new MetroFramework.Controls.MetroTile();
+            this.activesubstance_show_infogrid = new MetroFramework.Controls.MetroGrid();
+            this.metroTabPage23 = new MetroFramework.Controls.MetroTabPage();
+            this.metroTabPage33 = new MetroFramework.Controls.MetroTabPage();
+            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.activesubstance_add_textbox = new MetroFramework.Controls.MetroTextBox();
+            this.ActiveSubstance_label = new MetroFramework.Controls.MetroLabel();
+            this.activesubstance_add_button = new MetroFramework.Controls.MetroButton();
+            this.activesubstance_find_button = new MetroFramework.Controls.MetroButton();
+            this.activesubstance_find_label = new MetroFramework.Controls.MetroLabel();
+            this.activesubstance_find_textbox = new MetroFramework.Controls.MetroTextBox();
+            this.activesubstance_find_infogrid = new MetroFramework.Controls.MetroGrid();
+            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.medicalform_find_infogrid = new MetroFramework.Controls.MetroGrid();
+            this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.medicalform_find_button = new MetroFramework.Controls.MetroButton();
+            this.medicalform_find_label = new MetroFramework.Controls.MetroLabel();
+            this.medicalform_find_textbox = new MetroFramework.Controls.MetroTextBox();
+            this.adminpanel_tabcontrol.SuspendLayout();
+            this.preparation_tabpage.SuspendLayout();
+            this.preparation_tabcontrol.SuspendLayout();
             this.metroTabPage9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.preparation_show_infogrid)).BeginInit();
             this.metroTabPage10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).BeginInit();
-            this.metroTabPage2.SuspendLayout();
-            this.disease_tab_control.SuspendLayout();
+            this.disease_tabpage.SuspendLayout();
+            this.disease_tabcontrol.SuspendLayout();
             this.Disease.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.disease_show_infogrid)).BeginInit();
-            this.metroTabPage4.SuspendLayout();
-            this.metroTabControl5.SuspendLayout();
+            this.producer_tabpage.SuspendLayout();
+            this.producer_tabcontrol.SuspendLayout();
             this.producer_tab_control.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.producer_show_infogrid)).BeginInit();
-            this.metroTabPage5.SuspendLayout();
-            this.metroTabControl6.SuspendLayout();
+            this.license_tabpage.SuspendLayout();
+            this.license_tabcontrol.SuspendLayout();
             this.license_tab_control.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.license_show_infogrid)).BeginInit();
-            this.metroTabPage6.SuspendLayout();
-            this.metroTabControl7.SuspendLayout();
+            this.recipe_tabpage.SuspendLayout();
+            this.recipe_tabcontrol.SuspendLayout();
             this.metroTabPage26.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.recipe_show_infogrid)).BeginInit();
-            this.metroTabPage7.SuspendLayout();
-            this.metroTabControl8.SuspendLayout();
+            this.medicine_tabpage.SuspendLayout();
+            this.medicine_tabcontrol.SuspendLayout();
             this.metroTabPage29.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.medicine_show_infogrid)).BeginInit();
-            this.metroTabPage8.SuspendLayout();
-            this.metroTabControl9.SuspendLayout();
+            this.compability_tabpage.SuspendLayout();
+            this.compaility_tabcontrol.SuspendLayout();
             this.metroTabPage18.SuspendLayout();
-            this.metroTabPage3.SuspendLayout();
+            this.medicalform_tabpage.SuspendLayout();
+            this.activesubstance_tabpage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.compability_show_infogrid)).BeginInit();
-            this.metroTabControl2.SuspendLayout();
+            this.medicalform_tabcontrol.SuspendLayout();
             this.metroTabPage15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.medicalform_show_infogrid)).BeginInit();
+            this.metroTabPage16.SuspendLayout();
+            this.activesubstance_tabcontrol.SuspendLayout();
+            this.metroTabPage20.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.activesubstance_show_infogrid)).BeginInit();
+            this.metroTabPage23.SuspendLayout();
+            this.metroTabPage33.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.activesubstance_find_infogrid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.medicalform_find_infogrid)).BeginInit();
             this.SuspendLayout();
             // 
             // UserNameLabel
@@ -191,52 +232,52 @@ namespace MedicalProject
             this.UserNameLabel.TabIndex = 3;
             this.UserNameLabel.Text = "Unknown user";
             // 
-            // metroTabControl1
+            // adminpanel_tabcontrol
             // 
-            this.metroTabControl1.Controls.Add(this.metroTabPage1);
-            this.metroTabControl1.Controls.Add(this.metroTabPage2);
-            this.metroTabControl1.Controls.Add(this.metroTabPage4);
-            this.metroTabControl1.Controls.Add(this.metroTabPage5);
-            this.metroTabControl1.Controls.Add(this.metroTabPage6);
-            this.metroTabControl1.Controls.Add(this.metroTabPage7);
-            this.metroTabControl1.Controls.Add(this.metroTabPage8);
-            this.metroTabControl1.Controls.Add(this.metroTabPage3);
-            this.metroTabControl1.Controls.Add(this.metroTabPage12);
-            this.metroTabControl1.Location = new System.Drawing.Point(9, 83);
-            this.metroTabControl1.Name = "metroTabControl1";
-            this.metroTabControl1.SelectedIndex = 7;
-            this.metroTabControl1.Size = new System.Drawing.Size(1076, 452);
-            this.metroTabControl1.TabIndex = 4;
-            this.metroTabControl1.UseSelectable = true;
+            this.adminpanel_tabcontrol.Controls.Add(this.preparation_tabpage);
+            this.adminpanel_tabcontrol.Controls.Add(this.disease_tabpage);
+            this.adminpanel_tabcontrol.Controls.Add(this.producer_tabpage);
+            this.adminpanel_tabcontrol.Controls.Add(this.license_tabpage);
+            this.adminpanel_tabcontrol.Controls.Add(this.recipe_tabpage);
+            this.adminpanel_tabcontrol.Controls.Add(this.medicine_tabpage);
+            this.adminpanel_tabcontrol.Controls.Add(this.compability_tabpage);
+            this.adminpanel_tabcontrol.Controls.Add(this.medicalform_tabpage);
+            this.adminpanel_tabcontrol.Controls.Add(this.activesubstance_tabpage);
+            this.adminpanel_tabcontrol.Location = new System.Drawing.Point(9, 83);
+            this.adminpanel_tabcontrol.Name = "adminpanel_tabcontrol";
+            this.adminpanel_tabcontrol.SelectedIndex = 7;
+            this.adminpanel_tabcontrol.Size = new System.Drawing.Size(1076, 452);
+            this.adminpanel_tabcontrol.TabIndex = 4;
+            this.adminpanel_tabcontrol.UseSelectable = true;
             // 
-            // metroTabPage1
+            // preparation_tabpage
             // 
-            this.metroTabPage1.Controls.Add(this.preparation_tab_control);
-            this.metroTabPage1.HorizontalScrollbarBarColor = true;
-            this.metroTabPage1.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage1.HorizontalScrollbarSize = 10;
-            this.metroTabPage1.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage1.Name = "metroTabPage1";
-            this.metroTabPage1.Size = new System.Drawing.Size(1068, 410);
-            this.metroTabPage1.TabIndex = 0;
-            this.metroTabPage1.Text = "Preparation";
-            this.metroTabPage1.VerticalScrollbarBarColor = true;
-            this.metroTabPage1.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage1.VerticalScrollbarSize = 10;
+            this.preparation_tabpage.Controls.Add(this.preparation_tabcontrol);
+            this.preparation_tabpage.HorizontalScrollbarBarColor = true;
+            this.preparation_tabpage.HorizontalScrollbarHighlightOnWheel = false;
+            this.preparation_tabpage.HorizontalScrollbarSize = 10;
+            this.preparation_tabpage.Location = new System.Drawing.Point(4, 38);
+            this.preparation_tabpage.Name = "preparation_tabpage";
+            this.preparation_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.preparation_tabpage.TabIndex = 0;
+            this.preparation_tabpage.Text = "Preparation";
+            this.preparation_tabpage.VerticalScrollbarBarColor = true;
+            this.preparation_tabpage.VerticalScrollbarHighlightOnWheel = false;
+            this.preparation_tabpage.VerticalScrollbarSize = 10;
             // 
-            // preparation_tab_control
+            // preparation_tabcontrol
             // 
-            this.preparation_tab_control.Controls.Add(this.metroTabPage9);
-            this.preparation_tab_control.Controls.Add(this.metroTabPage10);
-            this.preparation_tab_control.Controls.Add(this.metroTabPage11);
-            this.preparation_tab_control.Location = new System.Drawing.Point(0, 3);
-            this.preparation_tab_control.Name = "preparation_tab_control";
-            this.preparation_tab_control.SelectedIndex = 0;
-            this.preparation_tab_control.Size = new System.Drawing.Size(1269, 376);
-            this.preparation_tab_control.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.preparation_tab_control.TabIndex = 2;
-            this.preparation_tab_control.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.preparation_tab_control.UseSelectable = true;
+            this.preparation_tabcontrol.Controls.Add(this.metroTabPage9);
+            this.preparation_tabcontrol.Controls.Add(this.metroTabPage10);
+            this.preparation_tabcontrol.Controls.Add(this.metroTabPage11);
+            this.preparation_tabcontrol.Location = new System.Drawing.Point(0, 3);
+            this.preparation_tabcontrol.Name = "preparation_tabcontrol";
+            this.preparation_tabcontrol.SelectedIndex = 0;
+            this.preparation_tabcontrol.Size = new System.Drawing.Size(1269, 376);
+            this.preparation_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.preparation_tabcontrol.TabIndex = 2;
+            this.preparation_tabcontrol.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.preparation_tabcontrol.UseSelectable = true;
             // 
             // metroTabPage9
             // 
@@ -257,11 +298,12 @@ namespace MedicalProject
             // refresh_preparation_tile
             // 
             this.refresh_preparation_tile.ActiveControl = null;
-            this.refresh_preparation_tile.Location = new System.Drawing.Point(1000, 293);
+            this.refresh_preparation_tile.Location = new System.Drawing.Point(961, 275);
             this.refresh_preparation_tile.Name = "refresh_preparation_tile";
-            this.refresh_preparation_tile.Size = new System.Drawing.Size(68, 38);
+            this.refresh_preparation_tile.Size = new System.Drawing.Size(100, 44);
             this.refresh_preparation_tile.TabIndex = 7;
             this.refresh_preparation_tile.Text = "Refresh";
+            this.refresh_preparation_tile.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.refresh_preparation_tile.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.refresh_preparation_tile.UseSelectable = true;
             this.refresh_preparation_tile.UseTileImage = true;
@@ -450,34 +492,34 @@ namespace MedicalProject
             this.metroTabPage11.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage11.VerticalScrollbarSize = 10;
             // 
-            // metroTabPage2
+            // disease_tabpage
             // 
-            this.metroTabPage2.Controls.Add(this.disease_tab_control);
-            this.metroTabPage2.HorizontalScrollbarBarColor = true;
-            this.metroTabPage2.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage2.HorizontalScrollbarSize = 10;
-            this.metroTabPage2.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage2.Name = "metroTabPage2";
-            this.metroTabPage2.Size = new System.Drawing.Size(1068, 410);
-            this.metroTabPage2.TabIndex = 1;
-            this.metroTabPage2.Text = "Disease";
-            this.metroTabPage2.VerticalScrollbarBarColor = true;
-            this.metroTabPage2.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage2.VerticalScrollbarSize = 10;
+            this.disease_tabpage.Controls.Add(this.disease_tabcontrol);
+            this.disease_tabpage.HorizontalScrollbarBarColor = true;
+            this.disease_tabpage.HorizontalScrollbarHighlightOnWheel = false;
+            this.disease_tabpage.HorizontalScrollbarSize = 10;
+            this.disease_tabpage.Location = new System.Drawing.Point(4, 38);
+            this.disease_tabpage.Name = "disease_tabpage";
+            this.disease_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.disease_tabpage.TabIndex = 1;
+            this.disease_tabpage.Text = "Disease";
+            this.disease_tabpage.VerticalScrollbarBarColor = true;
+            this.disease_tabpage.VerticalScrollbarHighlightOnWheel = false;
+            this.disease_tabpage.VerticalScrollbarSize = 10;
             // 
-            // disease_tab_control
+            // disease_tabcontrol
             // 
-            this.disease_tab_control.Controls.Add(this.Disease);
-            this.disease_tab_control.Controls.Add(this.metroTabPage13);
-            this.disease_tab_control.Controls.Add(this.metroTabPage14);
-            this.disease_tab_control.Location = new System.Drawing.Point(0, 3);
-            this.disease_tab_control.Name = "disease_tab_control";
-            this.disease_tab_control.SelectedIndex = 0;
-            this.disease_tab_control.Size = new System.Drawing.Size(1269, 376);
-            this.disease_tab_control.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.disease_tab_control.TabIndex = 3;
-            this.disease_tab_control.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.disease_tab_control.UseSelectable = true;
+            this.disease_tabcontrol.Controls.Add(this.Disease);
+            this.disease_tabcontrol.Controls.Add(this.metroTabPage13);
+            this.disease_tabcontrol.Controls.Add(this.metroTabPage14);
+            this.disease_tabcontrol.Location = new System.Drawing.Point(0, 3);
+            this.disease_tabcontrol.Name = "disease_tabcontrol";
+            this.disease_tabcontrol.SelectedIndex = 0;
+            this.disease_tabcontrol.Size = new System.Drawing.Size(1269, 376);
+            this.disease_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.disease_tabcontrol.TabIndex = 3;
+            this.disease_tabcontrol.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.disease_tabcontrol.UseSelectable = true;
             // 
             // Disease
             // 
@@ -498,7 +540,7 @@ namespace MedicalProject
             // refresh_disease_tile
             // 
             this.refresh_disease_tile.ActiveControl = null;
-            this.refresh_disease_tile.Location = new System.Drawing.Point(968, 287);
+            this.refresh_disease_tile.Location = new System.Drawing.Point(961, 275);
             this.refresh_disease_tile.Name = "refresh_disease_tile";
             this.refresh_disease_tile.Size = new System.Drawing.Size(100, 44);
             this.refresh_disease_tile.TabIndex = 8;
@@ -607,34 +649,34 @@ namespace MedicalProject
             this.metroTabPage14.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage14.VerticalScrollbarSize = 10;
             // 
-            // metroTabPage4
+            // producer_tabpage
             // 
-            this.metroTabPage4.Controls.Add(this.metroTabControl5);
-            this.metroTabPage4.HorizontalScrollbarBarColor = true;
-            this.metroTabPage4.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage4.HorizontalScrollbarSize = 10;
-            this.metroTabPage4.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage4.Name = "metroTabPage4";
-            this.metroTabPage4.Size = new System.Drawing.Size(1068, 410);
-            this.metroTabPage4.TabIndex = 3;
-            this.metroTabPage4.Text = "Producer";
-            this.metroTabPage4.VerticalScrollbarBarColor = true;
-            this.metroTabPage4.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage4.VerticalScrollbarSize = 10;
+            this.producer_tabpage.Controls.Add(this.producer_tabcontrol);
+            this.producer_tabpage.HorizontalScrollbarBarColor = true;
+            this.producer_tabpage.HorizontalScrollbarHighlightOnWheel = false;
+            this.producer_tabpage.HorizontalScrollbarSize = 10;
+            this.producer_tabpage.Location = new System.Drawing.Point(4, 38);
+            this.producer_tabpage.Name = "producer_tabpage";
+            this.producer_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.producer_tabpage.TabIndex = 3;
+            this.producer_tabpage.Text = "Producer";
+            this.producer_tabpage.VerticalScrollbarBarColor = true;
+            this.producer_tabpage.VerticalScrollbarHighlightOnWheel = false;
+            this.producer_tabpage.VerticalScrollbarSize = 10;
             // 
-            // metroTabControl5
+            // producer_tabcontrol
             // 
-            this.metroTabControl5.Controls.Add(this.producer_tab_control);
-            this.metroTabControl5.Controls.Add(this.metroTabPage21);
-            this.metroTabControl5.Controls.Add(this.metroTabPage22);
-            this.metroTabControl5.Location = new System.Drawing.Point(0, 3);
-            this.metroTabControl5.Name = "metroTabControl5";
-            this.metroTabControl5.SelectedIndex = 0;
-            this.metroTabControl5.Size = new System.Drawing.Size(1269, 376);
-            this.metroTabControl5.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.metroTabControl5.TabIndex = 5;
-            this.metroTabControl5.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTabControl5.UseSelectable = true;
+            this.producer_tabcontrol.Controls.Add(this.producer_tab_control);
+            this.producer_tabcontrol.Controls.Add(this.metroTabPage21);
+            this.producer_tabcontrol.Controls.Add(this.metroTabPage22);
+            this.producer_tabcontrol.Location = new System.Drawing.Point(0, 3);
+            this.producer_tabcontrol.Name = "producer_tabcontrol";
+            this.producer_tabcontrol.SelectedIndex = 0;
+            this.producer_tabcontrol.Size = new System.Drawing.Size(1269, 376);
+            this.producer_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.producer_tabcontrol.TabIndex = 5;
+            this.producer_tabcontrol.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.producer_tabcontrol.UseSelectable = true;
             // 
             // producer_tab_control
             // 
@@ -655,7 +697,7 @@ namespace MedicalProject
             // refresh_producer_tile
             // 
             this.refresh_producer_tile.ActiveControl = null;
-            this.refresh_producer_tile.Location = new System.Drawing.Point(968, 287);
+            this.refresh_producer_tile.Location = new System.Drawing.Point(961, 275);
             this.refresh_producer_tile.Name = "refresh_producer_tile";
             this.refresh_producer_tile.Size = new System.Drawing.Size(100, 44);
             this.refresh_producer_tile.TabIndex = 9;
@@ -771,34 +813,34 @@ namespace MedicalProject
             this.metroTabPage22.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage22.VerticalScrollbarSize = 10;
             // 
-            // metroTabPage5
+            // license_tabpage
             // 
-            this.metroTabPage5.Controls.Add(this.metroTabControl6);
-            this.metroTabPage5.HorizontalScrollbarBarColor = true;
-            this.metroTabPage5.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage5.HorizontalScrollbarSize = 10;
-            this.metroTabPage5.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage5.Name = "metroTabPage5";
-            this.metroTabPage5.Size = new System.Drawing.Size(1068, 410);
-            this.metroTabPage5.TabIndex = 4;
-            this.metroTabPage5.Text = "License";
-            this.metroTabPage5.VerticalScrollbarBarColor = true;
-            this.metroTabPage5.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage5.VerticalScrollbarSize = 10;
+            this.license_tabpage.Controls.Add(this.license_tabcontrol);
+            this.license_tabpage.HorizontalScrollbarBarColor = true;
+            this.license_tabpage.HorizontalScrollbarHighlightOnWheel = false;
+            this.license_tabpage.HorizontalScrollbarSize = 10;
+            this.license_tabpage.Location = new System.Drawing.Point(4, 38);
+            this.license_tabpage.Name = "license_tabpage";
+            this.license_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.license_tabpage.TabIndex = 4;
+            this.license_tabpage.Text = "License";
+            this.license_tabpage.VerticalScrollbarBarColor = true;
+            this.license_tabpage.VerticalScrollbarHighlightOnWheel = false;
+            this.license_tabpage.VerticalScrollbarSize = 10;
             // 
-            // metroTabControl6
+            // license_tabcontrol
             // 
-            this.metroTabControl6.Controls.Add(this.license_tab_control);
-            this.metroTabControl6.Controls.Add(this.metroTabPage24);
-            this.metroTabControl6.Controls.Add(this.metroTabPage25);
-            this.metroTabControl6.Location = new System.Drawing.Point(0, 3);
-            this.metroTabControl6.Name = "metroTabControl6";
-            this.metroTabControl6.SelectedIndex = 0;
-            this.metroTabControl6.Size = new System.Drawing.Size(1269, 376);
-            this.metroTabControl6.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.metroTabControl6.TabIndex = 6;
-            this.metroTabControl6.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTabControl6.UseSelectable = true;
+            this.license_tabcontrol.Controls.Add(this.license_tab_control);
+            this.license_tabcontrol.Controls.Add(this.metroTabPage24);
+            this.license_tabcontrol.Controls.Add(this.metroTabPage25);
+            this.license_tabcontrol.Location = new System.Drawing.Point(0, 3);
+            this.license_tabcontrol.Name = "license_tabcontrol";
+            this.license_tabcontrol.SelectedIndex = 0;
+            this.license_tabcontrol.Size = new System.Drawing.Size(1269, 376);
+            this.license_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.license_tabcontrol.TabIndex = 6;
+            this.license_tabcontrol.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.license_tabcontrol.UseSelectable = true;
             // 
             // license_tab_control
             // 
@@ -819,7 +861,7 @@ namespace MedicalProject
             // refresh_license_tile
             // 
             this.refresh_license_tile.ActiveControl = null;
-            this.refresh_license_tile.Location = new System.Drawing.Point(985, 287);
+            this.refresh_license_tile.Location = new System.Drawing.Point(961, 275);
             this.refresh_license_tile.Name = "refresh_license_tile";
             this.refresh_license_tile.Size = new System.Drawing.Size(100, 44);
             this.refresh_license_tile.TabIndex = 10;
@@ -928,34 +970,34 @@ namespace MedicalProject
             this.metroTabPage25.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage25.VerticalScrollbarSize = 10;
             // 
-            // metroTabPage6
+            // recipe_tabpage
             // 
-            this.metroTabPage6.Controls.Add(this.metroTabControl7);
-            this.metroTabPage6.HorizontalScrollbarBarColor = true;
-            this.metroTabPage6.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage6.HorizontalScrollbarSize = 10;
-            this.metroTabPage6.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage6.Name = "metroTabPage6";
-            this.metroTabPage6.Size = new System.Drawing.Size(1068, 410);
-            this.metroTabPage6.TabIndex = 5;
-            this.metroTabPage6.Text = "Recipe";
-            this.metroTabPage6.VerticalScrollbarBarColor = true;
-            this.metroTabPage6.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage6.VerticalScrollbarSize = 10;
+            this.recipe_tabpage.Controls.Add(this.recipe_tabcontrol);
+            this.recipe_tabpage.HorizontalScrollbarBarColor = true;
+            this.recipe_tabpage.HorizontalScrollbarHighlightOnWheel = false;
+            this.recipe_tabpage.HorizontalScrollbarSize = 10;
+            this.recipe_tabpage.Location = new System.Drawing.Point(4, 38);
+            this.recipe_tabpage.Name = "recipe_tabpage";
+            this.recipe_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.recipe_tabpage.TabIndex = 5;
+            this.recipe_tabpage.Text = "Recipe";
+            this.recipe_tabpage.VerticalScrollbarBarColor = true;
+            this.recipe_tabpage.VerticalScrollbarHighlightOnWheel = false;
+            this.recipe_tabpage.VerticalScrollbarSize = 10;
             // 
-            // metroTabControl7
+            // recipe_tabcontrol
             // 
-            this.metroTabControl7.Controls.Add(this.metroTabPage26);
-            this.metroTabControl7.Controls.Add(this.metroTabPage27);
-            this.metroTabControl7.Controls.Add(this.metroTabPage28);
-            this.metroTabControl7.Location = new System.Drawing.Point(0, 3);
-            this.metroTabControl7.Name = "metroTabControl7";
-            this.metroTabControl7.SelectedIndex = 0;
-            this.metroTabControl7.Size = new System.Drawing.Size(1269, 376);
-            this.metroTabControl7.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.metroTabControl7.TabIndex = 7;
-            this.metroTabControl7.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTabControl7.UseSelectable = true;
+            this.recipe_tabcontrol.Controls.Add(this.metroTabPage26);
+            this.recipe_tabcontrol.Controls.Add(this.metroTabPage27);
+            this.recipe_tabcontrol.Controls.Add(this.metroTabPage28);
+            this.recipe_tabcontrol.Location = new System.Drawing.Point(0, 3);
+            this.recipe_tabcontrol.Name = "recipe_tabcontrol";
+            this.recipe_tabcontrol.SelectedIndex = 0;
+            this.recipe_tabcontrol.Size = new System.Drawing.Size(1269, 376);
+            this.recipe_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.recipe_tabcontrol.TabIndex = 7;
+            this.recipe_tabcontrol.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.recipe_tabcontrol.UseSelectable = true;
             // 
             // metroTabPage26
             // 
@@ -976,7 +1018,7 @@ namespace MedicalProject
             // refresh_recipe_tile
             // 
             this.refresh_recipe_tile.ActiveControl = null;
-            this.refresh_recipe_tile.Location = new System.Drawing.Point(968, 278);
+            this.refresh_recipe_tile.Location = new System.Drawing.Point(961, 275);
             this.refresh_recipe_tile.Name = "refresh_recipe_tile";
             this.refresh_recipe_tile.Size = new System.Drawing.Size(100, 44);
             this.refresh_recipe_tile.TabIndex = 11;
@@ -1068,34 +1110,34 @@ namespace MedicalProject
             this.metroTabPage28.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage28.VerticalScrollbarSize = 10;
             // 
-            // metroTabPage7
+            // medicine_tabpage
             // 
-            this.metroTabPage7.Controls.Add(this.metroTabControl8);
-            this.metroTabPage7.HorizontalScrollbarBarColor = true;
-            this.metroTabPage7.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage7.HorizontalScrollbarSize = 10;
-            this.metroTabPage7.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage7.Name = "metroTabPage7";
-            this.metroTabPage7.Size = new System.Drawing.Size(1068, 410);
-            this.metroTabPage7.TabIndex = 6;
-            this.metroTabPage7.Text = "Medicine";
-            this.metroTabPage7.VerticalScrollbarBarColor = true;
-            this.metroTabPage7.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage7.VerticalScrollbarSize = 10;
+            this.medicine_tabpage.Controls.Add(this.medicine_tabcontrol);
+            this.medicine_tabpage.HorizontalScrollbarBarColor = true;
+            this.medicine_tabpage.HorizontalScrollbarHighlightOnWheel = false;
+            this.medicine_tabpage.HorizontalScrollbarSize = 10;
+            this.medicine_tabpage.Location = new System.Drawing.Point(4, 38);
+            this.medicine_tabpage.Name = "medicine_tabpage";
+            this.medicine_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.medicine_tabpage.TabIndex = 6;
+            this.medicine_tabpage.Text = "Medicine";
+            this.medicine_tabpage.VerticalScrollbarBarColor = true;
+            this.medicine_tabpage.VerticalScrollbarHighlightOnWheel = false;
+            this.medicine_tabpage.VerticalScrollbarSize = 10;
             // 
-            // metroTabControl8
+            // medicine_tabcontrol
             // 
-            this.metroTabControl8.Controls.Add(this.metroTabPage29);
-            this.metroTabControl8.Controls.Add(this.metroTabPage30);
-            this.metroTabControl8.Controls.Add(this.metroTabPage31);
-            this.metroTabControl8.Location = new System.Drawing.Point(0, 3);
-            this.metroTabControl8.Name = "metroTabControl8";
-            this.metroTabControl8.SelectedIndex = 0;
-            this.metroTabControl8.Size = new System.Drawing.Size(1079, 376);
-            this.metroTabControl8.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.metroTabControl8.TabIndex = 8;
-            this.metroTabControl8.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTabControl8.UseSelectable = true;
+            this.medicine_tabcontrol.Controls.Add(this.metroTabPage29);
+            this.medicine_tabcontrol.Controls.Add(this.metroTabPage30);
+            this.medicine_tabcontrol.Controls.Add(this.metroTabPage31);
+            this.medicine_tabcontrol.Location = new System.Drawing.Point(0, 3);
+            this.medicine_tabcontrol.Name = "medicine_tabcontrol";
+            this.medicine_tabcontrol.SelectedIndex = 0;
+            this.medicine_tabcontrol.Size = new System.Drawing.Size(1079, 376);
+            this.medicine_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.medicine_tabcontrol.TabIndex = 8;
+            this.medicine_tabcontrol.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.medicine_tabcontrol.UseSelectable = true;
             // 
             // metroTabPage29
             // 
@@ -1116,7 +1158,7 @@ namespace MedicalProject
             // refresh_medicine_tile
             // 
             this.refresh_medicine_tile.ActiveControl = null;
-            this.refresh_medicine_tile.Location = new System.Drawing.Point(969, 273);
+            this.refresh_medicine_tile.Location = new System.Drawing.Point(961, 275);
             this.refresh_medicine_tile.Name = "refresh_medicine_tile";
             this.refresh_medicine_tile.Size = new System.Drawing.Size(100, 44);
             this.refresh_medicine_tile.TabIndex = 12;
@@ -1206,34 +1248,34 @@ namespace MedicalProject
             this.metroTabPage31.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage31.VerticalScrollbarSize = 10;
             // 
-            // metroTabPage8
+            // compability_tabpage
             // 
-            this.metroTabPage8.Controls.Add(this.metroTabControl9);
-            this.metroTabPage8.HorizontalScrollbarBarColor = true;
-            this.metroTabPage8.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage8.HorizontalScrollbarSize = 10;
-            this.metroTabPage8.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage8.Name = "metroTabPage8";
-            this.metroTabPage8.Size = new System.Drawing.Size(1068, 410);
-            this.metroTabPage8.TabIndex = 7;
-            this.metroTabPage8.Text = "Compability";
-            this.metroTabPage8.VerticalScrollbarBarColor = true;
-            this.metroTabPage8.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage8.VerticalScrollbarSize = 10;
+            this.compability_tabpage.Controls.Add(this.compaility_tabcontrol);
+            this.compability_tabpage.HorizontalScrollbarBarColor = true;
+            this.compability_tabpage.HorizontalScrollbarHighlightOnWheel = false;
+            this.compability_tabpage.HorizontalScrollbarSize = 10;
+            this.compability_tabpage.Location = new System.Drawing.Point(4, 38);
+            this.compability_tabpage.Name = "compability_tabpage";
+            this.compability_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.compability_tabpage.TabIndex = 7;
+            this.compability_tabpage.Text = "Compability";
+            this.compability_tabpage.VerticalScrollbarBarColor = true;
+            this.compability_tabpage.VerticalScrollbarHighlightOnWheel = false;
+            this.compability_tabpage.VerticalScrollbarSize = 10;
             // 
-            // metroTabControl9
+            // compaility_tabcontrol
             // 
-            this.metroTabControl9.Controls.Add(this.metroTabPage18);
-            this.metroTabControl9.Controls.Add(this.metroTabPage19);
-            this.metroTabControl9.Controls.Add(this.metroTabPage32);
-            this.metroTabControl9.Location = new System.Drawing.Point(0, 3);
-            this.metroTabControl9.Name = "metroTabControl9";
-            this.metroTabControl9.SelectedIndex = 0;
-            this.metroTabControl9.Size = new System.Drawing.Size(1072, 376);
-            this.metroTabControl9.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.metroTabControl9.TabIndex = 9;
-            this.metroTabControl9.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTabControl9.UseSelectable = true;
+            this.compaility_tabcontrol.Controls.Add(this.metroTabPage18);
+            this.compaility_tabcontrol.Controls.Add(this.metroTabPage19);
+            this.compaility_tabcontrol.Controls.Add(this.metroTabPage32);
+            this.compaility_tabcontrol.Location = new System.Drawing.Point(0, 3);
+            this.compaility_tabcontrol.Name = "compaility_tabcontrol";
+            this.compaility_tabcontrol.SelectedIndex = 0;
+            this.compaility_tabcontrol.Size = new System.Drawing.Size(1072, 376);
+            this.compaility_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.compaility_tabcontrol.TabIndex = 9;
+            this.compaility_tabcontrol.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.compaility_tabcontrol.UseSelectable = true;
             // 
             // metroTabPage18
             // 
@@ -1279,34 +1321,35 @@ namespace MedicalProject
             this.metroTabPage32.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage32.VerticalScrollbarSize = 10;
             // 
-            // metroTabPage3
+            // medicalform_tabpage
             // 
-            this.metroTabPage3.Controls.Add(this.metroTabControl2);
-            this.metroTabPage3.HorizontalScrollbarBarColor = true;
-            this.metroTabPage3.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage3.HorizontalScrollbarSize = 10;
-            this.metroTabPage3.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage3.Name = "metroTabPage3";
-            this.metroTabPage3.Size = new System.Drawing.Size(1068, 410);
-            this.metroTabPage3.TabIndex = 8;
-            this.metroTabPage3.Text = "Medical Form";
-            this.metroTabPage3.VerticalScrollbarBarColor = true;
-            this.metroTabPage3.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage3.VerticalScrollbarSize = 10;
+            this.medicalform_tabpage.Controls.Add(this.medicalform_tabcontrol);
+            this.medicalform_tabpage.HorizontalScrollbarBarColor = true;
+            this.medicalform_tabpage.HorizontalScrollbarHighlightOnWheel = false;
+            this.medicalform_tabpage.HorizontalScrollbarSize = 10;
+            this.medicalform_tabpage.Location = new System.Drawing.Point(4, 38);
+            this.medicalform_tabpage.Name = "medicalform_tabpage";
+            this.medicalform_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.medicalform_tabpage.TabIndex = 8;
+            this.medicalform_tabpage.Text = "Medical Form";
+            this.medicalform_tabpage.VerticalScrollbarBarColor = true;
+            this.medicalform_tabpage.VerticalScrollbarHighlightOnWheel = false;
+            this.medicalform_tabpage.VerticalScrollbarSize = 10;
             // 
-            // metroTabPage12
+            // activesubstance_tabpage
             // 
-            this.metroTabPage12.HorizontalScrollbarBarColor = true;
-            this.metroTabPage12.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage12.HorizontalScrollbarSize = 10;
-            this.metroTabPage12.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage12.Name = "metroTabPage12";
-            this.metroTabPage12.Size = new System.Drawing.Size(1068, 410);
-            this.metroTabPage12.TabIndex = 9;
-            this.metroTabPage12.Text = "Active Substans";
-            this.metroTabPage12.VerticalScrollbarBarColor = true;
-            this.metroTabPage12.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage12.VerticalScrollbarSize = 10;
+            this.activesubstance_tabpage.Controls.Add(this.activesubstance_tabcontrol);
+            this.activesubstance_tabpage.HorizontalScrollbarBarColor = true;
+            this.activesubstance_tabpage.HorizontalScrollbarHighlightOnWheel = false;
+            this.activesubstance_tabpage.HorizontalScrollbarSize = 10;
+            this.activesubstance_tabpage.Location = new System.Drawing.Point(4, 38);
+            this.activesubstance_tabpage.Name = "activesubstance_tabpage";
+            this.activesubstance_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.activesubstance_tabpage.TabIndex = 9;
+            this.activesubstance_tabpage.Text = "Active Substance";
+            this.activesubstance_tabpage.VerticalScrollbarBarColor = true;
+            this.activesubstance_tabpage.VerticalScrollbarHighlightOnWheel = false;
+            this.activesubstance_tabpage.VerticalScrollbarSize = 10;
             // 
             // ChangeUserButton
             // 
@@ -1431,19 +1474,19 @@ namespace MedicalProject
             this.Substance_name3.MinimumWidth = 6;
             this.Substance_name3.Name = "Substance_name3";
             // 
-            // metroTabControl2
+            // medicalform_tabcontrol
             // 
-            this.metroTabControl2.Controls.Add(this.metroTabPage15);
-            this.metroTabControl2.Controls.Add(this.metroTabPage16);
-            this.metroTabControl2.Controls.Add(this.metroTabPage17);
-            this.metroTabControl2.Location = new System.Drawing.Point(0, 3);
-            this.metroTabControl2.Name = "metroTabControl2";
-            this.metroTabControl2.SelectedIndex = 0;
-            this.metroTabControl2.Size = new System.Drawing.Size(1072, 376);
-            this.metroTabControl2.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.metroTabControl2.TabIndex = 10;
-            this.metroTabControl2.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTabControl2.UseSelectable = true;
+            this.medicalform_tabcontrol.Controls.Add(this.metroTabPage15);
+            this.medicalform_tabcontrol.Controls.Add(this.metroTabPage16);
+            this.medicalform_tabcontrol.Controls.Add(this.metroTabPage17);
+            this.medicalform_tabcontrol.Location = new System.Drawing.Point(0, 3);
+            this.medicalform_tabcontrol.Name = "medicalform_tabcontrol";
+            this.medicalform_tabcontrol.SelectedIndex = 1;
+            this.medicalform_tabcontrol.Size = new System.Drawing.Size(1072, 376);
+            this.medicalform_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.medicalform_tabcontrol.TabIndex = 10;
+            this.medicalform_tabcontrol.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.medicalform_tabcontrol.UseSelectable = true;
             // 
             // metroTabPage15
             // 
@@ -1523,17 +1566,21 @@ namespace MedicalProject
             this.medicalform_show_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.medicalform_show_infogrid.RowTemplate.Height = 24;
             this.medicalform_show_infogrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.medicalform_show_infogrid.Size = new System.Drawing.Size(1064, 266);
+            this.medicalform_show_infogrid.Size = new System.Drawing.Size(1068, 266);
             this.medicalform_show_infogrid.TabIndex = 12;
             // 
             // metroTabPage16
             // 
+            this.metroTabPage16.Controls.Add(this.medicalform_find_infogrid);
+            this.metroTabPage16.Controls.Add(this.medicalform_find_button);
+            this.metroTabPage16.Controls.Add(this.medicalform_find_label);
+            this.metroTabPage16.Controls.Add(this.medicalform_find_textbox);
             this.metroTabPage16.HorizontalScrollbarBarColor = true;
             this.metroTabPage16.HorizontalScrollbarHighlightOnWheel = false;
             this.metroTabPage16.HorizontalScrollbarSize = 10;
-            this.metroTabPage16.Location = new System.Drawing.Point(4, 39);
+            this.metroTabPage16.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage16.Name = "metroTabPage16";
-            this.metroTabPage16.Size = new System.Drawing.Size(1064, 333);
+            this.metroTabPage16.Size = new System.Drawing.Size(1064, 334);
             this.metroTabPage16.TabIndex = 1;
             this.metroTabPage16.Text = "Find";
             this.metroTabPage16.VerticalScrollbarBarColor = true;
@@ -1566,53 +1613,480 @@ namespace MedicalProject
             this.dataGridViewTextBoxColumn22.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
             // 
+            // activesubstance_tabcontrol
+            // 
+            this.activesubstance_tabcontrol.Controls.Add(this.metroTabPage20);
+            this.activesubstance_tabcontrol.Controls.Add(this.metroTabPage23);
+            this.activesubstance_tabcontrol.Controls.Add(this.metroTabPage33);
+            this.activesubstance_tabcontrol.Location = new System.Drawing.Point(0, 3);
+            this.activesubstance_tabcontrol.Name = "activesubstance_tabcontrol";
+            this.activesubstance_tabcontrol.SelectedIndex = 1;
+            this.activesubstance_tabcontrol.Size = new System.Drawing.Size(1072, 376);
+            this.activesubstance_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.activesubstance_tabcontrol.TabIndex = 11;
+            this.activesubstance_tabcontrol.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.activesubstance_tabcontrol.UseSelectable = true;
+            // 
+            // metroTabPage20
+            // 
+            this.metroTabPage20.Controls.Add(this.refresh_activesubstance_tile);
+            this.metroTabPage20.Controls.Add(this.activesubstance_show_infogrid);
+            this.metroTabPage20.HorizontalScrollbarBarColor = false;
+            this.metroTabPage20.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage20.HorizontalScrollbarSize = 10;
+            this.metroTabPage20.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage20.Name = "metroTabPage20";
+            this.metroTabPage20.Size = new System.Drawing.Size(1064, 334);
+            this.metroTabPage20.TabIndex = 0;
+            this.metroTabPage20.Text = "Show";
+            this.metroTabPage20.VerticalScrollbarBarColor = true;
+            this.metroTabPage20.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage20.VerticalScrollbarSize = 10;
+            // 
+            // refresh_activesubstance_tile
+            // 
+            this.refresh_activesubstance_tile.ActiveControl = null;
+            this.refresh_activesubstance_tile.Location = new System.Drawing.Point(961, 275);
+            this.refresh_activesubstance_tile.Name = "refresh_activesubstance_tile";
+            this.refresh_activesubstance_tile.Size = new System.Drawing.Size(100, 44);
+            this.refresh_activesubstance_tile.TabIndex = 13;
+            this.refresh_activesubstance_tile.Text = "Refresh";
+            this.refresh_activesubstance_tile.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.refresh_activesubstance_tile.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.refresh_activesubstance_tile.UseSelectable = true;
+            this.refresh_activesubstance_tile.UseTileImage = true;
+            this.refresh_activesubstance_tile.Click += new System.EventHandler(this.refresh_activesubstance_tile_Click);
+            // 
+            // activesubstance_show_infogrid
+            // 
+            this.activesubstance_show_infogrid.AllowUserToAddRows = false;
+            this.activesubstance_show_infogrid.AllowUserToResizeRows = false;
+            this.activesubstance_show_infogrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.activesubstance_show_infogrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.activesubstance_show_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.activesubstance_show_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.activesubstance_show_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle31.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle31.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle31.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle31.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.activesubstance_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle31;
+            this.activesubstance_show_infogrid.ColumnHeadersHeight = 29;
+            this.activesubstance_show_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn23,
+            this.dataGridViewTextBoxColumn24});
+            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle32.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.activesubstance_show_infogrid.DefaultCellStyle = dataGridViewCellStyle32;
+            this.activesubstance_show_infogrid.EnableHeadersVisualStyles = false;
+            this.activesubstance_show_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.activesubstance_show_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.activesubstance_show_infogrid.Location = new System.Drawing.Point(0, 3);
+            this.activesubstance_show_infogrid.Name = "activesubstance_show_infogrid";
+            this.activesubstance_show_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle33.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.activesubstance_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle33;
+            this.activesubstance_show_infogrid.RowHeadersVisible = false;
+            this.activesubstance_show_infogrid.RowHeadersWidth = 51;
+            this.activesubstance_show_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.activesubstance_show_infogrid.RowTemplate.Height = 24;
+            this.activesubstance_show_infogrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.activesubstance_show_infogrid.Size = new System.Drawing.Size(1068, 266);
+            this.activesubstance_show_infogrid.TabIndex = 12;
+            // 
+            // metroTabPage23
+            // 
+            this.metroTabPage23.Controls.Add(this.activesubstance_find_infogrid);
+            this.metroTabPage23.Controls.Add(this.activesubstance_find_button);
+            this.metroTabPage23.Controls.Add(this.activesubstance_find_label);
+            this.metroTabPage23.Controls.Add(this.activesubstance_find_textbox);
+            this.metroTabPage23.HorizontalScrollbarBarColor = true;
+            this.metroTabPage23.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage23.HorizontalScrollbarSize = 10;
+            this.metroTabPage23.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage23.Name = "metroTabPage23";
+            this.metroTabPage23.Size = new System.Drawing.Size(1064, 334);
+            this.metroTabPage23.TabIndex = 1;
+            this.metroTabPage23.Text = "Find";
+            this.metroTabPage23.VerticalScrollbarBarColor = true;
+            this.metroTabPage23.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage23.VerticalScrollbarSize = 10;
+            // 
+            // metroTabPage33
+            // 
+            this.metroTabPage33.Controls.Add(this.activesubstance_add_button);
+            this.metroTabPage33.Controls.Add(this.ActiveSubstance_label);
+            this.metroTabPage33.Controls.Add(this.activesubstance_add_textbox);
+            this.metroTabPage33.HorizontalScrollbarBarColor = true;
+            this.metroTabPage33.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage33.HorizontalScrollbarSize = 10;
+            this.metroTabPage33.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage33.Name = "metroTabPage33";
+            this.metroTabPage33.Size = new System.Drawing.Size(1064, 334);
+            this.metroTabPage33.TabIndex = 2;
+            this.metroTabPage33.Text = "Add";
+            this.metroTabPage33.VerticalScrollbarBarColor = true;
+            this.metroTabPage33.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage33.VerticalScrollbarSize = 10;
+            // 
+            // dataGridViewTextBoxColumn23
+            // 
+            this.dataGridViewTextBoxColumn23.HeaderText = "ID_substance";
+            this.dataGridViewTextBoxColumn23.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
+            // 
+            // dataGridViewTextBoxColumn24
+            // 
+            this.dataGridViewTextBoxColumn24.HeaderText = "Substance_name";
+            this.dataGridViewTextBoxColumn24.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
+            // 
+            // activesubstance_add_textbox
+            // 
+            // 
+            // 
+            // 
+            this.activesubstance_add_textbox.CustomButton.Image = null;
+            this.activesubstance_add_textbox.CustomButton.Location = new System.Drawing.Point(182, 1);
+            this.activesubstance_add_textbox.CustomButton.Name = "";
+            this.activesubstance_add_textbox.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.activesubstance_add_textbox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.activesubstance_add_textbox.CustomButton.TabIndex = 1;
+            this.activesubstance_add_textbox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.activesubstance_add_textbox.CustomButton.UseSelectable = true;
+            this.activesubstance_add_textbox.CustomButton.Visible = false;
+            this.activesubstance_add_textbox.Lines = new string[0];
+            this.activesubstance_add_textbox.Location = new System.Drawing.Point(281, 96);
+            this.activesubstance_add_textbox.MaxLength = 32767;
+            this.activesubstance_add_textbox.Name = "activesubstance_add_textbox";
+            this.activesubstance_add_textbox.PasswordChar = '\0';
+            this.activesubstance_add_textbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.activesubstance_add_textbox.SelectedText = "";
+            this.activesubstance_add_textbox.SelectionLength = 0;
+            this.activesubstance_add_textbox.SelectionStart = 0;
+            this.activesubstance_add_textbox.ShortcutsEnabled = true;
+            this.activesubstance_add_textbox.Size = new System.Drawing.Size(204, 23);
+            this.activesubstance_add_textbox.TabIndex = 2;
+            this.activesubstance_add_textbox.UseSelectable = true;
+            this.activesubstance_add_textbox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.activesubstance_add_textbox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // ActiveSubstance_label
+            // 
+            this.ActiveSubstance_label.AutoSize = true;
+            this.ActiveSubstance_label.Location = new System.Drawing.Point(49, 96);
+            this.ActiveSubstance_label.Name = "ActiveSubstance_label";
+            this.ActiveSubstance_label.Size = new System.Drawing.Size(113, 20);
+            this.ActiveSubstance_label.TabIndex = 3;
+            this.ActiveSubstance_label.Text = "Substance_name";
+            // 
+            // activesubstance_add_button
+            // 
+            this.activesubstance_add_button.Location = new System.Drawing.Point(162, 164);
+            this.activesubstance_add_button.Name = "activesubstance_add_button";
+            this.activesubstance_add_button.Size = new System.Drawing.Size(293, 39);
+            this.activesubstance_add_button.TabIndex = 4;
+            this.activesubstance_add_button.Text = "Add";
+            this.activesubstance_add_button.UseSelectable = true;
+            this.activesubstance_add_button.Click += new System.EventHandler(this.activesubstance_add_button_Click);
+            // 
+            // activesubstance_find_button
+            // 
+            this.activesubstance_find_button.Location = new System.Drawing.Point(162, 164);
+            this.activesubstance_find_button.Name = "activesubstance_find_button";
+            this.activesubstance_find_button.Size = new System.Drawing.Size(293, 39);
+            this.activesubstance_find_button.TabIndex = 7;
+            this.activesubstance_find_button.Text = "Find";
+            this.activesubstance_find_button.UseSelectable = true;
+            this.activesubstance_find_button.Click += new System.EventHandler(this.activesubstance_find_button_Click);
+            // 
+            // activesubstance_find_label
+            // 
+            this.activesubstance_find_label.AutoSize = true;
+            this.activesubstance_find_label.Location = new System.Drawing.Point(49, 96);
+            this.activesubstance_find_label.Name = "activesubstance_find_label";
+            this.activesubstance_find_label.Size = new System.Drawing.Size(113, 20);
+            this.activesubstance_find_label.TabIndex = 6;
+            this.activesubstance_find_label.Text = "Substance_name";
+            // 
+            // activesubstance_find_textbox
+            // 
+            // 
+            // 
+            // 
+            this.activesubstance_find_textbox.CustomButton.Image = null;
+            this.activesubstance_find_textbox.CustomButton.Location = new System.Drawing.Point(182, 1);
+            this.activesubstance_find_textbox.CustomButton.Name = "";
+            this.activesubstance_find_textbox.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.activesubstance_find_textbox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.activesubstance_find_textbox.CustomButton.TabIndex = 1;
+            this.activesubstance_find_textbox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.activesubstance_find_textbox.CustomButton.UseSelectable = true;
+            this.activesubstance_find_textbox.CustomButton.Visible = false;
+            this.activesubstance_find_textbox.Lines = new string[0];
+            this.activesubstance_find_textbox.Location = new System.Drawing.Point(281, 96);
+            this.activesubstance_find_textbox.MaxLength = 32767;
+            this.activesubstance_find_textbox.Name = "activesubstance_find_textbox";
+            this.activesubstance_find_textbox.PasswordChar = '\0';
+            this.activesubstance_find_textbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.activesubstance_find_textbox.SelectedText = "";
+            this.activesubstance_find_textbox.SelectionLength = 0;
+            this.activesubstance_find_textbox.SelectionStart = 0;
+            this.activesubstance_find_textbox.ShortcutsEnabled = true;
+            this.activesubstance_find_textbox.Size = new System.Drawing.Size(204, 23);
+            this.activesubstance_find_textbox.TabIndex = 5;
+            this.activesubstance_find_textbox.UseSelectable = true;
+            this.activesubstance_find_textbox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.activesubstance_find_textbox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // activesubstance_find_infogrid
+            // 
+            this.activesubstance_find_infogrid.AllowUserToAddRows = false;
+            this.activesubstance_find_infogrid.AllowUserToResizeRows = false;
+            this.activesubstance_find_infogrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.activesubstance_find_infogrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.activesubstance_find_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.activesubstance_find_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.activesubstance_find_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle34.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle34.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.activesubstance_find_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle34;
+            this.activesubstance_find_infogrid.ColumnHeadersHeight = 29;
+            this.activesubstance_find_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn25,
+            this.dataGridViewTextBoxColumn26});
+            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle35.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.activesubstance_find_infogrid.DefaultCellStyle = dataGridViewCellStyle35;
+            this.activesubstance_find_infogrid.EnableHeadersVisualStyles = false;
+            this.activesubstance_find_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.activesubstance_find_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.activesubstance_find_infogrid.Location = new System.Drawing.Point(532, 3);
+            this.activesubstance_find_infogrid.Name = "activesubstance_find_infogrid";
+            this.activesubstance_find_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle36.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.activesubstance_find_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle36;
+            this.activesubstance_find_infogrid.RowHeadersVisible = false;
+            this.activesubstance_find_infogrid.RowHeadersWidth = 51;
+            this.activesubstance_find_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.activesubstance_find_infogrid.RowTemplate.Height = 24;
+            this.activesubstance_find_infogrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.activesubstance_find_infogrid.Size = new System.Drawing.Size(534, 297);
+            this.activesubstance_find_infogrid.TabIndex = 13;
+            // 
+            // dataGridViewTextBoxColumn25
+            // 
+            this.dataGridViewTextBoxColumn25.HeaderText = "ID_substance";
+            this.dataGridViewTextBoxColumn25.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
+            // 
+            // dataGridViewTextBoxColumn26
+            // 
+            this.dataGridViewTextBoxColumn26.HeaderText = "Substance_name";
+            this.dataGridViewTextBoxColumn26.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
+            // 
+            // medicalform_find_infogrid
+            // 
+            this.medicalform_find_infogrid.AllowUserToAddRows = false;
+            this.medicalform_find_infogrid.AllowUserToResizeRows = false;
+            this.medicalform_find_infogrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.medicalform_find_infogrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.medicalform_find_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.medicalform_find_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.medicalform_find_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle28.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.medicalform_find_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle28;
+            this.medicalform_find_infogrid.ColumnHeadersHeight = 29;
+            this.medicalform_find_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn27,
+            this.dataGridViewTextBoxColumn28});
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle29.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.medicalform_find_infogrid.DefaultCellStyle = dataGridViewCellStyle29;
+            this.medicalform_find_infogrid.EnableHeadersVisualStyles = false;
+            this.medicalform_find_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.medicalform_find_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.medicalform_find_infogrid.Location = new System.Drawing.Point(532, 3);
+            this.medicalform_find_infogrid.Name = "medicalform_find_infogrid";
+            this.medicalform_find_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.medicalform_find_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle30;
+            this.medicalform_find_infogrid.RowHeadersVisible = false;
+            this.medicalform_find_infogrid.RowHeadersWidth = 51;
+            this.medicalform_find_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.medicalform_find_infogrid.RowTemplate.Height = 24;
+            this.medicalform_find_infogrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.medicalform_find_infogrid.Size = new System.Drawing.Size(534, 297);
+            this.medicalform_find_infogrid.TabIndex = 17;
+            // 
+            // dataGridViewTextBoxColumn27
+            // 
+            this.dataGridViewTextBoxColumn27.HeaderText = "ID_substance";
+            this.dataGridViewTextBoxColumn27.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
+            // 
+            // dataGridViewTextBoxColumn28
+            // 
+            this.dataGridViewTextBoxColumn28.HeaderText = "Substance_name";
+            this.dataGridViewTextBoxColumn28.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
+            // 
+            // medicalform_find_button
+            // 
+            this.medicalform_find_button.Location = new System.Drawing.Point(162, 164);
+            this.medicalform_find_button.Name = "medicalform_find_button";
+            this.medicalform_find_button.Size = new System.Drawing.Size(293, 39);
+            this.medicalform_find_button.TabIndex = 16;
+            this.medicalform_find_button.Text = "Find";
+            this.medicalform_find_button.UseSelectable = true;
+            this.medicalform_find_button.Click += new System.EventHandler(this.medicalform_find_button_Click);
+            // 
+            // medicalform_find_label
+            // 
+            this.medicalform_find_label.AutoSize = true;
+            this.medicalform_find_label.Location = new System.Drawing.Point(49, 96);
+            this.medicalform_find_label.Name = "medicalform_find_label";
+            this.medicalform_find_label.Size = new System.Drawing.Size(82, 20);
+            this.medicalform_find_label.TabIndex = 15;
+            this.medicalform_find_label.Text = "Form_name";
+            // 
+            // medicalform_find_textbox
+            // 
+            // 
+            // 
+            // 
+            this.medicalform_find_textbox.CustomButton.Image = null;
+            this.medicalform_find_textbox.CustomButton.Location = new System.Drawing.Point(182, 1);
+            this.medicalform_find_textbox.CustomButton.Name = "";
+            this.medicalform_find_textbox.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.medicalform_find_textbox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.medicalform_find_textbox.CustomButton.TabIndex = 1;
+            this.medicalform_find_textbox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.medicalform_find_textbox.CustomButton.UseSelectable = true;
+            this.medicalform_find_textbox.CustomButton.Visible = false;
+            this.medicalform_find_textbox.Lines = new string[0];
+            this.medicalform_find_textbox.Location = new System.Drawing.Point(281, 96);
+            this.medicalform_find_textbox.MaxLength = 32767;
+            this.medicalform_find_textbox.Name = "medicalform_find_textbox";
+            this.medicalform_find_textbox.PasswordChar = '\0';
+            this.medicalform_find_textbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.medicalform_find_textbox.SelectedText = "";
+            this.medicalform_find_textbox.SelectionLength = 0;
+            this.medicalform_find_textbox.SelectionStart = 0;
+            this.medicalform_find_textbox.ShortcutsEnabled = true;
+            this.medicalform_find_textbox.Size = new System.Drawing.Size(204, 23);
+            this.medicalform_find_textbox.TabIndex = 14;
+            this.medicalform_find_textbox.UseSelectable = true;
+            this.medicalform_find_textbox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.medicalform_find_textbox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
             // AdminPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1112, 546);
             this.Controls.Add(this.ChangeUserButton);
-            this.Controls.Add(this.metroTabControl1);
+            this.Controls.Add(this.adminpanel_tabcontrol);
             this.Controls.Add(this.UserNameLabel);
             this.Name = "AdminPanel";
             this.Text = "AdminPanel";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AdminPanel_FormClosed);
             this.Load += new System.EventHandler(this.AdminPanel_Load);
-            this.metroTabControl1.ResumeLayout(false);
-            this.metroTabPage1.ResumeLayout(false);
-            this.preparation_tab_control.ResumeLayout(false);
+            this.adminpanel_tabcontrol.ResumeLayout(false);
+            this.preparation_tabpage.ResumeLayout(false);
+            this.preparation_tabcontrol.ResumeLayout(false);
             this.metroTabPage9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.preparation_show_infogrid)).EndInit();
             this.metroTabPage10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).EndInit();
-            this.metroTabPage2.ResumeLayout(false);
-            this.disease_tab_control.ResumeLayout(false);
+            this.disease_tabpage.ResumeLayout(false);
+            this.disease_tabcontrol.ResumeLayout(false);
             this.Disease.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.disease_show_infogrid)).EndInit();
-            this.metroTabPage4.ResumeLayout(false);
-            this.metroTabControl5.ResumeLayout(false);
+            this.producer_tabpage.ResumeLayout(false);
+            this.producer_tabcontrol.ResumeLayout(false);
             this.producer_tab_control.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.producer_show_infogrid)).EndInit();
-            this.metroTabPage5.ResumeLayout(false);
-            this.metroTabControl6.ResumeLayout(false);
+            this.license_tabpage.ResumeLayout(false);
+            this.license_tabcontrol.ResumeLayout(false);
             this.license_tab_control.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.license_show_infogrid)).EndInit();
-            this.metroTabPage6.ResumeLayout(false);
-            this.metroTabControl7.ResumeLayout(false);
+            this.recipe_tabpage.ResumeLayout(false);
+            this.recipe_tabcontrol.ResumeLayout(false);
             this.metroTabPage26.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.recipe_show_infogrid)).EndInit();
-            this.metroTabPage7.ResumeLayout(false);
-            this.metroTabControl8.ResumeLayout(false);
+            this.medicine_tabpage.ResumeLayout(false);
+            this.medicine_tabcontrol.ResumeLayout(false);
             this.metroTabPage29.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.medicine_show_infogrid)).EndInit();
-            this.metroTabPage8.ResumeLayout(false);
-            this.metroTabControl9.ResumeLayout(false);
+            this.compability_tabpage.ResumeLayout(false);
+            this.compaility_tabcontrol.ResumeLayout(false);
             this.metroTabPage18.ResumeLayout(false);
-            this.metroTabPage3.ResumeLayout(false);
+            this.medicalform_tabpage.ResumeLayout(false);
+            this.activesubstance_tabpage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.compability_show_infogrid)).EndInit();
-            this.metroTabControl2.ResumeLayout(false);
+            this.medicalform_tabcontrol.ResumeLayout(false);
             this.metroTabPage15.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.medicalform_show_infogrid)).EndInit();
+            this.metroTabPage16.ResumeLayout(false);
+            this.metroTabPage16.PerformLayout();
+            this.activesubstance_tabcontrol.ResumeLayout(false);
+            this.metroTabPage20.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.activesubstance_show_infogrid)).EndInit();
+            this.metroTabPage23.ResumeLayout(false);
+            this.metroTabPage23.PerformLayout();
+            this.metroTabPage33.ResumeLayout(false);
+            this.metroTabPage33.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.activesubstance_find_infogrid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.medicalform_find_infogrid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1620,40 +2094,40 @@ namespace MedicalProject
 
         #endregion
         private System.Windows.Forms.Label UserNameLabel;
-        private MetroFramework.Controls.MetroTabControl metroTabControl1;
+        private MetroFramework.Controls.MetroTabControl adminpanel_tabcontrol;
         private MetroFramework.Controls.MetroButton ChangeUserButton;
-        private MetroFramework.Controls.MetroTabPage metroTabPage1;
-        private MetroFramework.Controls.MetroTabControl preparation_tab_control;
+        private MetroFramework.Controls.MetroTabPage preparation_tabpage;
+        private MetroFramework.Controls.MetroTabControl preparation_tabcontrol;
         private MetroFramework.Controls.MetroTabPage metroTabPage9;
-        private MetroFramework.Controls.MetroTabPage metroTabPage2;
-        private MetroFramework.Controls.MetroTabPage metroTabPage4;
-        private MetroFramework.Controls.MetroTabPage metroTabPage5;
-        private MetroFramework.Controls.MetroTabPage metroTabPage6;
-        private MetroFramework.Controls.MetroTabPage metroTabPage7;
-        private MetroFramework.Controls.MetroTabPage metroTabPage8;
+        private MetroFramework.Controls.MetroTabPage disease_tabpage;
+        private MetroFramework.Controls.MetroTabPage producer_tabpage;
+        private MetroFramework.Controls.MetroTabPage license_tabpage;
+        private MetroFramework.Controls.MetroTabPage recipe_tabpage;
+        private MetroFramework.Controls.MetroTabPage medicine_tabpage;
+        private MetroFramework.Controls.MetroTabPage compability_tabpage;
         private MetroFramework.Controls.MetroTabPage metroTabPage10;
         private MetroFramework.Controls.MetroTabPage metroTabPage11;
-        private MetroFramework.Controls.MetroTabControl disease_tab_control;
+        private MetroFramework.Controls.MetroTabControl disease_tabcontrol;
         private MetroFramework.Controls.MetroTabPage Disease;
         private MetroFramework.Controls.MetroTabPage metroTabPage14;
         private MetroFramework.Controls.MetroTabPage metroTabPage13;
-        private MetroFramework.Controls.MetroTabControl metroTabControl5;
+        private MetroFramework.Controls.MetroTabControl producer_tabcontrol;
         private MetroFramework.Controls.MetroTabPage producer_tab_control;
         private MetroFramework.Controls.MetroTabPage metroTabPage21;
         private MetroFramework.Controls.MetroTabPage metroTabPage22;
-        private MetroFramework.Controls.MetroTabControl metroTabControl6;
+        private MetroFramework.Controls.MetroTabControl license_tabcontrol;
         private MetroFramework.Controls.MetroTabPage license_tab_control;
         private MetroFramework.Controls.MetroTabPage metroTabPage24;
         private MetroFramework.Controls.MetroTabPage metroTabPage25;
-        private MetroFramework.Controls.MetroTabControl metroTabControl7;
+        private MetroFramework.Controls.MetroTabControl recipe_tabcontrol;
         private MetroFramework.Controls.MetroTabPage metroTabPage26;
         private MetroFramework.Controls.MetroTabPage metroTabPage27;
         private MetroFramework.Controls.MetroTabPage metroTabPage28;
-        private MetroFramework.Controls.MetroTabControl metroTabControl8;
+        private MetroFramework.Controls.MetroTabControl medicine_tabcontrol;
         private MetroFramework.Controls.MetroTabPage metroTabPage29;
         private MetroFramework.Controls.MetroTabPage metroTabPage30;
         private MetroFramework.Controls.MetroTabPage metroTabPage31;
-        private MetroFramework.Controls.MetroTabControl metroTabControl9;
+        private MetroFramework.Controls.MetroTabControl compaility_tabcontrol;
         private MetroFramework.Controls.MetroTabPage metroTabPage18;
         private MetroFramework.Controls.MetroTabPage metroTabPage19;
         private MetroFramework.Controls.MetroTabPage metroTabPage32;
@@ -1686,8 +2160,8 @@ namespace MedicalProject
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn14;
         private MetroFramework.Controls.MetroTile refresh_recipe_tile;
         public MetroFramework.Controls.MetroGrid recipe_show_infogrid;
-        private MetroFramework.Controls.MetroTabPage metroTabPage3;
-        private MetroFramework.Controls.MetroTabPage metroTabPage12;
+        private MetroFramework.Controls.MetroTabPage medicalform_tabpage;
+        private MetroFramework.Controls.MetroTabPage activesubstance_tabpage;
         private MetroFramework.Controls.MetroTile refresh_medicine_tile;
         public MetroFramework.Controls.MetroGrid medicine_show_infogrid;
         private MetroFramework.Controls.MetroTile refresh_compability_tile;
@@ -1700,7 +2174,7 @@ namespace MedicalProject
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn16;
         private System.Windows.Forms.DataGridViewTextBoxColumn Substance_name3;
-        private MetroFramework.Controls.MetroTabControl metroTabControl2;
+        private MetroFramework.Controls.MetroTabControl medicalform_tabcontrol;
         private MetroFramework.Controls.MetroTabPage metroTabPage15;
         private MetroFramework.Controls.MetroTile refresh_medicalform_tile;
         public MetroFramework.Controls.MetroGrid medicalform_show_infogrid;
@@ -1708,5 +2182,28 @@ namespace MedicalProject
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn22;
         private MetroFramework.Controls.MetroTabPage metroTabPage16;
         private MetroFramework.Controls.MetroTabPage metroTabPage17;
+        private MetroFramework.Controls.MetroTabControl activesubstance_tabcontrol;
+        private MetroFramework.Controls.MetroTabPage metroTabPage20;
+        private MetroFramework.Controls.MetroTile refresh_activesubstance_tile;
+        public MetroFramework.Controls.MetroGrid activesubstance_show_infogrid;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn23;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn24;
+        private MetroFramework.Controls.MetroTabPage metroTabPage23;
+        private MetroFramework.Controls.MetroTabPage metroTabPage33;
+        private MetroFramework.Controls.MetroButton activesubstance_add_button;
+        private MetroFramework.Controls.MetroLabel ActiveSubstance_label;
+        private MetroFramework.Controls.MetroTextBox activesubstance_add_textbox;
+        public MetroFramework.Controls.MetroGrid activesubstance_find_infogrid;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn25;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn26;
+        private MetroFramework.Controls.MetroButton activesubstance_find_button;
+        private MetroFramework.Controls.MetroLabel activesubstance_find_label;
+        private MetroFramework.Controls.MetroTextBox activesubstance_find_textbox;
+        public MetroFramework.Controls.MetroGrid medicalform_find_infogrid;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn27;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn28;
+        private MetroFramework.Controls.MetroButton medicalform_find_button;
+        private MetroFramework.Controls.MetroLabel medicalform_find_label;
+        private MetroFramework.Controls.MetroTextBox medicalform_find_textbox;
     }
 }
