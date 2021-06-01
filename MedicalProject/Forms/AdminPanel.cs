@@ -139,15 +139,24 @@ namespace MedicalProject
 
         private void activesubstance_add_button_Click(object sender, EventArgs e)
         {
-            try {
-                MySqlCommand command = new MySqlCommand($"CALL add_active_substance(\"{activesubstance_add_textbox.Text}\")", ConnectionDB.conn);
-                command.ExecuteNonQuery();
-                MetroMessageBox.Show(this, $"Added record {activesubstance_add_textbox.Text}", "Succesfully", MessageBoxButtons.OK, MessageBoxIcon.Question);
-                activesubstance_add_textbox.Text = "";
-            }
-            catch (Exception ex)
+            if (activesubstance_add_textbox.Text != "")
             {
-                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                try
+                {
+
+                    MySqlCommand command = new MySqlCommand($"CALL add_active_substance(\"{activesubstance_add_textbox.Text}\")", ConnectionDB.conn);
+                    command.ExecuteNonQuery();
+                    MetroMessageBox.Show(this, $"Added record {activesubstance_add_textbox.Text}", "Succesfully", MessageBoxButtons.OK, MessageBoxIcon.Question);
+                    activesubstance_add_textbox.Text = "";
+                }
+                catch (Exception ex)
+                {
+                    MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                }
+            }
+            else
+            {
+                MetroMessageBox.Show(this, $"Field is null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
 
@@ -204,6 +213,203 @@ namespace MedicalProject
                 MetroMessageBox.Show(this, $"Field is null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
 
             }
+        }
+
+        private void medicalform_add_button_Click(object sender, EventArgs e)
+        {
+            if (medicalform_add_textbox.Text != "")
+            {
+                try
+                {
+
+                    MySqlCommand command = new MySqlCommand($"CALL add_medical_form(\"{medicalform_add_textbox.Text}\")", ConnectionDB.conn);
+                    command.ExecuteNonQuery();
+                    MetroMessageBox.Show(this, $"Added record {medicalform_add_textbox.Text}", "Succesfully", MessageBoxButtons.OK, MessageBoxIcon.Question);
+                    medicalform_add_textbox.Text = "";
+                }
+                catch (Exception ex)
+                {
+                    MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                }
+            }
+            else
+            {
+                MetroMessageBox.Show(this, $"Field is null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+        void CompabilityCheck()
+        {
+            try
+            {
+                compability_add_disease_combobox.Items.Clear();
+                compability_add_preparation_combobox.Items.Clear();
+                MySqlCommand command_disease = new MySqlCommand($"SELECT Disease_name,id_disease FROM disease", ConnectionDB.conn);
+                MySqlDataReader reader_disease = command_disease.ExecuteReader();
+
+                while (reader_disease.Read())
+                {
+                    compability_add_disease_combobox.Items.Add(reader_disease[0]);
+                }
+                reader_disease.Close();
+                MySqlCommand command_preparation = new MySqlCommand($"SELECT ID_preparation,Preparation_name FROM preparation", ConnectionDB.conn);
+                MySqlDataReader reader_preparation = command_preparation.ExecuteReader();
+
+                while (reader_preparation.Read())
+                {
+                    compability_add_preparation_combobox.Items.Add(reader_preparation[0]);
+                }
+                reader_preparation.Close();
+            }
+            catch(Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+
+            }
+        }
+        private void compaility_tabcontrol_Click(object sender, EventArgs e)
+        {
+            CompabilityCheck();
+        }
+
+
+        private void compability_add_preparation_combobox_Click(object sender, EventArgs e)
+        {
+            CompabilityCheck();
+        }
+
+        private void compability_add_disease_combobox_Click(object sender, EventArgs e)
+        {
+            CompabilityCheck();
+        }
+
+        private void compability_add_button_Click(object sender, EventArgs e)
+        {
+            //TODO
+            try
+            {
+                if (compability_add_disease_combobox.SelectedItem.ToString() != "" && compability_add_preparation_combobox.SelectedItem.ToString() != "")
+                {
+                    MySqlCommand command_disease = new MySqlCommand($"SELECT id_disease FROM disease WHERE disease_name='{compability_add_disease_combobox.SelectedItem}'", ConnectionDB.conn);
+                    string id_disease = command_disease.ExecuteScalar().ToString();
+                    MySqlCommand command_preparation = new MySqlCommand($"SELECT id_preparation FROM preparation WHERE preparation_name='{compability_add_preparation_combobox.SelectedItem}'", ConnectionDB.conn);
+                    string id_preparation = command_preparation.ExecuteScalar().ToString();
+                    MySqlCommand add_compability = new MySqlCommand($"INSERT INTO compability (id_disease,id_preparation) VALUES ('{id_disease}','{id_preparation}')", ConnectionDB.conn);
+                    add_compability.ExecuteNonQuery();
+                    MetroMessageBox.Show(this, $"Successfully added record", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+                else
+                {
+                    MetroMessageBox.Show(this, $"Fields must be not null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+
+            }
+
+        }
+
+        private void compability_find_button_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                compability_find_infogrid.Rows.Clear();
+                string name = compability_find_textbox.Text;
+                MySqlCommand command = new MySqlCommand($"SELECT Disease_name,Preparation_name FROM compatibility_view WHERE Disease_name LIKE '%{name}%' OR Preparation_name LIKE '%{name}%'", ConnectionDB.conn);
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    compability_find_infogrid.Rows.Add(reader[0],reader[1]);
+                }
+            }
+            catch(Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+
+        private void medicine_find_button_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                medicine_find_infogrid.Rows.Clear();
+                string name = compability_find_textbox.Text;
+                MySqlCommand command = new MySqlCommand($"SELECT Brand_Name,Preparation_name FROM medicine_view WHERE Brand_Name LIKE '%{name}%' OR Preparation_name LIKE '%{name}%'", ConnectionDB.conn);
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    medicine_find_infogrid.Rows.Add(reader[0], reader[1]);
+                }
+            }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+        void MedicineCheck()
+        {
+            medicine_add_producername_combobox.Items.Clear();
+            medicine_add_preparation_combobox.Items.Clear();
+            MySqlCommand command_producer = new MySqlCommand("Select Brand_name FROM producer", ConnectionDB.conn);
+            MySqlDataReader reader_producer = command_producer.ExecuteReader();
+            while (reader_producer.Read())
+            {
+                medicine_add_producername_combobox.Items.Add(reader_producer[0]);
+            }
+            reader_producer.Close();
+            MySqlCommand command_preparation = new MySqlCommand("Select Preparation_name FROM Preparation", ConnectionDB.conn);
+            MySqlDataReader reader_preparation = command_preparation.ExecuteReader();
+            while (reader_preparation.Read())
+            {
+                medicine_add_preparation_combobox.Items.Add(reader_preparation[0]);
+            }
+            reader_preparation.Close();
+        }
+        private void medicine_add_tabpage_Click(object sender, EventArgs e)
+        {
+            MedicineCheck();
+        }
+        private void medicine_add_producername_combobox_Click(object sender, EventArgs e)
+        {
+            MedicineCheck();
+        }
+        private void medicine_add_preparation_combobox_Click(object sender, EventArgs e)
+        {
+            MedicineCheck();
+        }
+
+        private void medicine_add_button_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (medicine_add_producername_combobox.SelectedItem.ToString() != "" && medicine_add_preparation_combobox.SelectedItem.ToString() != "")
+                {
+                    MySqlCommand command_producer = new MySqlCommand($"SELECT id_producer FROM producer WHERE Brand_name='{compability_add_disease_combobox.SelectedItem}'", ConnectionDB.conn);
+                    string id_producer = command_producer.ExecuteScalar().ToString();
+                    MySqlCommand command_preparation = new MySqlCommand($"SELECT id_preparation FROM preparation WHERE preparation_name='{compability_add_preparation_combobox.SelectedItem}'", ConnectionDB.conn);
+                    string id_preparation = command_preparation.ExecuteScalar().ToString();
+                    MySqlCommand add_compability = new MySqlCommand($"INSERT INTO medicine (ID_producer,id_preparation) VALUES ('{id_producer}','{id_preparation}')", ConnectionDB.conn);
+                    add_compability.ExecuteNonQuery();
+                    MetroMessageBox.Show(this, $"Successfully added record", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+                else
+                {
+                    MetroMessageBox.Show(this, $"Fields must be not null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+
+            }
+
         }
     }
 }

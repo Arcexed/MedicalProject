@@ -29,42 +29,48 @@ namespace MedicalProject
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle57 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle58 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle59 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle60 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle61 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle62 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle63 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle64 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle65 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle66 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle67 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle68 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle69 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle70 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle71 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle72 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle73 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle74 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle75 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle76 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle77 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle78 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle79 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle80 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle81 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle82 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle83 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle84 = new System.Windows.Forms.DataGridViewCellStyle();
             this.UserNameLabel = new System.Windows.Forms.Label();
             this.adminpanel_tabcontrol = new MetroFramework.Controls.MetroTabControl();
             this.preparation_tabpage = new MetroFramework.Controls.MetroTabPage();
@@ -119,64 +125,92 @@ namespace MedicalProject
             this.metroTabPage26 = new MetroFramework.Controls.MetroTabPage();
             this.refresh_recipe_tile = new MetroFramework.Controls.MetroTile();
             this.recipe_show_infogrid = new MetroFramework.Controls.MetroGrid();
+            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Substance_name3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.metroTabPage27 = new MetroFramework.Controls.MetroTabPage();
             this.metroTabPage28 = new MetroFramework.Controls.MetroTabPage();
+            this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
+            this.metroButton1 = new MetroFramework.Controls.MetroButton();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.medicine_tabpage = new MetroFramework.Controls.MetroTabPage();
             this.medicine_tabcontrol = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage29 = new MetroFramework.Controls.MetroTabPage();
             this.refresh_medicine_tile = new MetroFramework.Controls.MetroTile();
             this.medicine_show_infogrid = new MetroFramework.Controls.MetroGrid();
+            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.metroTabPage30 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage31 = new MetroFramework.Controls.MetroTabPage();
+            this.medicine_find_infogrid = new MetroFramework.Controls.MetroGrid();
+            this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn32 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.medicine_find_button = new MetroFramework.Controls.MetroButton();
+            this.medicine_find_label = new MetroFramework.Controls.MetroLabel();
+            this.medicine_find_textbox = new MetroFramework.Controls.MetroTextBox();
+            this.medicine_add_tabpage = new MetroFramework.Controls.MetroTabPage();
+            this.medicine_add_preparation_label = new MetroFramework.Controls.MetroLabel();
+            this.medicine_add_producername_combobox = new MetroFramework.Controls.MetroComboBox();
+            this.medicine_add_preparation_combobox = new MetroFramework.Controls.MetroComboBox();
+            this.medicine_add_button = new MetroFramework.Controls.MetroButton();
+            this.medicine_add_producername_label = new MetroFramework.Controls.MetroLabel();
             this.compability_tabpage = new MetroFramework.Controls.MetroTabPage();
             this.compaility_tabcontrol = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage18 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage19 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage32 = new MetroFramework.Controls.MetroTabPage();
-            this.medicalform_tabpage = new MetroFramework.Controls.MetroTabPage();
-            this.activesubstance_tabpage = new MetroFramework.Controls.MetroTabPage();
-            this.ChangeUserButton = new MetroFramework.Controls.MetroButton();
-            this.compability_show_infogrid = new MetroFramework.Controls.MetroGrid();
             this.refresh_compability_tile = new MetroFramework.Controls.MetroTile();
+            this.compability_show_infogrid = new MetroFramework.Controls.MetroGrid();
             this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Substance_name3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.metroTabPage19 = new MetroFramework.Controls.MetroTabPage();
+            this.compability_find_infogrid = new MetroFramework.Controls.MetroGrid();
+            this.dataGridViewTextBoxColumn29 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.compability_find_button = new MetroFramework.Controls.MetroButton();
+            this.compability_find_label = new MetroFramework.Controls.MetroLabel();
+            this.compability_find_textbox = new MetroFramework.Controls.MetroTextBox();
+            this.combability_add_tabpage = new MetroFramework.Controls.MetroTabPage();
+            this.compability_add_preparation_label = new MetroFramework.Controls.MetroLabel();
+            this.compability_add_disease_combobox = new MetroFramework.Controls.MetroComboBox();
+            this.compability_add_preparation_combobox = new MetroFramework.Controls.MetroComboBox();
+            this.compability_add_button = new MetroFramework.Controls.MetroButton();
+            this.compability_add_disease_label = new MetroFramework.Controls.MetroLabel();
+            this.medicalform_tabpage = new MetroFramework.Controls.MetroTabPage();
             this.medicalform_tabcontrol = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage15 = new MetroFramework.Controls.MetroTabPage();
             this.refresh_medicalform_tile = new MetroFramework.Controls.MetroTile();
             this.medicalform_show_infogrid = new MetroFramework.Controls.MetroGrid();
-            this.metroTabPage16 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage17 = new MetroFramework.Controls.MetroTabPage();
             this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.activesubstance_tabcontrol = new MetroFramework.Controls.MetroTabControl();
-            this.metroTabPage20 = new MetroFramework.Controls.MetroTabPage();
-            this.refresh_activesubstance_tile = new MetroFramework.Controls.MetroTile();
-            this.activesubstance_show_infogrid = new MetroFramework.Controls.MetroGrid();
-            this.metroTabPage23 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage33 = new MetroFramework.Controls.MetroTabPage();
-            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.activesubstance_add_textbox = new MetroFramework.Controls.MetroTextBox();
-            this.ActiveSubstance_label = new MetroFramework.Controls.MetroLabel();
-            this.activesubstance_add_button = new MetroFramework.Controls.MetroButton();
-            this.activesubstance_find_button = new MetroFramework.Controls.MetroButton();
-            this.activesubstance_find_label = new MetroFramework.Controls.MetroLabel();
-            this.activesubstance_find_textbox = new MetroFramework.Controls.MetroTextBox();
-            this.activesubstance_find_infogrid = new MetroFramework.Controls.MetroGrid();
-            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.metroTabPage16 = new MetroFramework.Controls.MetroTabPage();
             this.medicalform_find_infogrid = new MetroFramework.Controls.MetroGrid();
             this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.medicalform_find_button = new MetroFramework.Controls.MetroButton();
             this.medicalform_find_label = new MetroFramework.Controls.MetroLabel();
             this.medicalform_find_textbox = new MetroFramework.Controls.MetroTextBox();
+            this.metroTabPage17 = new MetroFramework.Controls.MetroTabPage();
+            this.medicalform_add_button = new MetroFramework.Controls.MetroButton();
+            this.medicalform_add_label = new MetroFramework.Controls.MetroLabel();
+            this.medicalform_add_textbox = new MetroFramework.Controls.MetroTextBox();
+            this.activesubstance_tabpage = new MetroFramework.Controls.MetroTabPage();
+            this.activesubstance_tabcontrol = new MetroFramework.Controls.MetroTabControl();
+            this.metroTabPage20 = new MetroFramework.Controls.MetroTabPage();
+            this.refresh_activesubstance_tile = new MetroFramework.Controls.MetroTile();
+            this.activesubstance_show_infogrid = new MetroFramework.Controls.MetroGrid();
+            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.metroTabPage23 = new MetroFramework.Controls.MetroTabPage();
+            this.activesubstance_find_infogrid = new MetroFramework.Controls.MetroGrid();
+            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.activesubstance_find_button = new MetroFramework.Controls.MetroButton();
+            this.activesubstance_find_label = new MetroFramework.Controls.MetroLabel();
+            this.activesubstance_find_textbox = new MetroFramework.Controls.MetroTextBox();
+            this.metroTabPage33 = new MetroFramework.Controls.MetroTabPage();
+            this.activesubstance_add_button = new MetroFramework.Controls.MetroButton();
+            this.ActiveSubstance_label = new MetroFramework.Controls.MetroLabel();
+            this.activesubstance_add_textbox = new MetroFramework.Controls.MetroTextBox();
+            this.ChangeUserButton = new MetroFramework.Controls.MetroButton();
             this.adminpanel_tabcontrol.SuspendLayout();
             this.preparation_tabpage.SuspendLayout();
             this.preparation_tabcontrol.SuspendLayout();
@@ -200,27 +234,35 @@ namespace MedicalProject
             this.recipe_tabcontrol.SuspendLayout();
             this.metroTabPage26.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.recipe_show_infogrid)).BeginInit();
+            this.metroTabPage28.SuspendLayout();
             this.medicine_tabpage.SuspendLayout();
             this.medicine_tabcontrol.SuspendLayout();
             this.metroTabPage29.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.medicine_show_infogrid)).BeginInit();
+            this.metroTabPage30.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.medicine_find_infogrid)).BeginInit();
+            this.medicine_add_tabpage.SuspendLayout();
             this.compability_tabpage.SuspendLayout();
             this.compaility_tabcontrol.SuspendLayout();
             this.metroTabPage18.SuspendLayout();
-            this.medicalform_tabpage.SuspendLayout();
-            this.activesubstance_tabpage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.compability_show_infogrid)).BeginInit();
+            this.metroTabPage19.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.compability_find_infogrid)).BeginInit();
+            this.combability_add_tabpage.SuspendLayout();
+            this.medicalform_tabpage.SuspendLayout();
             this.medicalform_tabcontrol.SuspendLayout();
             this.metroTabPage15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.medicalform_show_infogrid)).BeginInit();
             this.metroTabPage16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.medicalform_find_infogrid)).BeginInit();
+            this.metroTabPage17.SuspendLayout();
+            this.activesubstance_tabpage.SuspendLayout();
             this.activesubstance_tabcontrol.SuspendLayout();
             this.metroTabPage20.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.activesubstance_show_infogrid)).BeginInit();
             this.metroTabPage23.SuspendLayout();
-            this.metroTabPage33.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.activesubstance_find_infogrid)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.medicalform_find_infogrid)).BeginInit();
+            this.metroTabPage33.SuspendLayout();
             this.SuspendLayout();
             // 
             // UserNameLabel
@@ -245,7 +287,7 @@ namespace MedicalProject
             this.adminpanel_tabcontrol.Controls.Add(this.activesubstance_tabpage);
             this.adminpanel_tabcontrol.Location = new System.Drawing.Point(9, 83);
             this.adminpanel_tabcontrol.Name = "adminpanel_tabcontrol";
-            this.adminpanel_tabcontrol.SelectedIndex = 7;
+            this.adminpanel_tabcontrol.SelectedIndex = 5;
             this.adminpanel_tabcontrol.Size = new System.Drawing.Size(1076, 452);
             this.adminpanel_tabcontrol.TabIndex = 4;
             this.adminpanel_tabcontrol.UseSelectable = true;
@@ -318,42 +360,42 @@ namespace MedicalProject
             this.preparation_show_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.preparation_show_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.preparation_show_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.preparation_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle43.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle43.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle43.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle43.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.preparation_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle43;
             this.preparation_show_infogrid.ColumnHeadersHeight = 29;
             this.preparation_show_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
             this.expiryDateEnabled,
             this.expiryDate,
             this.leftDays});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.preparation_show_infogrid.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle44.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.preparation_show_infogrid.DefaultCellStyle = dataGridViewCellStyle44;
             this.preparation_show_infogrid.EnableHeadersVisualStyles = false;
             this.preparation_show_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.preparation_show_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.preparation_show_infogrid.Location = new System.Drawing.Point(-1, 3);
             this.preparation_show_infogrid.Name = "preparation_show_infogrid";
             this.preparation_show_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.preparation_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle45.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle45.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle45.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle45.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.preparation_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle45;
             this.preparation_show_infogrid.RowHeadersVisible = false;
             this.preparation_show_infogrid.RowHeadersWidth = 51;
             this.preparation_show_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -410,42 +452,42 @@ namespace MedicalProject
             this.metroGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.metroGrid1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.metroGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle46.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle46.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle46.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle46.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle46;
             this.metroGrid1.ColumnHeadersHeight = 29;
             this.metroGrid1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4});
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.metroGrid1.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle47.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle47.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle47.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle47.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle47.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.metroGrid1.DefaultCellStyle = dataGridViewCellStyle47;
             this.metroGrid1.EnableHeadersVisualStyles = false;
             this.metroGrid1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.metroGrid1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.metroGrid1.Location = new System.Drawing.Point(-1, 3);
             this.metroGrid1.Name = "metroGrid1";
             this.metroGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle48.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle48.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle48.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle48.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle48;
             this.metroGrid1.RowHeadersVisible = false;
             this.metroGrid1.RowHeadersWidth = 51;
             this.metroGrid1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -560,41 +602,41 @@ namespace MedicalProject
             this.disease_show_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.disease_show_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.disease_show_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.disease_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle49.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle49.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle49.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle49.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle49.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.disease_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle49;
             this.disease_show_infogrid.ColumnHeadersHeight = 29;
             this.disease_show_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn5,
             this.dataGridViewTextBoxColumn6,
             this.dataGridViewTextBoxColumn7});
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.disease_show_infogrid.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle50.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle50.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle50.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle50.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.disease_show_infogrid.DefaultCellStyle = dataGridViewCellStyle50;
             this.disease_show_infogrid.EnableHeadersVisualStyles = false;
             this.disease_show_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.disease_show_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.disease_show_infogrid.Location = new System.Drawing.Point(-1, 3);
             this.disease_show_infogrid.Name = "disease_show_infogrid";
             this.disease_show_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.disease_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle51.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle51.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle51.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle51.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle51.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.disease_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle51;
             this.disease_show_infogrid.RowHeadersVisible = false;
             this.disease_show_infogrid.RowHeadersWidth = 51;
             this.disease_show_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -717,42 +759,42 @@ namespace MedicalProject
             this.producer_show_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.producer_show_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.producer_show_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.producer_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle52.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle52.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle52.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle52.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle52.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.producer_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle52;
             this.producer_show_infogrid.ColumnHeadersHeight = 29;
             this.producer_show_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn8,
             this.dataGridViewTextBoxColumn9,
             this.dataGridViewTextBoxColumn10,
             this.Address});
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.producer_show_infogrid.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle53.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle53.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle53.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle53.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.producer_show_infogrid.DefaultCellStyle = dataGridViewCellStyle53;
             this.producer_show_infogrid.EnableHeadersVisualStyles = false;
             this.producer_show_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.producer_show_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.producer_show_infogrid.Location = new System.Drawing.Point(-1, 3);
             this.producer_show_infogrid.Name = "producer_show_infogrid";
             this.producer_show_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.producer_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle54.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle54.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle54.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle54.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.producer_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle54;
             this.producer_show_infogrid.RowHeadersVisible = false;
             this.producer_show_infogrid.RowHeadersWidth = 51;
             this.producer_show_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -881,41 +923,41 @@ namespace MedicalProject
             this.license_show_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.license_show_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.license_show_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.license_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle55.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle55.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle55.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle55.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle55.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle55.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.license_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle55;
             this.license_show_infogrid.ColumnHeadersHeight = 29;
             this.license_show_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn12,
             this.dataGridViewTextBoxColumn13,
             this.dataGridViewTextBoxColumn14});
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.license_show_infogrid.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle56.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle56.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle56.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle56.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle56.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.license_show_infogrid.DefaultCellStyle = dataGridViewCellStyle56;
             this.license_show_infogrid.EnableHeadersVisualStyles = false;
             this.license_show_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.license_show_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.license_show_infogrid.Location = new System.Drawing.Point(-1, 3);
             this.license_show_infogrid.Name = "license_show_infogrid";
             this.license_show_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.license_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle57.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle57.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle57.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle57.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle57.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.license_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle57;
             this.license_show_infogrid.RowHeadersVisible = false;
             this.license_show_infogrid.RowHeadersWidth = 51;
             this.license_show_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -992,7 +1034,7 @@ namespace MedicalProject
             this.recipe_tabcontrol.Controls.Add(this.metroTabPage28);
             this.recipe_tabcontrol.Location = new System.Drawing.Point(0, 3);
             this.recipe_tabcontrol.Name = "recipe_tabcontrol";
-            this.recipe_tabcontrol.SelectedIndex = 0;
+            this.recipe_tabcontrol.SelectedIndex = 2;
             this.recipe_tabcontrol.Size = new System.Drawing.Size(1269, 376);
             this.recipe_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.recipe_tabcontrol.TabIndex = 7;
@@ -1038,42 +1080,42 @@ namespace MedicalProject
             this.recipe_show_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.recipe_show_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.recipe_show_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.recipe_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle58.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle58.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle58.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle58.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.recipe_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle58;
             this.recipe_show_infogrid.ColumnHeadersHeight = 29;
             this.recipe_show_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn11,
             this.dataGridViewTextBoxColumn15,
             this.dataGridViewTextBoxColumn16,
             this.Substance_name3});
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.recipe_show_infogrid.DefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle59.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle59.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle59.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle59.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle59.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.recipe_show_infogrid.DefaultCellStyle = dataGridViewCellStyle59;
             this.recipe_show_infogrid.EnableHeadersVisualStyles = false;
             this.recipe_show_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.recipe_show_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.recipe_show_infogrid.Location = new System.Drawing.Point(-1, 3);
             this.recipe_show_infogrid.Name = "recipe_show_infogrid";
             this.recipe_show_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.recipe_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle60.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle60.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle60.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle60.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.recipe_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle60;
             this.recipe_show_infogrid.RowHeadersVisible = false;
             this.recipe_show_infogrid.RowHeadersWidth = 51;
             this.recipe_show_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -1081,6 +1123,30 @@ namespace MedicalProject
             this.recipe_show_infogrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.recipe_show_infogrid.Size = new System.Drawing.Size(1069, 251);
             this.recipe_show_infogrid.TabIndex = 10;
+            // 
+            // dataGridViewTextBoxColumn11
+            // 
+            this.dataGridViewTextBoxColumn11.HeaderText = "ID_Recipe";
+            this.dataGridViewTextBoxColumn11.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            // 
+            // dataGridViewTextBoxColumn15
+            // 
+            this.dataGridViewTextBoxColumn15.HeaderText = "Substance_name1";
+            this.dataGridViewTextBoxColumn15.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
+            // 
+            // dataGridViewTextBoxColumn16
+            // 
+            this.dataGridViewTextBoxColumn16.HeaderText = "Substance_name2";
+            this.dataGridViewTextBoxColumn16.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
+            // 
+            // Substance_name3
+            // 
+            this.Substance_name3.HeaderText = "Substance_name3";
+            this.Substance_name3.MinimumWidth = 6;
+            this.Substance_name3.Name = "Substance_name3";
             // 
             // metroTabPage27
             // 
@@ -1098,6 +1164,9 @@ namespace MedicalProject
             // 
             // metroTabPage28
             // 
+            this.metroTabPage28.Controls.Add(this.metroComboBox1);
+            this.metroTabPage28.Controls.Add(this.metroButton1);
+            this.metroTabPage28.Controls.Add(this.metroLabel1);
             this.metroTabPage28.HorizontalScrollbarBarColor = true;
             this.metroTabPage28.HorizontalScrollbarHighlightOnWheel = false;
             this.metroTabPage28.HorizontalScrollbarSize = 10;
@@ -1109,6 +1178,34 @@ namespace MedicalProject
             this.metroTabPage28.VerticalScrollbarBarColor = true;
             this.metroTabPage28.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage28.VerticalScrollbarSize = 10;
+            // 
+            // metroComboBox1
+            // 
+            this.metroComboBox1.FormattingEnabled = true;
+            this.metroComboBox1.ItemHeight = 24;
+            this.metroComboBox1.Location = new System.Drawing.Point(172, 96);
+            this.metroComboBox1.Name = "metroComboBox1";
+            this.metroComboBox1.Size = new System.Drawing.Size(206, 30);
+            this.metroComboBox1.TabIndex = 27;
+            this.metroComboBox1.UseSelectable = true;
+            // 
+            // metroButton1
+            // 
+            this.metroButton1.Location = new System.Drawing.Point(157, 221);
+            this.metroButton1.Name = "metroButton1";
+            this.metroButton1.Size = new System.Drawing.Size(259, 39);
+            this.metroButton1.TabIndex = 26;
+            this.metroButton1.Text = "Add";
+            this.metroButton1.UseSelectable = true;
+            // 
+            // metroLabel1
+            // 
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.Location = new System.Drawing.Point(49, 96);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(57, 20);
+            this.metroLabel1.TabIndex = 25;
+            this.metroLabel1.Text = "Disease";
             // 
             // medicine_tabpage
             // 
@@ -1129,10 +1226,10 @@ namespace MedicalProject
             // 
             this.medicine_tabcontrol.Controls.Add(this.metroTabPage29);
             this.medicine_tabcontrol.Controls.Add(this.metroTabPage30);
-            this.medicine_tabcontrol.Controls.Add(this.metroTabPage31);
+            this.medicine_tabcontrol.Controls.Add(this.medicine_add_tabpage);
             this.medicine_tabcontrol.Location = new System.Drawing.Point(0, 3);
             this.medicine_tabcontrol.Name = "medicine_tabcontrol";
-            this.medicine_tabcontrol.SelectedIndex = 0;
+            this.medicine_tabcontrol.SelectedIndex = 2;
             this.medicine_tabcontrol.Size = new System.Drawing.Size(1079, 376);
             this.medicine_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.medicine_tabcontrol.TabIndex = 8;
@@ -1178,40 +1275,40 @@ namespace MedicalProject
             this.medicine_show_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.medicine_show_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.medicine_show_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.medicine_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle61.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle61.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle61.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle61.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle61.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.medicine_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle61;
             this.medicine_show_infogrid.ColumnHeadersHeight = 29;
             this.medicine_show_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn17,
             this.dataGridViewTextBoxColumn18});
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.medicine_show_infogrid.DefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle62.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle62.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle62.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle62.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.medicine_show_infogrid.DefaultCellStyle = dataGridViewCellStyle62;
             this.medicine_show_infogrid.EnableHeadersVisualStyles = false;
             this.medicine_show_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.medicine_show_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.medicine_show_infogrid.Location = new System.Drawing.Point(0, 3);
             this.medicine_show_infogrid.Name = "medicine_show_infogrid";
             this.medicine_show_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.medicine_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle63.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle63.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle63.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle63.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle63.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle63.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.medicine_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle63;
             this.medicine_show_infogrid.RowHeadersVisible = false;
             this.medicine_show_infogrid.RowHeadersWidth = 51;
             this.medicine_show_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -1220,33 +1317,217 @@ namespace MedicalProject
             this.medicine_show_infogrid.Size = new System.Drawing.Size(1069, 251);
             this.medicine_show_infogrid.TabIndex = 11;
             // 
+            // dataGridViewTextBoxColumn17
+            // 
+            this.dataGridViewTextBoxColumn17.HeaderText = "Brand_Name";
+            this.dataGridViewTextBoxColumn17.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
+            // 
+            // dataGridViewTextBoxColumn18
+            // 
+            this.dataGridViewTextBoxColumn18.HeaderText = "Preparation_Name";
+            this.dataGridViewTextBoxColumn18.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
+            // 
             // metroTabPage30
             // 
+            this.metroTabPage30.Controls.Add(this.medicine_find_infogrid);
+            this.metroTabPage30.Controls.Add(this.medicine_find_button);
+            this.metroTabPage30.Controls.Add(this.medicine_find_label);
+            this.metroTabPage30.Controls.Add(this.medicine_find_textbox);
             this.metroTabPage30.HorizontalScrollbarBarColor = true;
             this.metroTabPage30.HorizontalScrollbarHighlightOnWheel = false;
             this.metroTabPage30.HorizontalScrollbarSize = 10;
             this.metroTabPage30.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage30.Name = "metroTabPage30";
-            this.metroTabPage30.Size = new System.Drawing.Size(1261, 334);
+            this.metroTabPage30.Size = new System.Drawing.Size(1071, 334);
             this.metroTabPage30.TabIndex = 1;
             this.metroTabPage30.Text = "Find";
             this.metroTabPage30.VerticalScrollbarBarColor = true;
             this.metroTabPage30.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage30.VerticalScrollbarSize = 10;
             // 
-            // metroTabPage31
+            // medicine_find_infogrid
             // 
-            this.metroTabPage31.HorizontalScrollbarBarColor = true;
-            this.metroTabPage31.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage31.HorizontalScrollbarSize = 10;
-            this.metroTabPage31.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage31.Name = "metroTabPage31";
-            this.metroTabPage31.Size = new System.Drawing.Size(1261, 334);
-            this.metroTabPage31.TabIndex = 2;
-            this.metroTabPage31.Text = "Add";
-            this.metroTabPage31.VerticalScrollbarBarColor = true;
-            this.metroTabPage31.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage31.VerticalScrollbarSize = 10;
+            this.medicine_find_infogrid.AllowUserToAddRows = false;
+            this.medicine_find_infogrid.AllowUserToResizeRows = false;
+            this.medicine_find_infogrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.medicine_find_infogrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.medicine_find_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.medicine_find_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.medicine_find_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle64.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle64.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle64.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle64.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle64.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle64.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.medicine_find_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle64;
+            this.medicine_find_infogrid.ColumnHeadersHeight = 29;
+            this.medicine_find_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn31,
+            this.dataGridViewTextBoxColumn32});
+            dataGridViewCellStyle65.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle65.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle65.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle65.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle65.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle65.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.medicine_find_infogrid.DefaultCellStyle = dataGridViewCellStyle65;
+            this.medicine_find_infogrid.EnableHeadersVisualStyles = false;
+            this.medicine_find_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.medicine_find_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.medicine_find_infogrid.Location = new System.Drawing.Point(530, 3);
+            this.medicine_find_infogrid.Name = "medicine_find_infogrid";
+            this.medicine_find_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle66.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle66.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle66.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle66.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle66.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle66.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.medicine_find_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle66;
+            this.medicine_find_infogrid.RowHeadersVisible = false;
+            this.medicine_find_infogrid.RowHeadersWidth = 51;
+            this.medicine_find_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.medicine_find_infogrid.RowTemplate.Height = 24;
+            this.medicine_find_infogrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.medicine_find_infogrid.Size = new System.Drawing.Size(534, 297);
+            this.medicine_find_infogrid.TabIndex = 25;
+            // 
+            // dataGridViewTextBoxColumn31
+            // 
+            this.dataGridViewTextBoxColumn31.HeaderText = "Producer_name";
+            this.dataGridViewTextBoxColumn31.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn31.Name = "dataGridViewTextBoxColumn31";
+            // 
+            // dataGridViewTextBoxColumn32
+            // 
+            this.dataGridViewTextBoxColumn32.HeaderText = "Preparation_name";
+            this.dataGridViewTextBoxColumn32.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn32.Name = "dataGridViewTextBoxColumn32";
+            // 
+            // medicine_find_button
+            // 
+            this.medicine_find_button.Location = new System.Drawing.Point(160, 164);
+            this.medicine_find_button.Name = "medicine_find_button";
+            this.medicine_find_button.Size = new System.Drawing.Size(293, 39);
+            this.medicine_find_button.TabIndex = 24;
+            this.medicine_find_button.Text = "Find";
+            this.medicine_find_button.UseSelectable = true;
+            this.medicine_find_button.Click += new System.EventHandler(this.medicine_find_button_Click);
+            // 
+            // medicine_find_label
+            // 
+            this.medicine_find_label.AutoSize = true;
+            this.medicine_find_label.Location = new System.Drawing.Point(17, 99);
+            this.medicine_find_label.Name = "medicine_find_label";
+            this.medicine_find_label.Size = new System.Drawing.Size(246, 20);
+            this.medicine_find_label.TabIndex = 23;
+            this.medicine_find_label.Text = "Producer_name OR Preparation_name";
+            // 
+            // medicine_find_textbox
+            // 
+            // 
+            // 
+            // 
+            this.medicine_find_textbox.CustomButton.Image = null;
+            this.medicine_find_textbox.CustomButton.Location = new System.Drawing.Point(182, 1);
+            this.medicine_find_textbox.CustomButton.Name = "";
+            this.medicine_find_textbox.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.medicine_find_textbox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.medicine_find_textbox.CustomButton.TabIndex = 1;
+            this.medicine_find_textbox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.medicine_find_textbox.CustomButton.UseSelectable = true;
+            this.medicine_find_textbox.CustomButton.Visible = false;
+            this.medicine_find_textbox.Lines = new string[0];
+            this.medicine_find_textbox.Location = new System.Drawing.Point(279, 96);
+            this.medicine_find_textbox.MaxLength = 32767;
+            this.medicine_find_textbox.Name = "medicine_find_textbox";
+            this.medicine_find_textbox.PasswordChar = '\0';
+            this.medicine_find_textbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.medicine_find_textbox.SelectedText = "";
+            this.medicine_find_textbox.SelectionLength = 0;
+            this.medicine_find_textbox.SelectionStart = 0;
+            this.medicine_find_textbox.ShortcutsEnabled = true;
+            this.medicine_find_textbox.Size = new System.Drawing.Size(204, 23);
+            this.medicine_find_textbox.TabIndex = 22;
+            this.medicine_find_textbox.UseSelectable = true;
+            this.medicine_find_textbox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.medicine_find_textbox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // medicine_add_tabpage
+            // 
+            this.medicine_add_tabpage.Controls.Add(this.medicine_add_preparation_label);
+            this.medicine_add_tabpage.Controls.Add(this.medicine_add_producername_combobox);
+            this.medicine_add_tabpage.Controls.Add(this.medicine_add_preparation_combobox);
+            this.medicine_add_tabpage.Controls.Add(this.medicine_add_button);
+            this.medicine_add_tabpage.Controls.Add(this.medicine_add_producername_label);
+            this.medicine_add_tabpage.HorizontalScrollbarBarColor = true;
+            this.medicine_add_tabpage.HorizontalScrollbarHighlightOnWheel = false;
+            this.medicine_add_tabpage.HorizontalScrollbarSize = 10;
+            this.medicine_add_tabpage.Location = new System.Drawing.Point(4, 38);
+            this.medicine_add_tabpage.Name = "medicine_add_tabpage";
+            this.medicine_add_tabpage.Size = new System.Drawing.Size(1071, 334);
+            this.medicine_add_tabpage.TabIndex = 2;
+            this.medicine_add_tabpage.Text = "Add";
+            this.medicine_add_tabpage.VerticalScrollbarBarColor = true;
+            this.medicine_add_tabpage.VerticalScrollbarHighlightOnWheel = false;
+            this.medicine_add_tabpage.VerticalScrollbarSize = 10;
+            this.medicine_add_tabpage.Click += new System.EventHandler(this.medicine_add_tabpage_Click);
+            // 
+            // medicine_add_preparation_label
+            // 
+            this.medicine_add_preparation_label.AutoSize = true;
+            this.medicine_add_preparation_label.Location = new System.Drawing.Point(49, 156);
+            this.medicine_add_preparation_label.Name = "medicine_add_preparation_label";
+            this.medicine_add_preparation_label.Size = new System.Drawing.Size(80, 20);
+            this.medicine_add_preparation_label.TabIndex = 30;
+            this.medicine_add_preparation_label.Text = "Preparation";
+            // 
+            // medicine_add_producername_combobox
+            // 
+            this.medicine_add_producername_combobox.FormattingEnabled = true;
+            this.medicine_add_producername_combobox.ItemHeight = 24;
+            this.medicine_add_producername_combobox.Location = new System.Drawing.Point(205, 96);
+            this.medicine_add_producername_combobox.Name = "medicine_add_producername_combobox";
+            this.medicine_add_producername_combobox.Size = new System.Drawing.Size(206, 30);
+            this.medicine_add_producername_combobox.TabIndex = 29;
+            this.medicine_add_producername_combobox.UseSelectable = true;
+            this.medicine_add_producername_combobox.Click += new System.EventHandler(this.medicine_add_producername_combobox_Click);
+            // 
+            // medicine_add_preparation_combobox
+            // 
+            this.medicine_add_preparation_combobox.FormattingEnabled = true;
+            this.medicine_add_preparation_combobox.ItemHeight = 24;
+            this.medicine_add_preparation_combobox.Location = new System.Drawing.Point(205, 156);
+            this.medicine_add_preparation_combobox.Name = "medicine_add_preparation_combobox";
+            this.medicine_add_preparation_combobox.Size = new System.Drawing.Size(206, 30);
+            this.medicine_add_preparation_combobox.TabIndex = 28;
+            this.medicine_add_preparation_combobox.UseSelectable = true;
+            this.medicine_add_preparation_combobox.Click += new System.EventHandler(this.medicine_add_preparation_combobox_Click);
+            // 
+            // medicine_add_button
+            // 
+            this.medicine_add_button.Location = new System.Drawing.Point(118, 230);
+            this.medicine_add_button.Name = "medicine_add_button";
+            this.medicine_add_button.Size = new System.Drawing.Size(259, 39);
+            this.medicine_add_button.TabIndex = 27;
+            this.medicine_add_button.Text = "Add";
+            this.medicine_add_button.UseSelectable = true;
+            this.medicine_add_button.Click += new System.EventHandler(this.medicine_add_button_Click);
+            // 
+            // medicine_add_producername_label
+            // 
+            this.medicine_add_producername_label.AutoSize = true;
+            this.medicine_add_producername_label.Location = new System.Drawing.Point(49, 96);
+            this.medicine_add_producername_label.Name = "medicine_add_producername_label";
+            this.medicine_add_producername_label.Size = new System.Drawing.Size(107, 20);
+            this.medicine_add_producername_label.TabIndex = 26;
+            this.medicine_add_producername_label.Text = "Producer_name";
             // 
             // compability_tabpage
             // 
@@ -1267,15 +1548,16 @@ namespace MedicalProject
             // 
             this.compaility_tabcontrol.Controls.Add(this.metroTabPage18);
             this.compaility_tabcontrol.Controls.Add(this.metroTabPage19);
-            this.compaility_tabcontrol.Controls.Add(this.metroTabPage32);
+            this.compaility_tabcontrol.Controls.Add(this.combability_add_tabpage);
             this.compaility_tabcontrol.Location = new System.Drawing.Point(0, 3);
             this.compaility_tabcontrol.Name = "compaility_tabcontrol";
-            this.compaility_tabcontrol.SelectedIndex = 0;
+            this.compaility_tabcontrol.SelectedIndex = 2;
             this.compaility_tabcontrol.Size = new System.Drawing.Size(1072, 376);
             this.compaility_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.compaility_tabcontrol.TabIndex = 9;
             this.compaility_tabcontrol.Theme = MetroFramework.MetroThemeStyle.Light;
             this.compaility_tabcontrol.UseSelectable = true;
+            this.compaility_tabcontrol.Click += new System.EventHandler(this.compaility_tabcontrol_Click);
             // 
             // metroTabPage18
             // 
@@ -1293,33 +1575,281 @@ namespace MedicalProject
             this.metroTabPage18.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage18.VerticalScrollbarSize = 10;
             // 
+            // refresh_compability_tile
+            // 
+            this.refresh_compability_tile.ActiveControl = null;
+            this.refresh_compability_tile.Location = new System.Drawing.Point(961, 275);
+            this.refresh_compability_tile.Name = "refresh_compability_tile";
+            this.refresh_compability_tile.Size = new System.Drawing.Size(100, 44);
+            this.refresh_compability_tile.TabIndex = 13;
+            this.refresh_compability_tile.Text = "Refresh";
+            this.refresh_compability_tile.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.refresh_compability_tile.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.refresh_compability_tile.UseSelectable = true;
+            this.refresh_compability_tile.UseTileImage = true;
+            this.refresh_compability_tile.Click += new System.EventHandler(this.refresh_compability_tile_Click);
+            // 
+            // compability_show_infogrid
+            // 
+            this.compability_show_infogrid.AllowUserToAddRows = false;
+            this.compability_show_infogrid.AllowUserToResizeRows = false;
+            this.compability_show_infogrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.compability_show_infogrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.compability_show_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.compability_show_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.compability_show_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle67.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle67.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle67.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle67.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle67.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle67.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.compability_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle67;
+            this.compability_show_infogrid.ColumnHeadersHeight = 29;
+            this.compability_show_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn19,
+            this.dataGridViewTextBoxColumn20});
+            dataGridViewCellStyle68.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle68.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle68.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle68.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle68.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle68.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.compability_show_infogrid.DefaultCellStyle = dataGridViewCellStyle68;
+            this.compability_show_infogrid.EnableHeadersVisualStyles = false;
+            this.compability_show_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.compability_show_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.compability_show_infogrid.Location = new System.Drawing.Point(0, 3);
+            this.compability_show_infogrid.Name = "compability_show_infogrid";
+            this.compability_show_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle69.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle69.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle69.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle69.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle69.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle69.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.compability_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle69;
+            this.compability_show_infogrid.RowHeadersVisible = false;
+            this.compability_show_infogrid.RowHeadersWidth = 51;
+            this.compability_show_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.compability_show_infogrid.RowTemplate.Height = 24;
+            this.compability_show_infogrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.compability_show_infogrid.Size = new System.Drawing.Size(1069, 251);
+            this.compability_show_infogrid.TabIndex = 12;
+            // 
+            // dataGridViewTextBoxColumn19
+            // 
+            this.dataGridViewTextBoxColumn19.HeaderText = "Disease_Name";
+            this.dataGridViewTextBoxColumn19.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
+            // 
+            // dataGridViewTextBoxColumn20
+            // 
+            this.dataGridViewTextBoxColumn20.HeaderText = "Preparation_Name";
+            this.dataGridViewTextBoxColumn20.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
+            // 
             // metroTabPage19
             // 
+            this.metroTabPage19.Controls.Add(this.compability_find_infogrid);
+            this.metroTabPage19.Controls.Add(this.compability_find_button);
+            this.metroTabPage19.Controls.Add(this.compability_find_label);
+            this.metroTabPage19.Controls.Add(this.compability_find_textbox);
             this.metroTabPage19.HorizontalScrollbarBarColor = true;
             this.metroTabPage19.HorizontalScrollbarHighlightOnWheel = false;
             this.metroTabPage19.HorizontalScrollbarSize = 10;
             this.metroTabPage19.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage19.Name = "metroTabPage19";
-            this.metroTabPage19.Size = new System.Drawing.Size(1261, 334);
+            this.metroTabPage19.Size = new System.Drawing.Size(1064, 334);
             this.metroTabPage19.TabIndex = 1;
             this.metroTabPage19.Text = "Find";
             this.metroTabPage19.VerticalScrollbarBarColor = true;
             this.metroTabPage19.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage19.VerticalScrollbarSize = 10;
             // 
-            // metroTabPage32
+            // compability_find_infogrid
             // 
-            this.metroTabPage32.HorizontalScrollbarBarColor = true;
-            this.metroTabPage32.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage32.HorizontalScrollbarSize = 10;
-            this.metroTabPage32.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage32.Name = "metroTabPage32";
-            this.metroTabPage32.Size = new System.Drawing.Size(1261, 334);
-            this.metroTabPage32.TabIndex = 2;
-            this.metroTabPage32.Text = "Add";
-            this.metroTabPage32.VerticalScrollbarBarColor = true;
-            this.metroTabPage32.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage32.VerticalScrollbarSize = 10;
+            this.compability_find_infogrid.AllowUserToAddRows = false;
+            this.compability_find_infogrid.AllowUserToResizeRows = false;
+            this.compability_find_infogrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.compability_find_infogrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.compability_find_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.compability_find_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.compability_find_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle70.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle70.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle70.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle70.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle70.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.compability_find_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle70;
+            this.compability_find_infogrid.ColumnHeadersHeight = 29;
+            this.compability_find_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn29,
+            this.dataGridViewTextBoxColumn30});
+            dataGridViewCellStyle71.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle71.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle71.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle71.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle71.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle71.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.compability_find_infogrid.DefaultCellStyle = dataGridViewCellStyle71;
+            this.compability_find_infogrid.EnableHeadersVisualStyles = false;
+            this.compability_find_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.compability_find_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.compability_find_infogrid.Location = new System.Drawing.Point(532, 3);
+            this.compability_find_infogrid.Name = "compability_find_infogrid";
+            this.compability_find_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle72.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle72.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle72.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle72.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle72.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle72.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.compability_find_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle72;
+            this.compability_find_infogrid.RowHeadersVisible = false;
+            this.compability_find_infogrid.RowHeadersWidth = 51;
+            this.compability_find_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.compability_find_infogrid.RowTemplate.Height = 24;
+            this.compability_find_infogrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.compability_find_infogrid.Size = new System.Drawing.Size(534, 297);
+            this.compability_find_infogrid.TabIndex = 21;
+            // 
+            // dataGridViewTextBoxColumn29
+            // 
+            this.dataGridViewTextBoxColumn29.HeaderText = "Disease_name";
+            this.dataGridViewTextBoxColumn29.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn29.Name = "dataGridViewTextBoxColumn29";
+            // 
+            // dataGridViewTextBoxColumn30
+            // 
+            this.dataGridViewTextBoxColumn30.HeaderText = "Preparation_name";
+            this.dataGridViewTextBoxColumn30.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
+            // 
+            // compability_find_button
+            // 
+            this.compability_find_button.Location = new System.Drawing.Point(162, 164);
+            this.compability_find_button.Name = "compability_find_button";
+            this.compability_find_button.Size = new System.Drawing.Size(293, 39);
+            this.compability_find_button.TabIndex = 20;
+            this.compability_find_button.Text = "Find";
+            this.compability_find_button.UseSelectable = true;
+            this.compability_find_button.Click += new System.EventHandler(this.compability_find_button_Click);
+            // 
+            // compability_find_label
+            // 
+            this.compability_find_label.AutoSize = true;
+            this.compability_find_label.Location = new System.Drawing.Point(19, 99);
+            this.compability_find_label.Name = "compability_find_label";
+            this.compability_find_label.Size = new System.Drawing.Size(237, 20);
+            this.compability_find_label.TabIndex = 19;
+            this.compability_find_label.Text = "Disease_name OR Preparation_name";
+            // 
+            // compability_find_textbox
+            // 
+            // 
+            // 
+            // 
+            this.compability_find_textbox.CustomButton.Image = null;
+            this.compability_find_textbox.CustomButton.Location = new System.Drawing.Point(182, 1);
+            this.compability_find_textbox.CustomButton.Name = "";
+            this.compability_find_textbox.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.compability_find_textbox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.compability_find_textbox.CustomButton.TabIndex = 1;
+            this.compability_find_textbox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.compability_find_textbox.CustomButton.UseSelectable = true;
+            this.compability_find_textbox.CustomButton.Visible = false;
+            this.compability_find_textbox.Lines = new string[0];
+            this.compability_find_textbox.Location = new System.Drawing.Point(281, 96);
+            this.compability_find_textbox.MaxLength = 32767;
+            this.compability_find_textbox.Name = "compability_find_textbox";
+            this.compability_find_textbox.PasswordChar = '\0';
+            this.compability_find_textbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.compability_find_textbox.SelectedText = "";
+            this.compability_find_textbox.SelectionLength = 0;
+            this.compability_find_textbox.SelectionStart = 0;
+            this.compability_find_textbox.ShortcutsEnabled = true;
+            this.compability_find_textbox.Size = new System.Drawing.Size(204, 23);
+            this.compability_find_textbox.TabIndex = 18;
+            this.compability_find_textbox.UseSelectable = true;
+            this.compability_find_textbox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.compability_find_textbox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // combability_add_tabpage
+            // 
+            this.combability_add_tabpage.Controls.Add(this.compability_add_preparation_label);
+            this.combability_add_tabpage.Controls.Add(this.compability_add_disease_combobox);
+            this.combability_add_tabpage.Controls.Add(this.compability_add_preparation_combobox);
+            this.combability_add_tabpage.Controls.Add(this.compability_add_button);
+            this.combability_add_tabpage.Controls.Add(this.compability_add_disease_label);
+            this.combability_add_tabpage.HorizontalScrollbarBarColor = true;
+            this.combability_add_tabpage.HorizontalScrollbarHighlightOnWheel = false;
+            this.combability_add_tabpage.HorizontalScrollbarSize = 10;
+            this.combability_add_tabpage.Location = new System.Drawing.Point(4, 38);
+            this.combability_add_tabpage.Name = "combability_add_tabpage";
+            this.combability_add_tabpage.Size = new System.Drawing.Size(1064, 334);
+            this.combability_add_tabpage.TabIndex = 2;
+            this.combability_add_tabpage.Text = "Add";
+            this.combability_add_tabpage.VerticalScrollbarBarColor = true;
+            this.combability_add_tabpage.VerticalScrollbarHighlightOnWheel = false;
+            this.combability_add_tabpage.VerticalScrollbarSize = 10;
+            // 
+            // compability_add_preparation_label
+            // 
+            this.compability_add_preparation_label.AutoSize = true;
+            this.compability_add_preparation_label.Location = new System.Drawing.Point(49, 156);
+            this.compability_add_preparation_label.Name = "compability_add_preparation_label";
+            this.compability_add_preparation_label.Size = new System.Drawing.Size(80, 20);
+            this.compability_add_preparation_label.TabIndex = 25;
+            this.compability_add_preparation_label.Text = "Preparation";
+            // 
+            // compability_add_disease_combobox
+            // 
+            this.compability_add_disease_combobox.FormattingEnabled = true;
+            this.compability_add_disease_combobox.ItemHeight = 24;
+            this.compability_add_disease_combobox.Location = new System.Drawing.Point(205, 96);
+            this.compability_add_disease_combobox.Name = "compability_add_disease_combobox";
+            this.compability_add_disease_combobox.Size = new System.Drawing.Size(206, 30);
+            this.compability_add_disease_combobox.TabIndex = 24;
+            this.compability_add_disease_combobox.UseSelectable = true;
+            this.compability_add_disease_combobox.Click += new System.EventHandler(this.compability_add_disease_combobox_Click);
+            // 
+            // compability_add_preparation_combobox
+            // 
+            this.compability_add_preparation_combobox.FormattingEnabled = true;
+            this.compability_add_preparation_combobox.ItemHeight = 24;
+            this.compability_add_preparation_combobox.Location = new System.Drawing.Point(205, 156);
+            this.compability_add_preparation_combobox.Name = "compability_add_preparation_combobox";
+            this.compability_add_preparation_combobox.Size = new System.Drawing.Size(206, 30);
+            this.compability_add_preparation_combobox.TabIndex = 23;
+            this.compability_add_preparation_combobox.UseSelectable = true;
+            this.compability_add_preparation_combobox.Click += new System.EventHandler(this.compability_add_preparation_combobox_Click);
+            // 
+            // compability_add_button
+            // 
+            this.compability_add_button.Location = new System.Drawing.Point(118, 230);
+            this.compability_add_button.Name = "compability_add_button";
+            this.compability_add_button.Size = new System.Drawing.Size(259, 39);
+            this.compability_add_button.TabIndex = 22;
+            this.compability_add_button.Text = "Add";
+            this.compability_add_button.UseSelectable = true;
+            this.compability_add_button.Click += new System.EventHandler(this.compability_add_button_Click);
+            // 
+            // compability_add_disease_label
+            // 
+            this.compability_add_disease_label.AutoSize = true;
+            this.compability_add_disease_label.Location = new System.Drawing.Point(49, 96);
+            this.compability_add_disease_label.Name = "compability_add_disease_label";
+            this.compability_add_disease_label.Size = new System.Drawing.Size(57, 20);
+            this.compability_add_disease_label.TabIndex = 21;
+            this.compability_add_disease_label.Text = "Disease";
             // 
             // medicalform_tabpage
             // 
@@ -1335,144 +1865,6 @@ namespace MedicalProject
             this.medicalform_tabpage.VerticalScrollbarBarColor = true;
             this.medicalform_tabpage.VerticalScrollbarHighlightOnWheel = false;
             this.medicalform_tabpage.VerticalScrollbarSize = 10;
-            // 
-            // activesubstance_tabpage
-            // 
-            this.activesubstance_tabpage.Controls.Add(this.activesubstance_tabcontrol);
-            this.activesubstance_tabpage.HorizontalScrollbarBarColor = true;
-            this.activesubstance_tabpage.HorizontalScrollbarHighlightOnWheel = false;
-            this.activesubstance_tabpage.HorizontalScrollbarSize = 10;
-            this.activesubstance_tabpage.Location = new System.Drawing.Point(4, 38);
-            this.activesubstance_tabpage.Name = "activesubstance_tabpage";
-            this.activesubstance_tabpage.Size = new System.Drawing.Size(1068, 410);
-            this.activesubstance_tabpage.TabIndex = 9;
-            this.activesubstance_tabpage.Text = "Active Substance";
-            this.activesubstance_tabpage.VerticalScrollbarBarColor = true;
-            this.activesubstance_tabpage.VerticalScrollbarHighlightOnWheel = false;
-            this.activesubstance_tabpage.VerticalScrollbarSize = 10;
-            // 
-            // ChangeUserButton
-            // 
-            this.ChangeUserButton.Location = new System.Drawing.Point(893, 54);
-            this.ChangeUserButton.Name = "ChangeUserButton";
-            this.ChangeUserButton.Size = new System.Drawing.Size(192, 23);
-            this.ChangeUserButton.TabIndex = 5;
-            this.ChangeUserButton.Text = "Logout";
-            this.ChangeUserButton.UseSelectable = true;
-            this.ChangeUserButton.Click += new System.EventHandler(this.ChangeUserButton_Click_1);
-            // 
-            // compability_show_infogrid
-            // 
-            this.compability_show_infogrid.AllowUserToAddRows = false;
-            this.compability_show_infogrid.AllowUserToResizeRows = false;
-            this.compability_show_infogrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.compability_show_infogrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.compability_show_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.compability_show_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.compability_show_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.compability_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
-            this.compability_show_infogrid.ColumnHeadersHeight = 29;
-            this.compability_show_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn19,
-            this.dataGridViewTextBoxColumn20});
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.compability_show_infogrid.DefaultCellStyle = dataGridViewCellStyle23;
-            this.compability_show_infogrid.EnableHeadersVisualStyles = false;
-            this.compability_show_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.compability_show_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.compability_show_infogrid.Location = new System.Drawing.Point(0, 3);
-            this.compability_show_infogrid.Name = "compability_show_infogrid";
-            this.compability_show_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.compability_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle24;
-            this.compability_show_infogrid.RowHeadersVisible = false;
-            this.compability_show_infogrid.RowHeadersWidth = 51;
-            this.compability_show_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.compability_show_infogrid.RowTemplate.Height = 24;
-            this.compability_show_infogrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.compability_show_infogrid.Size = new System.Drawing.Size(1069, 251);
-            this.compability_show_infogrid.TabIndex = 12;
-            // 
-            // refresh_compability_tile
-            // 
-            this.refresh_compability_tile.ActiveControl = null;
-            this.refresh_compability_tile.Location = new System.Drawing.Point(961, 275);
-            this.refresh_compability_tile.Name = "refresh_compability_tile";
-            this.refresh_compability_tile.Size = new System.Drawing.Size(100, 44);
-            this.refresh_compability_tile.TabIndex = 13;
-            this.refresh_compability_tile.Text = "Refresh";
-            this.refresh_compability_tile.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.refresh_compability_tile.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.refresh_compability_tile.UseSelectable = true;
-            this.refresh_compability_tile.UseTileImage = true;
-            this.refresh_compability_tile.Click += new System.EventHandler(this.refresh_compability_tile_Click);
-            // 
-            // dataGridViewTextBoxColumn19
-            // 
-            this.dataGridViewTextBoxColumn19.HeaderText = "Disease_Name";
-            this.dataGridViewTextBoxColumn19.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
-            // 
-            // dataGridViewTextBoxColumn20
-            // 
-            this.dataGridViewTextBoxColumn20.HeaderText = "Preparation_Name";
-            this.dataGridViewTextBoxColumn20.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
-            // 
-            // dataGridViewTextBoxColumn17
-            // 
-            this.dataGridViewTextBoxColumn17.HeaderText = "Brand_Name";
-            this.dataGridViewTextBoxColumn17.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
-            // 
-            // dataGridViewTextBoxColumn18
-            // 
-            this.dataGridViewTextBoxColumn18.HeaderText = "Preparation_Name";
-            this.dataGridViewTextBoxColumn18.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
-            // 
-            // dataGridViewTextBoxColumn11
-            // 
-            this.dataGridViewTextBoxColumn11.HeaderText = "ID_Recipe";
-            this.dataGridViewTextBoxColumn11.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            // 
-            // dataGridViewTextBoxColumn15
-            // 
-            this.dataGridViewTextBoxColumn15.HeaderText = "Substance_name1";
-            this.dataGridViewTextBoxColumn15.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
-            // 
-            // dataGridViewTextBoxColumn16
-            // 
-            this.dataGridViewTextBoxColumn16.HeaderText = "Substance_name2";
-            this.dataGridViewTextBoxColumn16.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
-            // 
-            // Substance_name3
-            // 
-            this.Substance_name3.HeaderText = "Substance_name3";
-            this.Substance_name3.MinimumWidth = 6;
-            this.Substance_name3.Name = "Substance_name3";
             // 
             // medicalform_tabcontrol
             // 
@@ -1527,40 +1919,40 @@ namespace MedicalProject
             this.medicalform_show_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.medicalform_show_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.medicalform_show_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle25.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.medicalform_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle25;
+            dataGridViewCellStyle73.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle73.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle73.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle73.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle73.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle73.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.medicalform_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle73;
             this.medicalform_show_infogrid.ColumnHeadersHeight = 29;
             this.medicalform_show_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn21,
             this.dataGridViewTextBoxColumn22});
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.medicalform_show_infogrid.DefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle74.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle74.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle74.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle74.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle74.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.medicalform_show_infogrid.DefaultCellStyle = dataGridViewCellStyle74;
             this.medicalform_show_infogrid.EnableHeadersVisualStyles = false;
             this.medicalform_show_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.medicalform_show_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.medicalform_show_infogrid.Location = new System.Drawing.Point(0, 3);
             this.medicalform_show_infogrid.Name = "medicalform_show_infogrid";
             this.medicalform_show_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle27.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.medicalform_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle75.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle75.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle75.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle75.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle75.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle75.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle75.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.medicalform_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle75;
             this.medicalform_show_infogrid.RowHeadersVisible = false;
             this.medicalform_show_infogrid.RowHeadersWidth = 51;
             this.medicalform_show_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -1568,6 +1960,18 @@ namespace MedicalProject
             this.medicalform_show_infogrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.medicalform_show_infogrid.Size = new System.Drawing.Size(1068, 266);
             this.medicalform_show_infogrid.TabIndex = 12;
+            // 
+            // dataGridViewTextBoxColumn21
+            // 
+            this.dataGridViewTextBoxColumn21.HeaderText = "ID_form";
+            this.dataGridViewTextBoxColumn21.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
+            // 
+            // dataGridViewTextBoxColumn22
+            // 
+            this.dataGridViewTextBoxColumn22.HeaderText = "Form_name";
+            this.dataGridViewTextBoxColumn22.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
             // 
             // metroTabPage16
             // 
@@ -1587,31 +1991,198 @@ namespace MedicalProject
             this.metroTabPage16.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage16.VerticalScrollbarSize = 10;
             // 
+            // medicalform_find_infogrid
+            // 
+            this.medicalform_find_infogrid.AllowUserToAddRows = false;
+            this.medicalform_find_infogrid.AllowUserToResizeRows = false;
+            this.medicalform_find_infogrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.medicalform_find_infogrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.medicalform_find_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.medicalform_find_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.medicalform_find_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle76.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle76.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle76.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle76.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle76.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle76.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.medicalform_find_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle76;
+            this.medicalform_find_infogrid.ColumnHeadersHeight = 29;
+            this.medicalform_find_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn27,
+            this.dataGridViewTextBoxColumn28});
+            dataGridViewCellStyle77.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle77.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle77.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle77.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle77.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle77.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle77.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.medicalform_find_infogrid.DefaultCellStyle = dataGridViewCellStyle77;
+            this.medicalform_find_infogrid.EnableHeadersVisualStyles = false;
+            this.medicalform_find_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.medicalform_find_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.medicalform_find_infogrid.Location = new System.Drawing.Point(532, 3);
+            this.medicalform_find_infogrid.Name = "medicalform_find_infogrid";
+            this.medicalform_find_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle78.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle78.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle78.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle78.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle78.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle78.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle78.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.medicalform_find_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle78;
+            this.medicalform_find_infogrid.RowHeadersVisible = false;
+            this.medicalform_find_infogrid.RowHeadersWidth = 51;
+            this.medicalform_find_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.medicalform_find_infogrid.RowTemplate.Height = 24;
+            this.medicalform_find_infogrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.medicalform_find_infogrid.Size = new System.Drawing.Size(534, 297);
+            this.medicalform_find_infogrid.TabIndex = 17;
+            // 
+            // dataGridViewTextBoxColumn27
+            // 
+            this.dataGridViewTextBoxColumn27.HeaderText = "ID_form";
+            this.dataGridViewTextBoxColumn27.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
+            // 
+            // dataGridViewTextBoxColumn28
+            // 
+            this.dataGridViewTextBoxColumn28.HeaderText = "Form_name";
+            this.dataGridViewTextBoxColumn28.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
+            // 
+            // medicalform_find_button
+            // 
+            this.medicalform_find_button.Location = new System.Drawing.Point(162, 164);
+            this.medicalform_find_button.Name = "medicalform_find_button";
+            this.medicalform_find_button.Size = new System.Drawing.Size(293, 39);
+            this.medicalform_find_button.TabIndex = 16;
+            this.medicalform_find_button.Text = "Find";
+            this.medicalform_find_button.UseSelectable = true;
+            this.medicalform_find_button.Click += new System.EventHandler(this.medicalform_find_button_Click);
+            // 
+            // medicalform_find_label
+            // 
+            this.medicalform_find_label.AutoSize = true;
+            this.medicalform_find_label.Location = new System.Drawing.Point(49, 96);
+            this.medicalform_find_label.Name = "medicalform_find_label";
+            this.medicalform_find_label.Size = new System.Drawing.Size(82, 20);
+            this.medicalform_find_label.TabIndex = 15;
+            this.medicalform_find_label.Text = "Form_name";
+            // 
+            // medicalform_find_textbox
+            // 
+            // 
+            // 
+            // 
+            this.medicalform_find_textbox.CustomButton.Image = null;
+            this.medicalform_find_textbox.CustomButton.Location = new System.Drawing.Point(182, 1);
+            this.medicalform_find_textbox.CustomButton.Name = "";
+            this.medicalform_find_textbox.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.medicalform_find_textbox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.medicalform_find_textbox.CustomButton.TabIndex = 1;
+            this.medicalform_find_textbox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.medicalform_find_textbox.CustomButton.UseSelectable = true;
+            this.medicalform_find_textbox.CustomButton.Visible = false;
+            this.medicalform_find_textbox.Lines = new string[0];
+            this.medicalform_find_textbox.Location = new System.Drawing.Point(281, 96);
+            this.medicalform_find_textbox.MaxLength = 32767;
+            this.medicalform_find_textbox.Name = "medicalform_find_textbox";
+            this.medicalform_find_textbox.PasswordChar = '\0';
+            this.medicalform_find_textbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.medicalform_find_textbox.SelectedText = "";
+            this.medicalform_find_textbox.SelectionLength = 0;
+            this.medicalform_find_textbox.SelectionStart = 0;
+            this.medicalform_find_textbox.ShortcutsEnabled = true;
+            this.medicalform_find_textbox.Size = new System.Drawing.Size(204, 23);
+            this.medicalform_find_textbox.TabIndex = 14;
+            this.medicalform_find_textbox.UseSelectable = true;
+            this.medicalform_find_textbox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.medicalform_find_textbox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
             // metroTabPage17
             // 
+            this.metroTabPage17.Controls.Add(this.medicalform_add_button);
+            this.metroTabPage17.Controls.Add(this.medicalform_add_label);
+            this.metroTabPage17.Controls.Add(this.medicalform_add_textbox);
             this.metroTabPage17.HorizontalScrollbarBarColor = true;
             this.metroTabPage17.HorizontalScrollbarHighlightOnWheel = false;
             this.metroTabPage17.HorizontalScrollbarSize = 10;
-            this.metroTabPage17.Location = new System.Drawing.Point(4, 39);
+            this.metroTabPage17.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage17.Name = "metroTabPage17";
-            this.metroTabPage17.Size = new System.Drawing.Size(1064, 333);
+            this.metroTabPage17.Size = new System.Drawing.Size(1064, 334);
             this.metroTabPage17.TabIndex = 2;
             this.metroTabPage17.Text = "Add";
             this.metroTabPage17.VerticalScrollbarBarColor = true;
             this.metroTabPage17.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage17.VerticalScrollbarSize = 10;
             // 
-            // dataGridViewTextBoxColumn21
+            // medicalform_add_button
             // 
-            this.dataGridViewTextBoxColumn21.HeaderText = "ID_form";
-            this.dataGridViewTextBoxColumn21.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
+            this.medicalform_add_button.Location = new System.Drawing.Point(162, 164);
+            this.medicalform_add_button.Name = "medicalform_add_button";
+            this.medicalform_add_button.Size = new System.Drawing.Size(293, 39);
+            this.medicalform_add_button.TabIndex = 19;
+            this.medicalform_add_button.Text = "Add";
+            this.medicalform_add_button.UseSelectable = true;
+            this.medicalform_add_button.Click += new System.EventHandler(this.medicalform_add_button_Click);
             // 
-            // dataGridViewTextBoxColumn22
+            // medicalform_add_label
             // 
-            this.dataGridViewTextBoxColumn22.HeaderText = "Form_name";
-            this.dataGridViewTextBoxColumn22.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
+            this.medicalform_add_label.AutoSize = true;
+            this.medicalform_add_label.Location = new System.Drawing.Point(49, 96);
+            this.medicalform_add_label.Name = "medicalform_add_label";
+            this.medicalform_add_label.Size = new System.Drawing.Size(82, 20);
+            this.medicalform_add_label.TabIndex = 18;
+            this.medicalform_add_label.Text = "Form_name";
+            // 
+            // medicalform_add_textbox
+            // 
+            // 
+            // 
+            // 
+            this.medicalform_add_textbox.CustomButton.Image = null;
+            this.medicalform_add_textbox.CustomButton.Location = new System.Drawing.Point(182, 1);
+            this.medicalform_add_textbox.CustomButton.Name = "";
+            this.medicalform_add_textbox.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.medicalform_add_textbox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.medicalform_add_textbox.CustomButton.TabIndex = 1;
+            this.medicalform_add_textbox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.medicalform_add_textbox.CustomButton.UseSelectable = true;
+            this.medicalform_add_textbox.CustomButton.Visible = false;
+            this.medicalform_add_textbox.Lines = new string[0];
+            this.medicalform_add_textbox.Location = new System.Drawing.Point(281, 96);
+            this.medicalform_add_textbox.MaxLength = 32767;
+            this.medicalform_add_textbox.Name = "medicalform_add_textbox";
+            this.medicalform_add_textbox.PasswordChar = '\0';
+            this.medicalform_add_textbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.medicalform_add_textbox.SelectedText = "";
+            this.medicalform_add_textbox.SelectionLength = 0;
+            this.medicalform_add_textbox.SelectionStart = 0;
+            this.medicalform_add_textbox.ShortcutsEnabled = true;
+            this.medicalform_add_textbox.Size = new System.Drawing.Size(204, 23);
+            this.medicalform_add_textbox.TabIndex = 17;
+            this.medicalform_add_textbox.UseSelectable = true;
+            this.medicalform_add_textbox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.medicalform_add_textbox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // activesubstance_tabpage
+            // 
+            this.activesubstance_tabpage.Controls.Add(this.activesubstance_tabcontrol);
+            this.activesubstance_tabpage.HorizontalScrollbarBarColor = true;
+            this.activesubstance_tabpage.HorizontalScrollbarHighlightOnWheel = false;
+            this.activesubstance_tabpage.HorizontalScrollbarSize = 10;
+            this.activesubstance_tabpage.Location = new System.Drawing.Point(4, 38);
+            this.activesubstance_tabpage.Name = "activesubstance_tabpage";
+            this.activesubstance_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.activesubstance_tabpage.TabIndex = 9;
+            this.activesubstance_tabpage.Text = "Active Substance";
+            this.activesubstance_tabpage.VerticalScrollbarBarColor = true;
+            this.activesubstance_tabpage.VerticalScrollbarHighlightOnWheel = false;
+            this.activesubstance_tabpage.VerticalScrollbarSize = 10;
             // 
             // activesubstance_tabcontrol
             // 
@@ -1666,40 +2237,40 @@ namespace MedicalProject
             this.activesubstance_show_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.activesubstance_show_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.activesubstance_show_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle31.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle31.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle31.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle31.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.activesubstance_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle31;
+            dataGridViewCellStyle79.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle79.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle79.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle79.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle79.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle79.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle79.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.activesubstance_show_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle79;
             this.activesubstance_show_infogrid.ColumnHeadersHeight = 29;
             this.activesubstance_show_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn23,
             this.dataGridViewTextBoxColumn24});
-            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle32.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.activesubstance_show_infogrid.DefaultCellStyle = dataGridViewCellStyle32;
+            dataGridViewCellStyle80.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle80.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle80.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle80.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle80.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle80.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle80.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.activesubstance_show_infogrid.DefaultCellStyle = dataGridViewCellStyle80;
             this.activesubstance_show_infogrid.EnableHeadersVisualStyles = false;
             this.activesubstance_show_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.activesubstance_show_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.activesubstance_show_infogrid.Location = new System.Drawing.Point(0, 3);
             this.activesubstance_show_infogrid.Name = "activesubstance_show_infogrid";
             this.activesubstance_show_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle33.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.activesubstance_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle33;
+            dataGridViewCellStyle81.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle81.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle81.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle81.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle81.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle81.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle81.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.activesubstance_show_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle81;
             this.activesubstance_show_infogrid.RowHeadersVisible = false;
             this.activesubstance_show_infogrid.RowHeadersWidth = 51;
             this.activesubstance_show_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -1707,6 +2278,18 @@ namespace MedicalProject
             this.activesubstance_show_infogrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.activesubstance_show_infogrid.Size = new System.Drawing.Size(1068, 266);
             this.activesubstance_show_infogrid.TabIndex = 12;
+            // 
+            // dataGridViewTextBoxColumn23
+            // 
+            this.dataGridViewTextBoxColumn23.HeaderText = "ID_substance";
+            this.dataGridViewTextBoxColumn23.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
+            // 
+            // dataGridViewTextBoxColumn24
+            // 
+            this.dataGridViewTextBoxColumn24.HeaderText = "Substance_name";
+            this.dataGridViewTextBoxColumn24.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
             // 
             // metroTabPage23
             // 
@@ -1726,83 +2309,68 @@ namespace MedicalProject
             this.metroTabPage23.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage23.VerticalScrollbarSize = 10;
             // 
-            // metroTabPage33
+            // activesubstance_find_infogrid
             // 
-            this.metroTabPage33.Controls.Add(this.activesubstance_add_button);
-            this.metroTabPage33.Controls.Add(this.ActiveSubstance_label);
-            this.metroTabPage33.Controls.Add(this.activesubstance_add_textbox);
-            this.metroTabPage33.HorizontalScrollbarBarColor = true;
-            this.metroTabPage33.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage33.HorizontalScrollbarSize = 10;
-            this.metroTabPage33.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage33.Name = "metroTabPage33";
-            this.metroTabPage33.Size = new System.Drawing.Size(1064, 334);
-            this.metroTabPage33.TabIndex = 2;
-            this.metroTabPage33.Text = "Add";
-            this.metroTabPage33.VerticalScrollbarBarColor = true;
-            this.metroTabPage33.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage33.VerticalScrollbarSize = 10;
+            this.activesubstance_find_infogrid.AllowUserToAddRows = false;
+            this.activesubstance_find_infogrid.AllowUserToResizeRows = false;
+            this.activesubstance_find_infogrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.activesubstance_find_infogrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.activesubstance_find_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.activesubstance_find_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.activesubstance_find_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle82.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle82.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle82.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle82.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle82.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle82.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle82.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.activesubstance_find_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle82;
+            this.activesubstance_find_infogrid.ColumnHeadersHeight = 29;
+            this.activesubstance_find_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn25,
+            this.dataGridViewTextBoxColumn26});
+            dataGridViewCellStyle83.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle83.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle83.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle83.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle83.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle83.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle83.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.activesubstance_find_infogrid.DefaultCellStyle = dataGridViewCellStyle83;
+            this.activesubstance_find_infogrid.EnableHeadersVisualStyles = false;
+            this.activesubstance_find_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.activesubstance_find_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.activesubstance_find_infogrid.Location = new System.Drawing.Point(532, 3);
+            this.activesubstance_find_infogrid.Name = "activesubstance_find_infogrid";
+            this.activesubstance_find_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle84.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle84.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle84.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle84.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle84.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle84.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle84.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.activesubstance_find_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle84;
+            this.activesubstance_find_infogrid.RowHeadersVisible = false;
+            this.activesubstance_find_infogrid.RowHeadersWidth = 51;
+            this.activesubstance_find_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.activesubstance_find_infogrid.RowTemplate.Height = 24;
+            this.activesubstance_find_infogrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.activesubstance_find_infogrid.Size = new System.Drawing.Size(534, 297);
+            this.activesubstance_find_infogrid.TabIndex = 13;
             // 
-            // dataGridViewTextBoxColumn23
+            // dataGridViewTextBoxColumn25
             // 
-            this.dataGridViewTextBoxColumn23.HeaderText = "ID_substance";
-            this.dataGridViewTextBoxColumn23.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
+            this.dataGridViewTextBoxColumn25.HeaderText = "ID_substance";
+            this.dataGridViewTextBoxColumn25.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
             // 
-            // dataGridViewTextBoxColumn24
+            // dataGridViewTextBoxColumn26
             // 
-            this.dataGridViewTextBoxColumn24.HeaderText = "Substance_name";
-            this.dataGridViewTextBoxColumn24.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
-            // 
-            // activesubstance_add_textbox
-            // 
-            // 
-            // 
-            // 
-            this.activesubstance_add_textbox.CustomButton.Image = null;
-            this.activesubstance_add_textbox.CustomButton.Location = new System.Drawing.Point(182, 1);
-            this.activesubstance_add_textbox.CustomButton.Name = "";
-            this.activesubstance_add_textbox.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.activesubstance_add_textbox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.activesubstance_add_textbox.CustomButton.TabIndex = 1;
-            this.activesubstance_add_textbox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.activesubstance_add_textbox.CustomButton.UseSelectable = true;
-            this.activesubstance_add_textbox.CustomButton.Visible = false;
-            this.activesubstance_add_textbox.Lines = new string[0];
-            this.activesubstance_add_textbox.Location = new System.Drawing.Point(281, 96);
-            this.activesubstance_add_textbox.MaxLength = 32767;
-            this.activesubstance_add_textbox.Name = "activesubstance_add_textbox";
-            this.activesubstance_add_textbox.PasswordChar = '\0';
-            this.activesubstance_add_textbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.activesubstance_add_textbox.SelectedText = "";
-            this.activesubstance_add_textbox.SelectionLength = 0;
-            this.activesubstance_add_textbox.SelectionStart = 0;
-            this.activesubstance_add_textbox.ShortcutsEnabled = true;
-            this.activesubstance_add_textbox.Size = new System.Drawing.Size(204, 23);
-            this.activesubstance_add_textbox.TabIndex = 2;
-            this.activesubstance_add_textbox.UseSelectable = true;
-            this.activesubstance_add_textbox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.activesubstance_add_textbox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // ActiveSubstance_label
-            // 
-            this.ActiveSubstance_label.AutoSize = true;
-            this.ActiveSubstance_label.Location = new System.Drawing.Point(49, 96);
-            this.ActiveSubstance_label.Name = "ActiveSubstance_label";
-            this.ActiveSubstance_label.Size = new System.Drawing.Size(113, 20);
-            this.ActiveSubstance_label.TabIndex = 3;
-            this.ActiveSubstance_label.Text = "Substance_name";
-            // 
-            // activesubstance_add_button
-            // 
-            this.activesubstance_add_button.Location = new System.Drawing.Point(162, 164);
-            this.activesubstance_add_button.Name = "activesubstance_add_button";
-            this.activesubstance_add_button.Size = new System.Drawing.Size(293, 39);
-            this.activesubstance_add_button.TabIndex = 4;
-            this.activesubstance_add_button.Text = "Add";
-            this.activesubstance_add_button.UseSelectable = true;
-            this.activesubstance_add_button.Click += new System.EventHandler(this.activesubstance_add_button_Click);
+            this.dataGridViewTextBoxColumn26.HeaderText = "Substance_name";
+            this.dataGridViewTextBoxColumn26.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
             // 
             // activesubstance_find_button
             // 
@@ -1853,180 +2421,81 @@ namespace MedicalProject
             this.activesubstance_find_textbox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.activesubstance_find_textbox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // activesubstance_find_infogrid
+            // metroTabPage33
             // 
-            this.activesubstance_find_infogrid.AllowUserToAddRows = false;
-            this.activesubstance_find_infogrid.AllowUserToResizeRows = false;
-            this.activesubstance_find_infogrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.activesubstance_find_infogrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.activesubstance_find_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.activesubstance_find_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.activesubstance_find_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle34.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle34.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.activesubstance_find_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle34;
-            this.activesubstance_find_infogrid.ColumnHeadersHeight = 29;
-            this.activesubstance_find_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn25,
-            this.dataGridViewTextBoxColumn26});
-            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle35.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.activesubstance_find_infogrid.DefaultCellStyle = dataGridViewCellStyle35;
-            this.activesubstance_find_infogrid.EnableHeadersVisualStyles = false;
-            this.activesubstance_find_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.activesubstance_find_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.activesubstance_find_infogrid.Location = new System.Drawing.Point(532, 3);
-            this.activesubstance_find_infogrid.Name = "activesubstance_find_infogrid";
-            this.activesubstance_find_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle36.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.activesubstance_find_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle36;
-            this.activesubstance_find_infogrid.RowHeadersVisible = false;
-            this.activesubstance_find_infogrid.RowHeadersWidth = 51;
-            this.activesubstance_find_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.activesubstance_find_infogrid.RowTemplate.Height = 24;
-            this.activesubstance_find_infogrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.activesubstance_find_infogrid.Size = new System.Drawing.Size(534, 297);
-            this.activesubstance_find_infogrid.TabIndex = 13;
+            this.metroTabPage33.Controls.Add(this.activesubstance_add_button);
+            this.metroTabPage33.Controls.Add(this.ActiveSubstance_label);
+            this.metroTabPage33.Controls.Add(this.activesubstance_add_textbox);
+            this.metroTabPage33.HorizontalScrollbarBarColor = true;
+            this.metroTabPage33.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage33.HorizontalScrollbarSize = 10;
+            this.metroTabPage33.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage33.Name = "metroTabPage33";
+            this.metroTabPage33.Size = new System.Drawing.Size(1064, 334);
+            this.metroTabPage33.TabIndex = 2;
+            this.metroTabPage33.Text = "Add";
+            this.metroTabPage33.VerticalScrollbarBarColor = true;
+            this.metroTabPage33.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage33.VerticalScrollbarSize = 10;
             // 
-            // dataGridViewTextBoxColumn25
+            // activesubstance_add_button
             // 
-            this.dataGridViewTextBoxColumn25.HeaderText = "ID_substance";
-            this.dataGridViewTextBoxColumn25.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
+            this.activesubstance_add_button.Location = new System.Drawing.Point(162, 164);
+            this.activesubstance_add_button.Name = "activesubstance_add_button";
+            this.activesubstance_add_button.Size = new System.Drawing.Size(293, 39);
+            this.activesubstance_add_button.TabIndex = 4;
+            this.activesubstance_add_button.Text = "Add";
+            this.activesubstance_add_button.UseSelectable = true;
+            this.activesubstance_add_button.Click += new System.EventHandler(this.activesubstance_add_button_Click);
             // 
-            // dataGridViewTextBoxColumn26
+            // ActiveSubstance_label
             // 
-            this.dataGridViewTextBoxColumn26.HeaderText = "Substance_name";
-            this.dataGridViewTextBoxColumn26.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
+            this.ActiveSubstance_label.AutoSize = true;
+            this.ActiveSubstance_label.Location = new System.Drawing.Point(49, 96);
+            this.ActiveSubstance_label.Name = "ActiveSubstance_label";
+            this.ActiveSubstance_label.Size = new System.Drawing.Size(113, 20);
+            this.ActiveSubstance_label.TabIndex = 3;
+            this.ActiveSubstance_label.Text = "Substance_name";
             // 
-            // medicalform_find_infogrid
-            // 
-            this.medicalform_find_infogrid.AllowUserToAddRows = false;
-            this.medicalform_find_infogrid.AllowUserToResizeRows = false;
-            this.medicalform_find_infogrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.medicalform_find_infogrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.medicalform_find_infogrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.medicalform_find_infogrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.medicalform_find_infogrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle28.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.medicalform_find_infogrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle28;
-            this.medicalform_find_infogrid.ColumnHeadersHeight = 29;
-            this.medicalform_find_infogrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn27,
-            this.dataGridViewTextBoxColumn28});
-            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle29.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.medicalform_find_infogrid.DefaultCellStyle = dataGridViewCellStyle29;
-            this.medicalform_find_infogrid.EnableHeadersVisualStyles = false;
-            this.medicalform_find_infogrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.medicalform_find_infogrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.medicalform_find_infogrid.Location = new System.Drawing.Point(532, 3);
-            this.medicalform_find_infogrid.Name = "medicalform_find_infogrid";
-            this.medicalform_find_infogrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle30.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.medicalform_find_infogrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle30;
-            this.medicalform_find_infogrid.RowHeadersVisible = false;
-            this.medicalform_find_infogrid.RowHeadersWidth = 51;
-            this.medicalform_find_infogrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.medicalform_find_infogrid.RowTemplate.Height = 24;
-            this.medicalform_find_infogrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.medicalform_find_infogrid.Size = new System.Drawing.Size(534, 297);
-            this.medicalform_find_infogrid.TabIndex = 17;
-            // 
-            // dataGridViewTextBoxColumn27
-            // 
-            this.dataGridViewTextBoxColumn27.HeaderText = "ID_substance";
-            this.dataGridViewTextBoxColumn27.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
-            // 
-            // dataGridViewTextBoxColumn28
-            // 
-            this.dataGridViewTextBoxColumn28.HeaderText = "Substance_name";
-            this.dataGridViewTextBoxColumn28.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
-            // 
-            // medicalform_find_button
-            // 
-            this.medicalform_find_button.Location = new System.Drawing.Point(162, 164);
-            this.medicalform_find_button.Name = "medicalform_find_button";
-            this.medicalform_find_button.Size = new System.Drawing.Size(293, 39);
-            this.medicalform_find_button.TabIndex = 16;
-            this.medicalform_find_button.Text = "Find";
-            this.medicalform_find_button.UseSelectable = true;
-            this.medicalform_find_button.Click += new System.EventHandler(this.medicalform_find_button_Click);
-            // 
-            // medicalform_find_label
-            // 
-            this.medicalform_find_label.AutoSize = true;
-            this.medicalform_find_label.Location = new System.Drawing.Point(49, 96);
-            this.medicalform_find_label.Name = "medicalform_find_label";
-            this.medicalform_find_label.Size = new System.Drawing.Size(82, 20);
-            this.medicalform_find_label.TabIndex = 15;
-            this.medicalform_find_label.Text = "Form_name";
-            // 
-            // medicalform_find_textbox
+            // activesubstance_add_textbox
             // 
             // 
             // 
             // 
-            this.medicalform_find_textbox.CustomButton.Image = null;
-            this.medicalform_find_textbox.CustomButton.Location = new System.Drawing.Point(182, 1);
-            this.medicalform_find_textbox.CustomButton.Name = "";
-            this.medicalform_find_textbox.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.medicalform_find_textbox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.medicalform_find_textbox.CustomButton.TabIndex = 1;
-            this.medicalform_find_textbox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.medicalform_find_textbox.CustomButton.UseSelectable = true;
-            this.medicalform_find_textbox.CustomButton.Visible = false;
-            this.medicalform_find_textbox.Lines = new string[0];
-            this.medicalform_find_textbox.Location = new System.Drawing.Point(281, 96);
-            this.medicalform_find_textbox.MaxLength = 32767;
-            this.medicalform_find_textbox.Name = "medicalform_find_textbox";
-            this.medicalform_find_textbox.PasswordChar = '\0';
-            this.medicalform_find_textbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.medicalform_find_textbox.SelectedText = "";
-            this.medicalform_find_textbox.SelectionLength = 0;
-            this.medicalform_find_textbox.SelectionStart = 0;
-            this.medicalform_find_textbox.ShortcutsEnabled = true;
-            this.medicalform_find_textbox.Size = new System.Drawing.Size(204, 23);
-            this.medicalform_find_textbox.TabIndex = 14;
-            this.medicalform_find_textbox.UseSelectable = true;
-            this.medicalform_find_textbox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.medicalform_find_textbox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.activesubstance_add_textbox.CustomButton.Image = null;
+            this.activesubstance_add_textbox.CustomButton.Location = new System.Drawing.Point(182, 1);
+            this.activesubstance_add_textbox.CustomButton.Name = "";
+            this.activesubstance_add_textbox.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.activesubstance_add_textbox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.activesubstance_add_textbox.CustomButton.TabIndex = 1;
+            this.activesubstance_add_textbox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.activesubstance_add_textbox.CustomButton.UseSelectable = true;
+            this.activesubstance_add_textbox.CustomButton.Visible = false;
+            this.activesubstance_add_textbox.Lines = new string[0];
+            this.activesubstance_add_textbox.Location = new System.Drawing.Point(281, 96);
+            this.activesubstance_add_textbox.MaxLength = 32767;
+            this.activesubstance_add_textbox.Name = "activesubstance_add_textbox";
+            this.activesubstance_add_textbox.PasswordChar = '\0';
+            this.activesubstance_add_textbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.activesubstance_add_textbox.SelectedText = "";
+            this.activesubstance_add_textbox.SelectionLength = 0;
+            this.activesubstance_add_textbox.SelectionStart = 0;
+            this.activesubstance_add_textbox.ShortcutsEnabled = true;
+            this.activesubstance_add_textbox.Size = new System.Drawing.Size(204, 23);
+            this.activesubstance_add_textbox.TabIndex = 2;
+            this.activesubstance_add_textbox.UseSelectable = true;
+            this.activesubstance_add_textbox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.activesubstance_add_textbox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // ChangeUserButton
+            // 
+            this.ChangeUserButton.Location = new System.Drawing.Point(893, 54);
+            this.ChangeUserButton.Name = "ChangeUserButton";
+            this.ChangeUserButton.Size = new System.Drawing.Size(192, 23);
+            this.ChangeUserButton.TabIndex = 5;
+            this.ChangeUserButton.Text = "Logout";
+            this.ChangeUserButton.UseSelectable = true;
+            this.ChangeUserButton.Click += new System.EventHandler(this.ChangeUserButton_Click_1);
             // 
             // AdminPanel
             // 
@@ -2063,30 +2532,44 @@ namespace MedicalProject
             this.recipe_tabcontrol.ResumeLayout(false);
             this.metroTabPage26.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.recipe_show_infogrid)).EndInit();
+            this.metroTabPage28.ResumeLayout(false);
+            this.metroTabPage28.PerformLayout();
             this.medicine_tabpage.ResumeLayout(false);
             this.medicine_tabcontrol.ResumeLayout(false);
             this.metroTabPage29.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.medicine_show_infogrid)).EndInit();
+            this.metroTabPage30.ResumeLayout(false);
+            this.metroTabPage30.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.medicine_find_infogrid)).EndInit();
+            this.medicine_add_tabpage.ResumeLayout(false);
+            this.medicine_add_tabpage.PerformLayout();
             this.compability_tabpage.ResumeLayout(false);
             this.compaility_tabcontrol.ResumeLayout(false);
             this.metroTabPage18.ResumeLayout(false);
-            this.medicalform_tabpage.ResumeLayout(false);
-            this.activesubstance_tabpage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.compability_show_infogrid)).EndInit();
+            this.metroTabPage19.ResumeLayout(false);
+            this.metroTabPage19.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.compability_find_infogrid)).EndInit();
+            this.combability_add_tabpage.ResumeLayout(false);
+            this.combability_add_tabpage.PerformLayout();
+            this.medicalform_tabpage.ResumeLayout(false);
             this.medicalform_tabcontrol.ResumeLayout(false);
             this.metroTabPage15.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.medicalform_show_infogrid)).EndInit();
             this.metroTabPage16.ResumeLayout(false);
             this.metroTabPage16.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.medicalform_find_infogrid)).EndInit();
+            this.metroTabPage17.ResumeLayout(false);
+            this.metroTabPage17.PerformLayout();
+            this.activesubstance_tabpage.ResumeLayout(false);
             this.activesubstance_tabcontrol.ResumeLayout(false);
             this.metroTabPage20.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.activesubstance_show_infogrid)).EndInit();
             this.metroTabPage23.ResumeLayout(false);
             this.metroTabPage23.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.activesubstance_find_infogrid)).EndInit();
             this.metroTabPage33.ResumeLayout(false);
             this.metroTabPage33.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.activesubstance_find_infogrid)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.medicalform_find_infogrid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2126,11 +2609,11 @@ namespace MedicalProject
         private MetroFramework.Controls.MetroTabControl medicine_tabcontrol;
         private MetroFramework.Controls.MetroTabPage metroTabPage29;
         private MetroFramework.Controls.MetroTabPage metroTabPage30;
-        private MetroFramework.Controls.MetroTabPage metroTabPage31;
+        private MetroFramework.Controls.MetroTabPage medicine_add_tabpage;
         private MetroFramework.Controls.MetroTabControl compaility_tabcontrol;
         private MetroFramework.Controls.MetroTabPage metroTabPage18;
         private MetroFramework.Controls.MetroTabPage metroTabPage19;
-        private MetroFramework.Controls.MetroTabPage metroTabPage32;
+        private MetroFramework.Controls.MetroTabPage combability_add_tabpage;
         public MetroFramework.Controls.MetroGrid preparation_show_infogrid;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn expiryDateEnabled;
@@ -2200,10 +2683,38 @@ namespace MedicalProject
         private MetroFramework.Controls.MetroLabel activesubstance_find_label;
         private MetroFramework.Controls.MetroTextBox activesubstance_find_textbox;
         public MetroFramework.Controls.MetroGrid medicalform_find_infogrid;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn27;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn28;
         private MetroFramework.Controls.MetroButton medicalform_find_button;
         private MetroFramework.Controls.MetroLabel medicalform_find_label;
         private MetroFramework.Controls.MetroTextBox medicalform_find_textbox;
+        private MetroFramework.Controls.MetroButton medicalform_add_button;
+        private MetroFramework.Controls.MetroLabel medicalform_add_label;
+        private MetroFramework.Controls.MetroTextBox medicalform_add_textbox;
+        private MetroFramework.Controls.MetroLabel compability_add_preparation_label;
+        private MetroFramework.Controls.MetroComboBox compability_add_disease_combobox;
+        private MetroFramework.Controls.MetroComboBox compability_add_preparation_combobox;
+        private MetroFramework.Controls.MetroButton compability_add_button;
+        private MetroFramework.Controls.MetroLabel compability_add_disease_label;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn27;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn28;
+        public MetroFramework.Controls.MetroGrid compability_find_infogrid;
+        private MetroFramework.Controls.MetroButton compability_find_button;
+        private MetroFramework.Controls.MetroLabel compability_find_label;
+        private MetroFramework.Controls.MetroTextBox compability_find_textbox;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn29;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn30;
+        private MetroFramework.Controls.MetroComboBox metroComboBox1;
+        private MetroFramework.Controls.MetroButton metroButton1;
+        private MetroFramework.Controls.MetroLabel metroLabel1;
+        public MetroFramework.Controls.MetroGrid medicine_find_infogrid;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn31;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn32;
+        private MetroFramework.Controls.MetroButton medicine_find_button;
+        private MetroFramework.Controls.MetroLabel medicine_find_label;
+        private MetroFramework.Controls.MetroTextBox medicine_find_textbox;
+        private MetroFramework.Controls.MetroLabel medicine_add_preparation_label;
+        private MetroFramework.Controls.MetroComboBox medicine_add_producername_combobox;
+        private MetroFramework.Controls.MetroComboBox medicine_add_preparation_combobox;
+        private MetroFramework.Controls.MetroButton medicine_add_button;
+        private MetroFramework.Controls.MetroLabel medicine_add_producername_label;
     }
 }
