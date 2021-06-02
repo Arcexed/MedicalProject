@@ -78,11 +78,11 @@ namespace MedicalProject
         private void refresh_license_tile_Click(object sender, EventArgs e)
         {
             license_show_infogrid.Rows.Clear();
-            MySqlCommand command = new MySqlCommand("SELECT Brand_name,Register,License_date FROM license_view", ConnectionDB.conn);
+            MySqlCommand command = new MySqlCommand("SELECT ID_license,Register,License_date FROM license", ConnectionDB.conn);
             MySqlDataReader reader = command.ExecuteReader();
             while (reader.Read())
             {
-                license_show_infogrid.Rows.Add(reader[0], reader[1], reader[2]);
+                license_show_infogrid.Rows.Add(reader[0], reader[1], Convert.ToDateTime(reader[2]).ToString("yyyy-MM-dd"));
             }
             reader.Close(); // закрываем reader
         }
@@ -481,8 +481,67 @@ namespace MedicalProject
 
         private void recipe_find_button_Click(object sender, EventArgs e)
         {
+            recipe_find_infogrid.Rows.Clear();
             string substance_name = recipe_find_textbox.Text;
-            MySqlCommand command = new MySqlCommand("SELECT sub", ConnectionDB.conn);
+            if (substance_name != "")
+            {
+                MySqlCommand command = new MySqlCommand("SELECT Substance_name1,Substance_name2,Substance_name3,Quantity FROM " +
+                    $"recipe_view WHERE Substance_name1 LIKE '%{substance_name}%' OR Substance_name2 LIKE '%{substance_name}%'" +
+                    $"OR Substance_name3 LIKE '%{substance_name}%'", ConnectionDB.conn);
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    recipe_find_infogrid.Rows.Add(reader[0], reader[1], reader[2], reader[3]);
+                }
+                reader.Close();
+            }
+            else
+            {
+                MetroMessageBox.Show(this, $"Field is null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+
+        private void license_find_button_Click(object sender, EventArgs e)
+        {
+            license_find_infogrid.Rows.Clear();
+            string name = license_find_textbox.Text;
+            if (name != "")
+            {
+                MySqlCommand command = new MySqlCommand("SELECT id_license,Register,License_date FROM license WHERE " +
+                    $"Register LIKE '%{name}%'", ConnectionDB.conn);
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    license_find_infogrid.Rows.Add(reader[0], reader[1], Convert.ToDateTime(reader[2]).ToString("yyyy-MM-dd"));
+                }
+                reader.Close();
+            }
+            else
+            {
+                MetroMessageBox.Show(this, $"Field is null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+
+        private void license_add_button_Click(object sender, EventArgs e)
+        {
+            string register = license_add_register_textbox.Text;
+            DateTime date = license_add_date_datatime.Value.ToUniversalTime();
+            if (register != "")
+            {
+                MySqlCommand command = new MySqlCommand($"CALL add_license('{register}','{date.ToString("yyyy-MM-dd")}')", ConnectionDB.conn);
+                command.ExecuteNonQuery();
+            }
+            else
+            {
+                MetroMessageBox.Show(this, $"Field is null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+            license_add_register_textbox.Text = "";
+        }
+
+        private void producer_find_button_Click(object sender, EventArgs e)
+        {
+            producer_find_infogrid.Rows.Clear();
+            MySqlCommand command = new MySqlCommand("SELECT",ConnectionDB.conn);
         }
     }
 }

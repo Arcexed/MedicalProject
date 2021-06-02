@@ -29,7 +29,7 @@ namespace MedicalProject.DB
                 Database = databaseName,
                 UserID = userName,
                 Password = password,
-                
+                ConvertZeroDateTime=true
                 
 
             };
