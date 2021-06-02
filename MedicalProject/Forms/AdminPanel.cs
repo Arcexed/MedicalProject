@@ -91,11 +91,11 @@ namespace MedicalProject
         {
 
             recipe_show_infogrid.Rows.Clear();
-            MySqlCommand command = new MySqlCommand("SELECT id_recipe,Substance_name1,Substance_name2,Substance_name3 FROM Recipe_view", ConnectionDB.conn);
+            MySqlCommand command = new MySqlCommand("SELECT id_recipe,Substance_name1,Substance_name2,Substance_name3,Quantity FROM Recipe_view", ConnectionDB.conn);
             MySqlDataReader reader = command.ExecuteReader();
             while (reader.Read())
             {
-                recipe_show_infogrid.Rows.Add(reader[0], reader[1], reader[2], reader[3]);
+                recipe_show_infogrid.Rows.Add(reader[0], reader[1], reader[2], reader[3], reader[4]);
             }
             reader.Close(); // закрываем reader
         }
@@ -410,6 +410,79 @@ namespace MedicalProject
 
             }
 
+        }
+
+        private void recipe_add_button_Click(object sender, EventArgs e)
+        {
+
+            string name_substance1 = recipe_add_substance1_name_combobox.SelectedItem.ToString();
+            string name_substance2 = recipe_add_substance2_name_combobox.SelectedItem.ToString();
+            string name_substance3 = recipe_add_substance3_name_combobox.SelectedItem.ToString();
+            int quantity = 0;
+            try
+            {
+                quantity = int.Parse(recipe_add_quantity_textbox.Text);
+            }
+            catch
+            {
+                MetroMessageBox.Show(this, $"Error in parse Quantity", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+            if (name_substance1 != name_substance2 && name_substance2 != name_substance3 &&name_substance1!=name_substance3 && quantity>0)
+            {
+                MySqlCommand command_id1 = new MySqlCommand($"SELECT id_substance FROM active_substance WHERE Substance_name='{name_substance1}'", ConnectionDB.conn);
+                string id_substance1 = command_id1.ExecuteScalar().ToString();
+                MySqlCommand command_id2 = new MySqlCommand($"SELECT id_substance FROM active_substance WHERE Substance_name='{name_substance2}'", ConnectionDB.conn);
+                string id_substance2 = command_id2.ExecuteScalar().ToString();
+                MySqlCommand command_id3 = new MySqlCommand($"SELECT id_substance FROM active_substance WHERE Substance_name='{name_substance3}'", ConnectionDB.conn);
+                string id_substance3 = command_id3.ExecuteScalar().ToString();
+                MySqlCommand command = new MySqlCommand($"CALL add_recipe({id_substance1},{id_substance2},{id_substance3},{quantity})", ConnectionDB.conn);
+                command.ExecuteNonQuery();
+                recipe_add_quantity_textbox.Text = "";
+            }
+            else
+            {
+                MetroMessageBox.Show(this, $"Somewhere the names of substances coincide", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+
+            }
+        }
+
+        private void recipe_tabpage_Click(object sender, EventArgs e)
+        {
+            GetActiveSubstance();
+        }
+
+        private void GetActiveSubstance()
+        {
+            recipe_add_substance1_name_combobox.Items.Clear();
+            recipe_add_substance2_name_combobox.Items.Clear();
+            recipe_add_substance3_name_combobox.Items.Clear();
+            MySqlCommand command = new MySqlCommand("SELECT Substance_name FROM active_substance", ConnectionDB.conn);
+            MySqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                recipe_add_substance1_name_combobox.Items.Add(reader[0]);
+                recipe_add_substance2_name_combobox.Items.Add(reader[0]);
+                recipe_add_substance3_name_combobox.Items.Add(reader[0]);
+            }
+            reader.Close();
+        }
+        private void recipe_add_substance1_name_combobox_Click(object sender, EventArgs e)
+        {
+            GetActiveSubstance();
+        }
+        private void recipe_add_substance2_name_combobox_Click(object sender, EventArgs e)
+        {
+            GetActiveSubstance();
+        }
+        private void recipe_add_substance3_name_combobox_Click(object sender, EventArgs e)
+        {
+            GetActiveSubstance();
+        }
+
+        private void recipe_find_button_Click(object sender, EventArgs e)
+        {
+            string substance_name = recipe_find_textbox.Text;
+            MySqlCommand command = new MySqlCommand("SELECT sub", ConnectionDB.conn);
         }
     }
 }
