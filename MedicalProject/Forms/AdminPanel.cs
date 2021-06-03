@@ -647,5 +647,76 @@ namespace MedicalProject
             disease_add_diseasename_textbox.Text = "";
             disease_add_diseasedescr_textbox.Text = "";
         }
+
+        private void preparation_find_button_Click(object sender, EventArgs e)
+        {
+            preparation_show_infogrid.Rows.Clear();
+            string name = preparation_find_NameOrForm_textbox.Text;
+            string price = preparation_find_price_textbox.Text;
+            if (name != "" && price != "")
+            {
+                MySqlCommand command = new MySqlCommand($"SELECT Preparation_name,Form_name,Brand_name,Price FROM preparation_view WHERE (Preparation_name LIKE '%{name}%' " +
+                    $"OR Brand_name LIKE '%{name}%') AND (Price<={Convert.ToInt32(price) + 50} AND price>={Convert.ToInt32(price) - 50})", ConnectionDB.conn);
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    preparation_find_infogrid.Rows.Add(reader[0], reader[1], reader[2], reader[3]);
+                }
+                reader.Close();
+                preparation_find_NameOrForm_textbox.Text = "";
+                preparation_find_price_textbox.Text = "";
+            }
+            else
+            {
+                MetroMessageBox.Show(this, $"Field is null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+        private void preparation_add_tabpage_Click(object sender, EventArgs e)
+        {
+            PreparationCheck();
+        }
+        private void PreparationCheck()
+        {
+            preparation_add_medicalform_combobox.Items.Clear();
+            preparation_add_recipe_combobox.Items.Clear();
+            preparation_add_license_combobox.Items.Clear();
+            MySqlCommand command_medicalForm = new MySqlCommand("SELECT form_name FROM medical_form", ConnectionDB.conn);
+            MySqlDataReader reader_medicalForm = command_medicalForm.ExecuteReader();
+            while (reader_medicalForm.Read())
+            {
+                preparation_add_medicalform_combobox.Items.Add(reader_medicalForm[0]);
+            }
+            reader_medicalForm.Close();
+            MySqlCommand command_recipe = new MySqlCommand("SELECT Substance_name1,Substance_name2,	Substance_name3,Quantity FROM recipe_view", ConnectionDB.conn);
+            MySqlDataReader reader_recipe = command_recipe.ExecuteReader();
+            while (reader_recipe.Read())
+            {
+                preparation_add_recipe_combobox.Items.Add($"{reader_recipe[0]}|{reader_recipe[1]}|{reader_recipe[2]}|{reader_recipe[3]}");
+            }
+            reader_recipe.Close();
+
+
+            MySqlCommand command_license = new MySqlCommand("SELECT Register,License_date FROM license", ConnectionDB.conn);
+            MySqlDataReader reader_license = command_license.ExecuteReader();
+            while (reader_license.Read())
+            {
+                preparation_add_license_combobox.Items.Add($"{reader_license[0]}|{Convert.ToDateTime(reader_license[1]).ToString("yyyy-MM-dd")}");
+            }
+            reader_license.Close();
+        }
+        private void preparation_add_medicalform_combobox_Click(object sender, EventArgs e)
+        {
+            PreparationCheck();
+        }
+        private void preparation_add_recipe_combobox_Click(object sender, EventArgs e)
+        {
+            PreparationCheck();
+        }
+        private void preparation_add_license_combobox_Click(object sender, EventArgs e)
+        {
+            PreparationCheck();
+        }
+
+
     }
 }
