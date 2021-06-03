@@ -687,20 +687,20 @@ namespace MedicalProject
                 preparation_add_medicalform_combobox.Items.Add(reader_medicalForm[0]);
             }
             reader_medicalForm.Close();
-            MySqlCommand command_recipe = new MySqlCommand("SELECT Substance_name1,Substance_name2,	Substance_name3,Quantity FROM recipe_view", ConnectionDB.conn);
+            MySqlCommand command_recipe = new MySqlCommand("SELECT id_recipe,Substance_name1,Substance_name2,	Substance_name3,Quantity FROM recipe_view", ConnectionDB.conn);
             MySqlDataReader reader_recipe = command_recipe.ExecuteReader();
             while (reader_recipe.Read())
             {
-                preparation_add_recipe_combobox.Items.Add($"{reader_recipe[0]}|{reader_recipe[1]}|{reader_recipe[2]}|{reader_recipe[3]}");
+                preparation_add_recipe_combobox.Items.Add($"{reader_recipe[0]}|{reader_recipe[1]}|{reader_recipe[2]}|{reader_recipe[3]}|{reader_recipe[4]}");
             }
             reader_recipe.Close();
 
 
-            MySqlCommand command_license = new MySqlCommand("SELECT Register,License_date FROM license", ConnectionDB.conn);
+            MySqlCommand command_license = new MySqlCommand("SELECT ID_license,Register,License_date FROM license", ConnectionDB.conn);
             MySqlDataReader reader_license = command_license.ExecuteReader();
             while (reader_license.Read())
             {
-                preparation_add_license_combobox.Items.Add($"{reader_license[0]}|{Convert.ToDateTime(reader_license[1]).ToString("yyyy-MM-dd")}");
+                preparation_add_license_combobox.Items.Add($"{reader_license[0]}|{reader_license[1]}|{Convert.ToDateTime(reader_license[2]).ToString("yyyy-MM-dd")}");
             }
             reader_license.Close();
         }
@@ -717,6 +717,28 @@ namespace MedicalProject
             PreparationCheck();
         }
 
-
+        private void preparation_add_button_Click(object sender, EventArgs e)
+        {
+            string preparation_name = preparation_add_PreparationName_textbox.Text;
+            string preparation_descr = preparation_add_Preparationdescr_textbox.Text;
+            string expiration_date = preparation_add_expirationDate_dateTime.Value.ToString("yyyy-MM-dd");
+            string medical_form = preparation_add_medicalform_combobox.SelectedItem.ToString(); 
+            string recipe_id = preparation_add_recipe_combobox.SelectedItem.ToString().Split('|')[0]; 
+            string license_id = preparation_add_license_combobox.SelectedItem.ToString().Split('|')[0];
+            string price = preparation_add_price_textbox.Text;
+            if (preparation_name != "" && preparation_descr != "" && medical_form != "" && recipe_id != "" && license_id != "" && price != "")
+            {
+                MySqlCommand command = new MySqlCommand($"INSERT INTO preparation (Preparation_name,Preparation_descr,Price,Expiration_date,ID_form," +
+                    $"ID_recipe,ID_license) VALUES ('{preparation_name}','{preparation_descr}',{Convert.ToDouble(price)},'{expiration_date}',(SELECT ID_form from medical_form WHERE Form_name='{medical_form}'),{Convert.ToInt32(recipe_id)},{Convert.ToInt32(license_id)})", ConnectionDB.conn);
+                command.ExecuteNonQuery();
+                preparation_add_Preparationdescr_textbox.Text = "";
+                preparation_add_Preparationdescr_textbox.Text = "";
+                preparation_add_price_textbox.Text = "";
+            }
+            else
+            {
+                MetroMessageBox.Show(this, $"Field is null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
     }
 }
