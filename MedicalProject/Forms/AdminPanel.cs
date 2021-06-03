@@ -528,8 +528,14 @@ namespace MedicalProject
             DateTime date = license_add_date_datatime.Value.ToUniversalTime();
             if (register != "")
             {
-                MySqlCommand command = new MySqlCommand($"CALL add_license('{register}','{date.ToString("yyyy-MM-dd")}')", ConnectionDB.conn);
-                command.ExecuteNonQuery();
+                try
+                {
+                    MySqlCommand command = new MySqlCommand($"CALL add_license('{register}','{date.ToString("yyyy-MM-dd")}')", ConnectionDB.conn);
+                    command.ExecuteNonQuery();
+                }
+                catch(Exception ex) { 
+                    MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                }
             }
             else
             {
@@ -541,7 +547,105 @@ namespace MedicalProject
         private void producer_find_button_Click(object sender, EventArgs e)
         {
             producer_find_infogrid.Rows.Clear();
-            MySqlCommand command = new MySqlCommand("SELECT",ConnectionDB.conn);
+            string name = producer_find_textbox.Text;
+            if (name != "")
+            {
+                MySqlCommand command = new MySqlCommand($"SELECT ID_producer,Brand_name,Phone_producer,Address FROM producer WHERE Brand_name LIKE '%{name}%' OR Phone_producer LIKE '%{name}%' OR Address Like '%{name}%'", ConnectionDB.conn);
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    producer_find_infogrid.Rows.Add(reader[0], reader[1], reader[2], reader[3]);
+                }
+                reader.Close();
+            }
+            else
+            {
+                MetroMessageBox.Show(this, $"Field is null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+
+            }
+            producer_find_textbox.Text = "";
+
+        }
+
+        private void producer_add_button_Click(object sender, EventArgs e)
+        {
+            string brand_name = producer_add_brandname_textbox.Text;
+            string phone = producer_add_phone_textbox.Text;
+            string address = producer_add_address_textbox.Text;
+            if (brand_name != "" && phone != "" && address != "")
+            {
+                try
+                {
+                    MySqlCommand command = new MySqlCommand($"CALL add_producer('{brand_name}','{phone}','{address}')", ConnectionDB.conn);
+                    command.ExecuteNonQuery();
+                }
+                catch(Exception ex)
+                {   
+                    MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                }
+            }
+            else
+            {
+                MetroMessageBox.Show(this, $"Field is null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+            producer_add_address_textbox.Text = "";
+            producer_add_brandname_textbox.Text = "";
+            producer_add_phone_textbox.Text = "";
+        }
+
+        private void disease_find_button_Click(object sender, EventArgs e)
+        {
+            string name = disease_find_textbox.Text;
+            disease_find_infogrid.Rows.Clear();
+            if (name != "")
+            {
+                try {
+                    MySqlCommand command = new MySqlCommand($"SELECT id_disease,Disease_name,Disease_descr FROM disease WHERE " +
+                        $"Disease_name LIKE '%{name}%' OR Disease_descr LIKE '%{name}%'", ConnectionDB.conn);
+                    MySqlDataReader reader = command.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        disease_find_infogrid.Rows.Add(reader[0], reader[1], reader[2]);
+                    }
+                    reader.Close();
+                }
+                catch(Exception ex)
+                {
+                    MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                }
+            }
+            else
+            {
+                MetroMessageBox.Show(this, $"Field is null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+
+            disease_find_textbox.Text = "";
+
+        }
+
+        private void disease_add_button_Click(object sender, EventArgs e)
+        {
+            string name = disease_add_diseasename_textbox.Text;
+            string descr = disease_add_diseasedescr_textbox.Text;
+            if (name != "" && descr != "")
+            {
+                try
+                {
+                    MySqlCommand command = new MySqlCommand($"CALL add_disease('{name}','{descr}')", ConnectionDB.conn);
+                    command.ExecuteNonQuery();
+                }
+                catch(Exception ex)
+                {
+                    MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                }
+
+            }
+            else
+            {
+                MetroMessageBox.Show(this, $"Field is null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+            disease_add_diseasename_textbox.Text = "";
+            disease_add_diseasedescr_textbox.Text = "";
         }
     }
 }
