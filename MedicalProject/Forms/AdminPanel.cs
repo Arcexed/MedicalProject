@@ -917,5 +917,187 @@ namespace MedicalProject
                 MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
+
+        private void recipe_delete_button_Click(object sender, EventArgs e)
+        {
+            string recipe_id = recipe_delete_combobox.SelectedItem.ToString().Split('|')[0];
+            try
+            {
+                MySqlCommand command = new MySqlCommand($"DELETE from recipe WHERE ID_recipe={recipe_id}", ConnectionDB.conn);
+                command.ExecuteNonQuery();
+                recipe_delete_combobox_Click(new object(), new EventArgs());
+                MetroMessageBox.Show(this, $"Successfully deleted", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+
+        private void recipe_delete_combobox_Click(object sender, EventArgs e)
+        {
+            recipe_delete_combobox.Items.Clear();
+            try
+            {
+                MySqlCommand command = new MySqlCommand("SELECT id_recipe,Substance_name1,Substance_name2,Substance_name3,Quantity FROM recipe_view", ConnectionDB.conn);
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    recipe_delete_combobox.Items.Add($"{reader[0]}|{reader[1]}|{reader[2]}|{reader[3]}|{reader[4]}");
+                }
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+
+        private void medicine_delete_button_Click(object sender, EventArgs e)
+        {
+            string brand_name = medicine_delete_combobox.SelectedItem.ToString().Split('|')[0];
+            string preparation_name = medicine_delete_combobox.SelectedItem.ToString().Split('|')[1];
+            try
+            {
+                MySqlCommand command = new MySqlCommand($"DELETE from medicine WHERE ID_producer=(SELECT ID_producer FROM producer WHERE Brand_name='{brand_name}') AND ID_preparation=(SELECT ID_preparation FROM Preparation WHERE Preparation_name='{preparation_name}')", ConnectionDB.conn);
+                command.ExecuteNonQuery();
+                medicine_delete_combobox_Click(new object(), new EventArgs());
+                MetroMessageBox.Show(this, $"Successfully deleted", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+
+        private void medicine_delete_combobox_Click(object sender, EventArgs e)
+        {
+            medicine_delete_combobox.Items.Clear();
+            try
+            {
+                MySqlCommand command = new MySqlCommand("SELECT Brand_Name,Preparation_name FROM medicine_view", ConnectionDB.conn);
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    medicine_delete_combobox.Items.Add($"{reader[0]}|{reader[1]}");
+                }
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+
+        private void compability_delete_combobox_Click(object sender, EventArgs e)
+        {
+            compability_delete_combobox.Items.Clear();
+            try
+            {
+                MySqlCommand command = new MySqlCommand("SELECT id_disease,Disease_name,id_preparation,Preparation_name FROM compatibility_view", ConnectionDB.conn);
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    compability_delete_combobox.Items.Add($"{reader[0]}|{reader[1]}|{reader[2]}|{reader[3]}");
+                }
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+
+        private void compability_delete_button_Click(object sender, EventArgs e)
+        {
+            string id_disease = compability_delete_combobox.SelectedItem.ToString().Split('|')[0];
+            string id_preparation = compability_delete_combobox.SelectedItem.ToString().Split('|')[2];
+            try
+            {
+                MySqlCommand command = new MySqlCommand($"DELETE from compatibility WHERE id_disease='{id_disease}' AND ID_preparation='{id_preparation}'", ConnectionDB.conn);
+                command.ExecuteNonQuery();
+                compability_delete_combobox_Click(new object(), new EventArgs());
+                MetroMessageBox.Show(this, $"Successfully deleted", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+
+        private void medicalForm_delete_combobox_Click(object sender, EventArgs e)
+        {
+            medicalForm_delete_combobox.Items.Clear();
+            try
+            {
+                MySqlCommand command = new MySqlCommand("SELECT ID_form,Form_name FROM medical_form", ConnectionDB.conn);
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    medicalForm_delete_combobox.Items.Add($"{reader[0]}|{reader[1]}");
+                }
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+
+        private void medicalForm_delete_button_Click(object sender, EventArgs e)
+        {
+            string id_form = medicalForm_delete_combobox.SelectedItem.ToString().Split('|')[0];
+            try
+            {
+                MySqlCommand command = new MySqlCommand($"DELETE from medical_form WHERE ID_form='{id_form}'", ConnectionDB.conn);
+                command.ExecuteNonQuery();
+                medicalForm_delete_combobox_Click(new object(), new EventArgs());
+                MetroMessageBox.Show(this, $"Successfully deleted", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+
+        private void activesubstance_delete_button_Click(object sender, EventArgs e)
+        {
+            string ID_substance = medicalForm_delete_combobox.SelectedItem.ToString().Split('|')[0];
+            try
+            {
+                MySqlCommand command = new MySqlCommand($"DELETE from active_substance WHERE ID_substance='{ID_substance}'", ConnectionDB.conn);
+                command.ExecuteNonQuery();
+                activesubstance_delete_combobox_Click(new object(), new EventArgs());
+                MetroMessageBox.Show(this, $"Successfully deleted", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
+
+        private void activesubstance_delete_combobox_Click(object sender, EventArgs e)
+        {
+            activesubstance_delete_combobox.Items.Clear();
+            try
+            {
+                MySqlCommand command = new MySqlCommand("SELECT ID_substance,Substance_name FROM active_substance", ConnectionDB.conn);
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    activesubstance_delete_combobox.Items.Add($"{reader[0]}|{reader[1]}");
+                }
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
+        }
     }
 }

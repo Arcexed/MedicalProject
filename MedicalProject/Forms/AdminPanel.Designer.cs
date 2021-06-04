@@ -313,6 +313,26 @@ namespace MedicalProject
             this.license_delete_button = new MetroFramework.Controls.MetroButton();
             this.license_delete_combobox = new MetroFramework.Controls.MetroComboBox();
             this.license_delete_label = new MetroFramework.Controls.MetroLabel();
+            this.metroTabPage4 = new MetroFramework.Controls.MetroTabPage();
+            this.recipe_delete_button = new MetroFramework.Controls.MetroButton();
+            this.recipe_delete_combobox = new MetroFramework.Controls.MetroComboBox();
+            this.recipe_delete_label = new MetroFramework.Controls.MetroLabel();
+            this.metroTabPage5 = new MetroFramework.Controls.MetroTabPage();
+            this.medicine_delete_button = new MetroFramework.Controls.MetroButton();
+            this.medicine_delete_combobox = new MetroFramework.Controls.MetroComboBox();
+            this.medicine_delete_label = new MetroFramework.Controls.MetroLabel();
+            this.metroTabPage6 = new MetroFramework.Controls.MetroTabPage();
+            this.compability_delete_button = new MetroFramework.Controls.MetroButton();
+            this.compability_delete_combobox = new MetroFramework.Controls.MetroComboBox();
+            this.compability_delete_label = new MetroFramework.Controls.MetroLabel();
+            this.metroTabPage7 = new MetroFramework.Controls.MetroTabPage();
+            this.medicalForm_delete_button = new MetroFramework.Controls.MetroButton();
+            this.medicalForm_delete_combobox = new MetroFramework.Controls.MetroComboBox();
+            this.medicalForm_delete_label = new MetroFramework.Controls.MetroLabel();
+            this.metroTabPage8 = new MetroFramework.Controls.MetroTabPage();
+            this.activesubstance_delete_button = new MetroFramework.Controls.MetroButton();
+            this.activesubstance_delete_combobox = new MetroFramework.Controls.MetroComboBox();
+            this.activesubstance_delete_label = new MetroFramework.Controls.MetroLabel();
             this.adminpanel_tabcontrol.SuspendLayout();
             this.preparation_tabpage.SuspendLayout();
             this.preparation_tabcontrol.SuspendLayout();
@@ -381,6 +401,11 @@ namespace MedicalProject
             this.metroTabPage1.SuspendLayout();
             this.metroTabPage2.SuspendLayout();
             this.metroTabPage3.SuspendLayout();
+            this.metroTabPage4.SuspendLayout();
+            this.metroTabPage5.SuspendLayout();
+            this.metroTabPage6.SuspendLayout();
+            this.metroTabPage7.SuspendLayout();
+            this.metroTabPage8.SuspendLayout();
             this.SuspendLayout();
             // 
             // UserNameLabel
@@ -405,8 +430,8 @@ namespace MedicalProject
             this.adminpanel_tabcontrol.Controls.Add(this.activesubstance_tabpage);
             this.adminpanel_tabcontrol.Location = new System.Drawing.Point(9, 83);
             this.adminpanel_tabcontrol.Name = "adminpanel_tabcontrol";
-            this.adminpanel_tabcontrol.SelectedIndex = 3;
-            this.adminpanel_tabcontrol.Size = new System.Drawing.Size(1076, 452);
+            this.adminpanel_tabcontrol.SelectedIndex = 8;
+            this.adminpanel_tabcontrol.Size = new System.Drawing.Size(1094, 452);
             this.adminpanel_tabcontrol.TabIndex = 4;
             this.adminpanel_tabcontrol.UseSelectable = true;
             // 
@@ -1020,7 +1045,7 @@ namespace MedicalProject
             this.disease_tabpage.HorizontalScrollbarSize = 10;
             this.disease_tabpage.Location = new System.Drawing.Point(4, 38);
             this.disease_tabpage.Name = "disease_tabpage";
-            this.disease_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.disease_tabpage.Size = new System.Drawing.Size(1086, 410);
             this.disease_tabpage.TabIndex = 1;
             this.disease_tabpage.Text = "Disease";
             this.disease_tabpage.VerticalScrollbarBarColor = true;
@@ -1036,7 +1061,7 @@ namespace MedicalProject
             this.disease_tabcontrol.Location = new System.Drawing.Point(0, 3);
             this.disease_tabcontrol.Name = "disease_tabcontrol";
             this.disease_tabcontrol.SelectedIndex = 3;
-            this.disease_tabcontrol.Size = new System.Drawing.Size(1072, 376);
+            this.disease_tabcontrol.Size = new System.Drawing.Size(1096, 376);
             this.disease_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.disease_tabcontrol.TabIndex = 3;
             this.disease_tabcontrol.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -1394,7 +1419,7 @@ namespace MedicalProject
             this.producer_tabpage.HorizontalScrollbarSize = 10;
             this.producer_tabpage.Location = new System.Drawing.Point(4, 38);
             this.producer_tabpage.Name = "producer_tabpage";
-            this.producer_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.producer_tabpage.Size = new System.Drawing.Size(1086, 410);
             this.producer_tabpage.TabIndex = 3;
             this.producer_tabpage.Text = "Producer";
             this.producer_tabpage.VerticalScrollbarBarColor = true;
@@ -1823,7 +1848,7 @@ namespace MedicalProject
             this.license_tabpage.HorizontalScrollbarSize = 10;
             this.license_tabpage.Location = new System.Drawing.Point(4, 38);
             this.license_tabpage.Name = "license_tabpage";
-            this.license_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.license_tabpage.Size = new System.Drawing.Size(1086, 410);
             this.license_tabpage.TabIndex = 4;
             this.license_tabpage.Text = "License";
             this.license_tabpage.VerticalScrollbarBarColor = true;
@@ -2175,7 +2200,7 @@ namespace MedicalProject
             this.recipe_tabpage.HorizontalScrollbarSize = 10;
             this.recipe_tabpage.Location = new System.Drawing.Point(4, 38);
             this.recipe_tabpage.Name = "recipe_tabpage";
-            this.recipe_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.recipe_tabpage.Size = new System.Drawing.Size(1086, 410);
             this.recipe_tabpage.TabIndex = 5;
             this.recipe_tabpage.Text = "Recipe";
             this.recipe_tabpage.VerticalScrollbarBarColor = true;
@@ -2187,10 +2212,11 @@ namespace MedicalProject
             this.recipe_tabcontrol.Controls.Add(this.metroTabPage26);
             this.recipe_tabcontrol.Controls.Add(this.metroTabPage27);
             this.recipe_tabcontrol.Controls.Add(this.metroTabPage28);
+            this.recipe_tabcontrol.Controls.Add(this.metroTabPage4);
             this.recipe_tabcontrol.Location = new System.Drawing.Point(0, 3);
             this.recipe_tabcontrol.Name = "recipe_tabcontrol";
-            this.recipe_tabcontrol.SelectedIndex = 2;
-            this.recipe_tabcontrol.Size = new System.Drawing.Size(1072, 376);
+            this.recipe_tabcontrol.SelectedIndex = 3;
+            this.recipe_tabcontrol.Size = new System.Drawing.Size(1090, 376);
             this.recipe_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.recipe_tabcontrol.TabIndex = 7;
             this.recipe_tabcontrol.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -2594,7 +2620,7 @@ namespace MedicalProject
             this.medicine_tabpage.HorizontalScrollbarSize = 10;
             this.medicine_tabpage.Location = new System.Drawing.Point(4, 38);
             this.medicine_tabpage.Name = "medicine_tabpage";
-            this.medicine_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.medicine_tabpage.Size = new System.Drawing.Size(1086, 410);
             this.medicine_tabpage.TabIndex = 6;
             this.medicine_tabpage.Text = "Medicine";
             this.medicine_tabpage.VerticalScrollbarBarColor = true;
@@ -2606,10 +2632,11 @@ namespace MedicalProject
             this.medicine_tabcontrol.Controls.Add(this.metroTabPage29);
             this.medicine_tabcontrol.Controls.Add(this.metroTabPage30);
             this.medicine_tabcontrol.Controls.Add(this.medicine_add_tabpage);
+            this.medicine_tabcontrol.Controls.Add(this.metroTabPage5);
             this.medicine_tabcontrol.Location = new System.Drawing.Point(0, 3);
             this.medicine_tabcontrol.Name = "medicine_tabcontrol";
-            this.medicine_tabcontrol.SelectedIndex = 2;
-            this.medicine_tabcontrol.Size = new System.Drawing.Size(1079, 376);
+            this.medicine_tabcontrol.SelectedIndex = 3;
+            this.medicine_tabcontrol.Size = new System.Drawing.Size(1090, 376);
             this.medicine_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.medicine_tabcontrol.TabIndex = 8;
             this.medicine_tabcontrol.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -2850,7 +2877,7 @@ namespace MedicalProject
             this.medicine_add_tabpage.HorizontalScrollbarSize = 10;
             this.medicine_add_tabpage.Location = new System.Drawing.Point(4, 38);
             this.medicine_add_tabpage.Name = "medicine_add_tabpage";
-            this.medicine_add_tabpage.Size = new System.Drawing.Size(1071, 334);
+            this.medicine_add_tabpage.Size = new System.Drawing.Size(1082, 334);
             this.medicine_add_tabpage.TabIndex = 2;
             this.medicine_add_tabpage.Text = "Add";
             this.medicine_add_tabpage.VerticalScrollbarBarColor = true;
@@ -2915,7 +2942,7 @@ namespace MedicalProject
             this.compability_tabpage.HorizontalScrollbarSize = 10;
             this.compability_tabpage.Location = new System.Drawing.Point(4, 38);
             this.compability_tabpage.Name = "compability_tabpage";
-            this.compability_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.compability_tabpage.Size = new System.Drawing.Size(1086, 410);
             this.compability_tabpage.TabIndex = 7;
             this.compability_tabpage.Text = "Compability";
             this.compability_tabpage.VerticalScrollbarBarColor = true;
@@ -2927,9 +2954,10 @@ namespace MedicalProject
             this.compaility_tabcontrol.Controls.Add(this.metroTabPage18);
             this.compaility_tabcontrol.Controls.Add(this.metroTabPage19);
             this.compaility_tabcontrol.Controls.Add(this.combability_add_tabpage);
+            this.compaility_tabcontrol.Controls.Add(this.metroTabPage6);
             this.compaility_tabcontrol.Location = new System.Drawing.Point(0, 3);
             this.compaility_tabcontrol.Name = "compaility_tabcontrol";
-            this.compaility_tabcontrol.SelectedIndex = 2;
+            this.compaility_tabcontrol.SelectedIndex = 3;
             this.compaility_tabcontrol.Size = new System.Drawing.Size(1072, 376);
             this.compaility_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.compaility_tabcontrol.TabIndex = 9;
@@ -3237,7 +3265,7 @@ namespace MedicalProject
             this.medicalform_tabpage.HorizontalScrollbarSize = 10;
             this.medicalform_tabpage.Location = new System.Drawing.Point(4, 38);
             this.medicalform_tabpage.Name = "medicalform_tabpage";
-            this.medicalform_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.medicalform_tabpage.Size = new System.Drawing.Size(1086, 410);
             this.medicalform_tabpage.TabIndex = 8;
             this.medicalform_tabpage.Text = "Medical Form";
             this.medicalform_tabpage.VerticalScrollbarBarColor = true;
@@ -3249,9 +3277,10 @@ namespace MedicalProject
             this.medicalform_tabcontrol.Controls.Add(this.metroTabPage15);
             this.medicalform_tabcontrol.Controls.Add(this.metroTabPage16);
             this.medicalform_tabcontrol.Controls.Add(this.metroTabPage17);
+            this.medicalform_tabcontrol.Controls.Add(this.metroTabPage7);
             this.medicalform_tabcontrol.Location = new System.Drawing.Point(0, 3);
             this.medicalform_tabcontrol.Name = "medicalform_tabcontrol";
-            this.medicalform_tabcontrol.SelectedIndex = 2;
+            this.medicalform_tabcontrol.SelectedIndex = 3;
             this.medicalform_tabcontrol.Size = new System.Drawing.Size(1072, 376);
             this.medicalform_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.medicalform_tabcontrol.TabIndex = 10;
@@ -3555,7 +3584,7 @@ namespace MedicalProject
             this.activesubstance_tabpage.HorizontalScrollbarSize = 10;
             this.activesubstance_tabpage.Location = new System.Drawing.Point(4, 38);
             this.activesubstance_tabpage.Name = "activesubstance_tabpage";
-            this.activesubstance_tabpage.Size = new System.Drawing.Size(1068, 410);
+            this.activesubstance_tabpage.Size = new System.Drawing.Size(1086, 410);
             this.activesubstance_tabpage.TabIndex = 9;
             this.activesubstance_tabpage.Text = "Active Substance";
             this.activesubstance_tabpage.VerticalScrollbarBarColor = true;
@@ -3567,9 +3596,10 @@ namespace MedicalProject
             this.activesubstance_tabcontrol.Controls.Add(this.metroTabPage20);
             this.activesubstance_tabcontrol.Controls.Add(this.metroTabPage23);
             this.activesubstance_tabcontrol.Controls.Add(this.metroTabPage33);
+            this.activesubstance_tabcontrol.Controls.Add(this.metroTabPage8);
             this.activesubstance_tabcontrol.Location = new System.Drawing.Point(0, 3);
             this.activesubstance_tabcontrol.Name = "activesubstance_tabcontrol";
-            this.activesubstance_tabcontrol.SelectedIndex = 1;
+            this.activesubstance_tabcontrol.SelectedIndex = 3;
             this.activesubstance_tabcontrol.Size = new System.Drawing.Size(1072, 376);
             this.activesubstance_tabcontrol.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.activesubstance_tabcontrol.TabIndex = 11;
@@ -3885,7 +3915,7 @@ namespace MedicalProject
             this.metroTabPage1.HorizontalScrollbarSize = 10;
             this.metroTabPage1.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage1.Name = "metroTabPage1";
-            this.metroTabPage1.Size = new System.Drawing.Size(1064, 334);
+            this.metroTabPage1.Size = new System.Drawing.Size(1088, 334);
             this.metroTabPage1.TabIndex = 4;
             this.metroTabPage1.Text = "Delete";
             this.metroTabPage1.VerticalScrollbarBarColor = true;
@@ -4016,6 +4046,241 @@ namespace MedicalProject
             this.license_delete_label.TabIndex = 50;
             this.license_delete_label.Text = "Information";
             // 
+            // metroTabPage4
+            // 
+            this.metroTabPage4.Controls.Add(this.recipe_delete_button);
+            this.metroTabPage4.Controls.Add(this.recipe_delete_combobox);
+            this.metroTabPage4.Controls.Add(this.recipe_delete_label);
+            this.metroTabPage4.HorizontalScrollbarBarColor = true;
+            this.metroTabPage4.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage4.HorizontalScrollbarSize = 10;
+            this.metroTabPage4.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage4.Name = "metroTabPage4";
+            this.metroTabPage4.Size = new System.Drawing.Size(1082, 334);
+            this.metroTabPage4.TabIndex = 7;
+            this.metroTabPage4.Text = "Delete";
+            this.metroTabPage4.VerticalScrollbarBarColor = true;
+            this.metroTabPage4.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage4.VerticalScrollbarSize = 10;
+            // 
+            // recipe_delete_button
+            // 
+            this.recipe_delete_button.Location = new System.Drawing.Point(232, 176);
+            this.recipe_delete_button.Name = "recipe_delete_button";
+            this.recipe_delete_button.Size = new System.Drawing.Size(456, 39);
+            this.recipe_delete_button.TabIndex = 52;
+            this.recipe_delete_button.Text = "Delete";
+            this.recipe_delete_button.UseSelectable = true;
+            this.recipe_delete_button.Click += new System.EventHandler(this.recipe_delete_button_Click);
+            // 
+            // recipe_delete_combobox
+            // 
+            this.recipe_delete_combobox.FormattingEnabled = true;
+            this.recipe_delete_combobox.ItemHeight = 24;
+            this.recipe_delete_combobox.Location = new System.Drawing.Point(123, 80);
+            this.recipe_delete_combobox.Name = "recipe_delete_combobox";
+            this.recipe_delete_combobox.Size = new System.Drawing.Size(949, 30);
+            this.recipe_delete_combobox.TabIndex = 51;
+            this.recipe_delete_combobox.UseSelectable = true;
+            this.recipe_delete_combobox.Click += new System.EventHandler(this.recipe_delete_combobox_Click);
+            // 
+            // recipe_delete_label
+            // 
+            this.recipe_delete_label.AutoSize = true;
+            this.recipe_delete_label.Location = new System.Drawing.Point(23, 90);
+            this.recipe_delete_label.Name = "recipe_delete_label";
+            this.recipe_delete_label.Size = new System.Drawing.Size(79, 20);
+            this.recipe_delete_label.TabIndex = 50;
+            this.recipe_delete_label.Text = "Information";
+            // 
+            // metroTabPage5
+            // 
+            this.metroTabPage5.Controls.Add(this.medicine_delete_button);
+            this.metroTabPage5.Controls.Add(this.medicine_delete_combobox);
+            this.metroTabPage5.Controls.Add(this.medicine_delete_label);
+            this.metroTabPage5.HorizontalScrollbarBarColor = true;
+            this.metroTabPage5.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage5.HorizontalScrollbarSize = 10;
+            this.metroTabPage5.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage5.Name = "metroTabPage5";
+            this.metroTabPage5.Size = new System.Drawing.Size(1082, 334);
+            this.metroTabPage5.TabIndex = 8;
+            this.metroTabPage5.Text = "Delete";
+            this.metroTabPage5.VerticalScrollbarBarColor = true;
+            this.metroTabPage5.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage5.VerticalScrollbarSize = 10;
+            // 
+            // medicine_delete_button
+            // 
+            this.medicine_delete_button.Location = new System.Drawing.Point(232, 176);
+            this.medicine_delete_button.Name = "medicine_delete_button";
+            this.medicine_delete_button.Size = new System.Drawing.Size(456, 39);
+            this.medicine_delete_button.TabIndex = 52;
+            this.medicine_delete_button.Text = "Delete";
+            this.medicine_delete_button.UseSelectable = true;
+            this.medicine_delete_button.Click += new System.EventHandler(this.medicine_delete_button_Click);
+            // 
+            // medicine_delete_combobox
+            // 
+            this.medicine_delete_combobox.FormattingEnabled = true;
+            this.medicine_delete_combobox.ItemHeight = 24;
+            this.medicine_delete_combobox.Location = new System.Drawing.Point(123, 80);
+            this.medicine_delete_combobox.Name = "medicine_delete_combobox";
+            this.medicine_delete_combobox.Size = new System.Drawing.Size(949, 30);
+            this.medicine_delete_combobox.TabIndex = 51;
+            this.medicine_delete_combobox.UseSelectable = true;
+            this.medicine_delete_combobox.Click += new System.EventHandler(this.medicine_delete_combobox_Click);
+            // 
+            // medicine_delete_label
+            // 
+            this.medicine_delete_label.AutoSize = true;
+            this.medicine_delete_label.Location = new System.Drawing.Point(23, 90);
+            this.medicine_delete_label.Name = "medicine_delete_label";
+            this.medicine_delete_label.Size = new System.Drawing.Size(79, 20);
+            this.medicine_delete_label.TabIndex = 50;
+            this.medicine_delete_label.Text = "Information";
+            // 
+            // metroTabPage6
+            // 
+            this.metroTabPage6.Controls.Add(this.compability_delete_button);
+            this.metroTabPage6.Controls.Add(this.compability_delete_combobox);
+            this.metroTabPage6.Controls.Add(this.compability_delete_label);
+            this.metroTabPage6.HorizontalScrollbarBarColor = true;
+            this.metroTabPage6.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage6.HorizontalScrollbarSize = 10;
+            this.metroTabPage6.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage6.Name = "metroTabPage6";
+            this.metroTabPage6.Size = new System.Drawing.Size(1064, 334);
+            this.metroTabPage6.TabIndex = 9;
+            this.metroTabPage6.Text = "Delete";
+            this.metroTabPage6.VerticalScrollbarBarColor = true;
+            this.metroTabPage6.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage6.VerticalScrollbarSize = 10;
+            // 
+            // compability_delete_button
+            // 
+            this.compability_delete_button.Location = new System.Drawing.Point(232, 176);
+            this.compability_delete_button.Name = "compability_delete_button";
+            this.compability_delete_button.Size = new System.Drawing.Size(456, 39);
+            this.compability_delete_button.TabIndex = 52;
+            this.compability_delete_button.Text = "Delete";
+            this.compability_delete_button.UseSelectable = true;
+            this.compability_delete_button.Click += new System.EventHandler(this.compability_delete_button_Click);
+            // 
+            // compability_delete_combobox
+            // 
+            this.compability_delete_combobox.FormattingEnabled = true;
+            this.compability_delete_combobox.ItemHeight = 24;
+            this.compability_delete_combobox.Location = new System.Drawing.Point(123, 80);
+            this.compability_delete_combobox.Name = "compability_delete_combobox";
+            this.compability_delete_combobox.Size = new System.Drawing.Size(949, 30);
+            this.compability_delete_combobox.TabIndex = 51;
+            this.compability_delete_combobox.UseSelectable = true;
+            this.compability_delete_combobox.Click += new System.EventHandler(this.compability_delete_combobox_Click);
+            // 
+            // compability_delete_label
+            // 
+            this.compability_delete_label.AutoSize = true;
+            this.compability_delete_label.Location = new System.Drawing.Point(23, 90);
+            this.compability_delete_label.Name = "compability_delete_label";
+            this.compability_delete_label.Size = new System.Drawing.Size(79, 20);
+            this.compability_delete_label.TabIndex = 50;
+            this.compability_delete_label.Text = "Information";
+            // 
+            // metroTabPage7
+            // 
+            this.metroTabPage7.Controls.Add(this.medicalForm_delete_button);
+            this.metroTabPage7.Controls.Add(this.medicalForm_delete_combobox);
+            this.metroTabPage7.Controls.Add(this.medicalForm_delete_label);
+            this.metroTabPage7.HorizontalScrollbarBarColor = true;
+            this.metroTabPage7.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage7.HorizontalScrollbarSize = 10;
+            this.metroTabPage7.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage7.Name = "metroTabPage7";
+            this.metroTabPage7.Size = new System.Drawing.Size(1064, 334);
+            this.metroTabPage7.TabIndex = 10;
+            this.metroTabPage7.Text = "Delete";
+            this.metroTabPage7.VerticalScrollbarBarColor = true;
+            this.metroTabPage7.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage7.VerticalScrollbarSize = 10;
+            // 
+            // medicalForm_delete_button
+            // 
+            this.medicalForm_delete_button.Location = new System.Drawing.Point(232, 176);
+            this.medicalForm_delete_button.Name = "medicalForm_delete_button";
+            this.medicalForm_delete_button.Size = new System.Drawing.Size(456, 39);
+            this.medicalForm_delete_button.TabIndex = 52;
+            this.medicalForm_delete_button.Text = "Delete";
+            this.medicalForm_delete_button.UseSelectable = true;
+            this.medicalForm_delete_button.Click += new System.EventHandler(this.medicalForm_delete_button_Click);
+            // 
+            // medicalForm_delete_combobox
+            // 
+            this.medicalForm_delete_combobox.FormattingEnabled = true;
+            this.medicalForm_delete_combobox.ItemHeight = 24;
+            this.medicalForm_delete_combobox.Location = new System.Drawing.Point(123, 80);
+            this.medicalForm_delete_combobox.Name = "medicalForm_delete_combobox";
+            this.medicalForm_delete_combobox.Size = new System.Drawing.Size(949, 30);
+            this.medicalForm_delete_combobox.TabIndex = 51;
+            this.medicalForm_delete_combobox.UseSelectable = true;
+            this.medicalForm_delete_combobox.Click += new System.EventHandler(this.medicalForm_delete_combobox_Click);
+            // 
+            // medicalForm_delete_label
+            // 
+            this.medicalForm_delete_label.AutoSize = true;
+            this.medicalForm_delete_label.Location = new System.Drawing.Point(23, 90);
+            this.medicalForm_delete_label.Name = "medicalForm_delete_label";
+            this.medicalForm_delete_label.Size = new System.Drawing.Size(79, 20);
+            this.medicalForm_delete_label.TabIndex = 50;
+            this.medicalForm_delete_label.Text = "Information";
+            // 
+            // metroTabPage8
+            // 
+            this.metroTabPage8.Controls.Add(this.activesubstance_delete_button);
+            this.metroTabPage8.Controls.Add(this.activesubstance_delete_combobox);
+            this.metroTabPage8.Controls.Add(this.activesubstance_delete_label);
+            this.metroTabPage8.HorizontalScrollbarBarColor = true;
+            this.metroTabPage8.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage8.HorizontalScrollbarSize = 10;
+            this.metroTabPage8.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage8.Name = "metroTabPage8";
+            this.metroTabPage8.Size = new System.Drawing.Size(1064, 334);
+            this.metroTabPage8.TabIndex = 11;
+            this.metroTabPage8.Text = "Delete";
+            this.metroTabPage8.VerticalScrollbarBarColor = true;
+            this.metroTabPage8.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage8.VerticalScrollbarSize = 10;
+            // 
+            // activesubstance_delete_button
+            // 
+            this.activesubstance_delete_button.Location = new System.Drawing.Point(232, 176);
+            this.activesubstance_delete_button.Name = "activesubstance_delete_button";
+            this.activesubstance_delete_button.Size = new System.Drawing.Size(456, 39);
+            this.activesubstance_delete_button.TabIndex = 52;
+            this.activesubstance_delete_button.Text = "Delete";
+            this.activesubstance_delete_button.UseSelectable = true;
+            this.activesubstance_delete_button.Click += new System.EventHandler(this.activesubstance_delete_button_Click);
+            // 
+            // activesubstance_delete_combobox
+            // 
+            this.activesubstance_delete_combobox.FormattingEnabled = true;
+            this.activesubstance_delete_combobox.ItemHeight = 24;
+            this.activesubstance_delete_combobox.Location = new System.Drawing.Point(123, 80);
+            this.activesubstance_delete_combobox.Name = "activesubstance_delete_combobox";
+            this.activesubstance_delete_combobox.Size = new System.Drawing.Size(949, 30);
+            this.activesubstance_delete_combobox.TabIndex = 51;
+            this.activesubstance_delete_combobox.UseSelectable = true;
+            this.activesubstance_delete_combobox.Click += new System.EventHandler(this.activesubstance_delete_combobox_Click);
+            // 
+            // activesubstance_delete_label
+            // 
+            this.activesubstance_delete_label.AutoSize = true;
+            this.activesubstance_delete_label.Location = new System.Drawing.Point(23, 90);
+            this.activesubstance_delete_label.Name = "activesubstance_delete_label";
+            this.activesubstance_delete_label.Size = new System.Drawing.Size(79, 20);
+            this.activesubstance_delete_label.TabIndex = 50;
+            this.activesubstance_delete_label.Text = "Information";
+            // 
             // AdminPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -4118,6 +4383,16 @@ namespace MedicalProject
             this.metroTabPage2.PerformLayout();
             this.metroTabPage3.ResumeLayout(false);
             this.metroTabPage3.PerformLayout();
+            this.metroTabPage4.ResumeLayout(false);
+            this.metroTabPage4.PerformLayout();
+            this.metroTabPage5.ResumeLayout(false);
+            this.metroTabPage5.PerformLayout();
+            this.metroTabPage6.ResumeLayout(false);
+            this.metroTabPage6.PerformLayout();
+            this.metroTabPage7.ResumeLayout(false);
+            this.metroTabPage7.PerformLayout();
+            this.metroTabPage8.ResumeLayout(false);
+            this.metroTabPage8.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4354,5 +4629,25 @@ namespace MedicalProject
         private MetroFramework.Controls.MetroButton license_delete_button;
         private MetroFramework.Controls.MetroComboBox license_delete_combobox;
         private MetroFramework.Controls.MetroLabel license_delete_label;
+        private MetroFramework.Controls.MetroTabPage metroTabPage4;
+        private MetroFramework.Controls.MetroButton recipe_delete_button;
+        private MetroFramework.Controls.MetroComboBox recipe_delete_combobox;
+        private MetroFramework.Controls.MetroLabel recipe_delete_label;
+        private MetroFramework.Controls.MetroTabPage metroTabPage5;
+        private MetroFramework.Controls.MetroButton medicine_delete_button;
+        private MetroFramework.Controls.MetroComboBox medicine_delete_combobox;
+        private MetroFramework.Controls.MetroLabel medicine_delete_label;
+        private MetroFramework.Controls.MetroTabPage metroTabPage6;
+        private MetroFramework.Controls.MetroButton compability_delete_button;
+        private MetroFramework.Controls.MetroComboBox compability_delete_combobox;
+        private MetroFramework.Controls.MetroLabel compability_delete_label;
+        private MetroFramework.Controls.MetroTabPage metroTabPage7;
+        private MetroFramework.Controls.MetroButton medicalForm_delete_button;
+        private MetroFramework.Controls.MetroComboBox medicalForm_delete_combobox;
+        private MetroFramework.Controls.MetroLabel medicalForm_delete_label;
+        private MetroFramework.Controls.MetroTabPage metroTabPage8;
+        private MetroFramework.Controls.MetroButton activesubstance_delete_button;
+        private MetroFramework.Controls.MetroComboBox activesubstance_delete_combobox;
+        private MetroFramework.Controls.MetroLabel activesubstance_delete_label;
     }
 }
