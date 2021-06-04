@@ -27,21 +27,13 @@ namespace MedicalProject
                 
                 ConnectionDB.GenerateCFG(UsernameTextBox.Text,PasswordTextBox.Text);
                 string login = UsernameTextBox.Text;
-                if (login == "admin")
-                {
-                    ConnectionDB.conn.Open();
-                    FormLists.auth.Hide();
-                    FormLists.adminPanel.ShowDialog();
+                ConnectionDB.conn.Open();
+                FormLists.auth.Hide();
+                FormLists.Panel.ShowDialog();
 
-                }
-                else if (login == "employee")
-                {
-                    ConnectionDB.conn.Open();
-                    FormLists.auth.Hide();
-                    FormLists.employeePanel.ShowDialog();
-                }
-            }   
-            catch(Exception ex)
+
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }

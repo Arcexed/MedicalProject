@@ -98,11 +98,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\AdminPanel.cs">
+    <Compile Include="Forms\Panel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\AdminPanel.Designer.cs">
-      <DependentUpon>AdminPanel.cs</DependentUpon>
+    <Compile Include="Forms\Panel.Designer.cs">
+      <DependentUpon>Panel.cs</DependentUpon>
     </Compile>
     <Compile Include="Modules\ConnectionDB.cs" />
     <Compile Include="Forms\Auth.cs">
@@ -114,8 +114,8 @@
     <Compile Include="Modules\FormLists.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\AdminPanel.resx">
-      <DependentUpon>AdminPanel.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Panel.resx">
+      <DependentUpon>Panel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Auth.resx">
       <DependentUpon>Auth.cs</DependentUpon>

@@ -14,9 +14,9 @@ using System.Windows.Forms;
 
 namespace MedicalProject
 {
-    public partial class AdminPanel : MetroForm
+    public partial class Panel : MetroForm
     {
-        public AdminPanel()
+        public Panel()
         {
             InitializeComponent();
         }
@@ -30,6 +30,120 @@ namespace MedicalProject
         private void AdminPanel_Load(object sender, EventArgs e)
         {
             UserNameLabel.Text = ConnectionDB.userName;
+            if (ConnectionDB.userName == "admin")
+            {
+                {
+                    if (!preparation_tabcontrol.TabPages.Contains(preparation_add_tabpage))
+                    {
+                        preparation_tabcontrol.TabPages.Add(preparation_add_tabpage);
+                    }
+                    if (!preparation_tabcontrol.TabPages.Contains(preparation_delete_tabpage))
+                    {
+                        preparation_tabcontrol.TabPages.Add(preparation_delete_tabpage);
+                    }
+                }
+                {
+                    if (!disease_tabcontrol.TabPages.Contains(disease_add_tabpage))
+                    {
+                        disease_tabcontrol.TabPages.Add(disease_add_tabpage);
+                    }
+                    if (!disease_tabcontrol.TabPages.Contains(disease_delete_tabpage))
+                    {
+                        disease_tabcontrol.TabPages.Add(disease_delete_tabpage);
+                    }
+                }
+                {
+                    if (!producer_tabcontrol.TabPages.Contains(producer_add_tabpage))
+                    {
+                        producer_tabcontrol.TabPages.Add(producer_add_tabpage);
+                    }
+                    if (!producer_tabcontrol.TabPages.Contains(producer_delete_tabpage))
+                    {
+                        producer_tabcontrol.TabPages.Add(producer_delete_tabpage);
+                    }
+                }
+                {
+                    if (!license_tabcontrol.TabPages.Contains(license_add_tabpage))
+                    {
+                        license_tabcontrol.TabPages.Add(license_add_tabpage);
+                    }
+                    if (!license_tabcontrol.TabPages.Contains(license_delete_tabpage))
+                    {
+                        license_tabcontrol.TabPages.Add(license_delete_tabpage);
+                    }
+                }
+                {
+                    if (!recipe_tabcontrol.TabPages.Contains(recipe_add_tabpage))
+                    {
+                        recipe_tabcontrol.TabPages.Add(recipe_add_tabpage);
+                    }
+                    if (!recipe_tabcontrol.TabPages.Contains(recipe_delete_tabpage))
+                    {
+                        recipe_tabcontrol.TabPages.Add(recipe_delete_tabpage);
+                    }
+                }
+                {
+                    if (!medicine_tabcontrol.TabPages.Contains(medicine_add_tabpage))
+                    {
+                        medicine_tabcontrol.TabPages.Add(medicine_add_tabpage);
+                    }
+                    if (!medicine_tabcontrol.TabPages.Contains(medicine_delete_tabpage))
+                    {
+                        medicine_tabcontrol.TabPages.Add(medicine_delete_tabpage);
+                    }
+                }
+                {
+                    if (!compability_tabcontrol.TabPages.Contains(compability_add_tabpage))
+                    {
+                        compability_tabcontrol.TabPages.Add(compability_add_tabpage);
+                    }
+                    if (!compability_tabcontrol.TabPages.Contains(compability_delete_tabpage))
+                    {
+                        compability_tabcontrol.TabPages.Add(compability_delete_tabpage);
+                    }
+                }
+                {
+                    if (!medicalform_tabcontrol.TabPages.Contains(medicalform_add_tabpage))
+                    {
+                        medicalform_tabcontrol.TabPages.Add(medicalform_add_tabpage);
+                    }
+                    if (!medicalform_tabcontrol.TabPages.Contains(medicalform_delete_tabpage))
+                    {
+                        medicalform_tabcontrol.TabPages.Add(medicalform_delete_tabpage);
+                    }
+                }
+                {
+                    if (!activesubstance_tabcontrol.TabPages.Contains(activesubstance_add_tabpage))
+                    {
+                        activesubstance_tabcontrol.TabPages.Add(activesubstance_add_tabpage);
+                    }
+                    if (!activesubstance_tabcontrol.TabPages.Contains(activesubstance_delete_tabpage))
+                    {
+                        activesubstance_tabcontrol.TabPages.Add(activesubstance_delete_tabpage);
+                    }
+                }
+            }
+            else if (ConnectionDB.userName == "employee")
+            {
+                preparation_tabcontrol.TabPages.Remove(preparation_add_tabpage);
+                preparation_tabcontrol.TabPages.Remove(preparation_delete_tabpage);
+                disease_tabcontrol.TabPages.Remove(disease_add_tabpage);
+                disease_tabcontrol.TabPages.Remove(disease_delete_tabpage);
+                producer_tabcontrol.TabPages.Remove(producer_add_tabpage);
+                producer_tabcontrol.TabPages.Remove(producer_delete_tabpage);
+                license_tabcontrol.TabPages.Remove(license_add_tabpage);
+                license_tabcontrol.TabPages.Remove(license_delete_tabpage);
+                recipe_tabcontrol.TabPages.Remove(recipe_add_tabpage);
+                recipe_tabcontrol.TabPages.Remove(recipe_delete_tabpage);
+                medicine_tabcontrol.TabPages.Remove(medicine_add_tabpage);
+                medicine_tabcontrol.TabPages.Remove(medicine_delete_tabpage);
+                compability_tabcontrol.TabPages.Remove(compability_add_tabpage);
+                compability_tabcontrol.TabPages.Remove(compability_delete_tabpage);
+                medicalform_tabcontrol.TabPages.Remove(medicalform_add_tabpage);
+                medicalform_tabcontrol.TabPages.Remove(medicalform_delete_tabpage);
+                activesubstance_tabcontrol.TabPages.Remove(activesubstance_add_tabpage);
+                activesubstance_tabcontrol.TabPages.Remove(activesubstance_delete_tabpage);
+            }
         }
 
         private void ChangeUserButton_Click_1(object sender, EventArgs e)
