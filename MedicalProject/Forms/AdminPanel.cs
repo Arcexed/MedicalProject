@@ -239,32 +239,8 @@ namespace MedicalProject
         }
         void CompabilityCheck()
         {
-            try
-            {
-                compability_add_disease_combobox.Items.Clear();
-                compability_add_preparation_combobox.Items.Clear();
-                MySqlCommand command_disease = new MySqlCommand($"SELECT Disease_name,id_disease FROM disease", ConnectionDB.conn);
-                MySqlDataReader reader_disease = command_disease.ExecuteReader();
-
-                while (reader_disease.Read())
-                {
-                    compability_add_disease_combobox.Items.Add(reader_disease[0]);
-                }
-                reader_disease.Close();
-                MySqlCommand command_preparation = new MySqlCommand($"SELECT ID_preparation,Preparation_name FROM preparation", ConnectionDB.conn);
-                MySqlDataReader reader_preparation = command_preparation.ExecuteReader();
-
-                while (reader_preparation.Read())
-                {
-                    compability_add_preparation_combobox.Items.Add(reader_preparation[0]);
-                }
-                reader_preparation.Close();
-            }
-            catch(Exception ex)
-            {
-                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
-
-            }
+            compability_add_preparation_combobox_Click(new object(), new EventArgs());
+            compability_add_disease_combobox_Click(new object(), new EventArgs());
         }
         private void compaility_tabcontrol_Click(object sender, EventArgs e)
         {
@@ -274,12 +250,45 @@ namespace MedicalProject
 
         private void compability_add_preparation_combobox_Click(object sender, EventArgs e)
         {
-            CompabilityCheck();
+            try
+            {
+                compability_add_preparation_combobox.Items.Clear();
+                MySqlCommand command_preparation = new MySqlCommand($"SELECT ID_preparation,Preparation_name FROM preparation", ConnectionDB.conn);
+                MySqlDataReader reader_preparation = command_preparation.ExecuteReader();
+
+                while (reader_preparation.Read())
+                {
+                    compability_add_preparation_combobox.Items.Add($"{reader_preparation[0]}|{reader_preparation[1]}");
+                }
+                reader_preparation.Close();
+            }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+
+            }
         }
 
         private void compability_add_disease_combobox_Click(object sender, EventArgs e)
         {
-            CompabilityCheck();
+            try
+            {
+                compability_add_disease_combobox.Items.Clear();
+                MySqlCommand command_disease = new MySqlCommand($"SELECT id_disease,Disease_name FROM disease", ConnectionDB.conn);
+                MySqlDataReader reader_disease = command_disease.ExecuteReader();
+
+                while (reader_disease.Read())
+                {
+                    compability_add_disease_combobox.Items.Add($"{reader_disease[0]}|{reader_disease[1]}");
+                }
+                reader_disease.Close();
+               
+            }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+
+            }
         }
 
         private void compability_add_button_Click(object sender, EventArgs e)
@@ -289,11 +298,9 @@ namespace MedicalProject
             {
                 if (compability_add_disease_combobox.SelectedItem.ToString() != "" && compability_add_preparation_combobox.SelectedItem.ToString() != "")
                 {
-                    MySqlCommand command_disease = new MySqlCommand($"SELECT id_disease FROM disease WHERE disease_name='{compability_add_disease_combobox.SelectedItem}'", ConnectionDB.conn);
-                    string id_disease = command_disease.ExecuteScalar().ToString();
-                    MySqlCommand command_preparation = new MySqlCommand($"SELECT id_preparation FROM preparation WHERE preparation_name='{compability_add_preparation_combobox.SelectedItem}'", ConnectionDB.conn);
-                    string id_preparation = command_preparation.ExecuteScalar().ToString();
-                    MySqlCommand add_compability = new MySqlCommand($"INSERT INTO compability (id_disease,id_preparation) VALUES ('{id_disease}','{id_preparation}')", ConnectionDB.conn);
+                    string id_disease = compability_add_disease_combobox.SelectedItem.ToString().Split('|')[0];
+                    string id_preparation = compability_add_preparation_combobox.SelectedItem.ToString().Split('|')[0];
+                    MySqlCommand add_compability = new MySqlCommand($"INSERT INTO compatibility (id_disease,id_preparation) VALUES ('{id_disease}','{id_preparation}')", ConnectionDB.conn);
                     add_compability.ExecuteNonQuery();
                     MetroMessageBox.Show(this, $"Successfully added record", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -350,10 +357,10 @@ namespace MedicalProject
                 MetroMessageBox.Show(this, $"{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
-        void MedicineCheck()
+
+        private void medicine_add_producername_combobox_Click(object sender, EventArgs e)
         {
             medicine_add_producername_combobox.Items.Clear();
-            medicine_add_preparation_combobox.Items.Clear();
             MySqlCommand command_producer = new MySqlCommand("Select Brand_name FROM producer", ConnectionDB.conn);
             MySqlDataReader reader_producer = command_producer.ExecuteReader();
             while (reader_producer.Read())
@@ -361,6 +368,10 @@ namespace MedicalProject
                 medicine_add_producername_combobox.Items.Add(reader_producer[0]);
             }
             reader_producer.Close();
+        }
+        private void medicine_add_preparation_combobox_Click(object sender, EventArgs e)
+        {
+            medicine_add_preparation_combobox.Items.Clear();
             MySqlCommand command_preparation = new MySqlCommand("Select Preparation_name FROM Preparation", ConnectionDB.conn);
             MySqlDataReader reader_preparation = command_preparation.ExecuteReader();
             while (reader_preparation.Read())
@@ -369,18 +380,6 @@ namespace MedicalProject
             }
             reader_preparation.Close();
         }
-        private void medicine_add_tabpage_Click(object sender, EventArgs e)
-        {
-            MedicineCheck();
-        }
-        private void medicine_add_producername_combobox_Click(object sender, EventArgs e)
-        {
-            MedicineCheck();
-        }
-        private void medicine_add_preparation_combobox_Click(object sender, EventArgs e)
-        {
-            MedicineCheck();
-        }
 
         private void medicine_add_button_Click(object sender, EventArgs e)
         {
@@ -388,9 +387,9 @@ namespace MedicalProject
             {
                 if (medicine_add_producername_combobox.SelectedItem.ToString() != "" && medicine_add_preparation_combobox.SelectedItem.ToString() != "")
                 {
-                    MySqlCommand command_producer = new MySqlCommand($"SELECT id_producer FROM producer WHERE Brand_name='{compability_add_disease_combobox.SelectedItem}'", ConnectionDB.conn);
+                    MySqlCommand command_producer = new MySqlCommand($"SELECT id_producer FROM producer WHERE Brand_name='{medicine_add_producername_combobox.SelectedItem}'", ConnectionDB.conn);
                     string id_producer = command_producer.ExecuteScalar().ToString();
-                    MySqlCommand command_preparation = new MySqlCommand($"SELECT id_preparation FROM preparation WHERE preparation_name='{compability_add_preparation_combobox.SelectedItem}'", ConnectionDB.conn);
+                    MySqlCommand command_preparation = new MySqlCommand($"SELECT id_preparation FROM preparation WHERE preparation_name='{medicine_add_preparation_combobox.SelectedItem}'", ConnectionDB.conn);
                     string id_preparation = command_preparation.ExecuteScalar().ToString();
                     MySqlCommand add_compability = new MySqlCommand($"INSERT INTO medicine (ID_producer,id_preparation) VALUES ('{id_producer}','{id_preparation}')", ConnectionDB.conn);
                     add_compability.ExecuteNonQuery();
@@ -446,39 +445,52 @@ namespace MedicalProject
             }
         }
 
-        private void recipe_tabpage_Click(object sender, EventArgs e)
-        {
-            GetActiveSubstance();
-        }
+
 
         private void GetActiveSubstance()
         {
+            recipe_add_substance1_name_combobox_Click(new object(), new EventArgs());
+            recipe_add_substance2_name_combobox_Click(new object(), new EventArgs());
+            recipe_add_substance3_name_combobox_Click(new object(), new EventArgs());
+        }
+        private void recipe_add_substance1_name_combobox_Click(object sender, EventArgs e)
+        {
             recipe_add_substance1_name_combobox.Items.Clear();
-            recipe_add_substance2_name_combobox.Items.Clear();
-            recipe_add_substance3_name_combobox.Items.Clear();
+
             MySqlCommand command = new MySqlCommand("SELECT Substance_name FROM active_substance", ConnectionDB.conn);
             MySqlDataReader reader = command.ExecuteReader();
             while (reader.Read())
             {
                 recipe_add_substance1_name_combobox.Items.Add(reader[0]);
+
+            }
+            reader.Close();
+        }
+        private void recipe_add_substance2_name_combobox_Click(object sender, EventArgs e)
+        {
+            recipe_add_substance2_name_combobox.Items.Clear();
+
+            MySqlCommand command = new MySqlCommand("SELECT Substance_name FROM active_substance", ConnectionDB.conn);
+            MySqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
                 recipe_add_substance2_name_combobox.Items.Add(reader[0]);
+
+            }
+            reader.Close();
+        }
+        private void recipe_add_substance3_name_combobox_Click(object sender, EventArgs e)
+        {
+            recipe_add_substance3_name_combobox.Items.Clear();
+
+            MySqlCommand command = new MySqlCommand("SELECT Substance_name FROM active_substance", ConnectionDB.conn);
+            MySqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
                 recipe_add_substance3_name_combobox.Items.Add(reader[0]);
             }
             reader.Close();
         }
-        private void recipe_add_substance1_name_combobox_Click(object sender, EventArgs e)
-        {
-            GetActiveSubstance();
-        }
-        private void recipe_add_substance2_name_combobox_Click(object sender, EventArgs e)
-        {
-            GetActiveSubstance();
-        }
-        private void recipe_add_substance3_name_combobox_Click(object sender, EventArgs e)
-        {
-            GetActiveSubstance();
-        }
-
         private void recipe_find_button_Click(object sender, EventArgs e)
         {
             recipe_find_infogrid.Rows.Clear();
@@ -671,11 +683,9 @@ namespace MedicalProject
                 MetroMessageBox.Show(this, $"Field is null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
-        private void preparation_add_tabpage_Click(object sender, EventArgs e)
-        {
-            PreparationCheck();
-        }
-        private void PreparationCheck()
+  
+
+        private void preparation_add_medicalform_combobox_Click(object sender, EventArgs e)
         {
             preparation_add_medicalform_combobox.Items.Clear();
             preparation_add_recipe_combobox.Items.Clear();
@@ -687,6 +697,9 @@ namespace MedicalProject
                 preparation_add_medicalform_combobox.Items.Add(reader_medicalForm[0]);
             }
             reader_medicalForm.Close();
+        }
+        private void preparation_add_recipe_combobox_Click(object sender, EventArgs e)
+        {
             MySqlCommand command_recipe = new MySqlCommand("SELECT id_recipe,Substance_name1,Substance_name2,	Substance_name3,Quantity FROM recipe_view", ConnectionDB.conn);
             MySqlDataReader reader_recipe = command_recipe.ExecuteReader();
             while (reader_recipe.Read())
@@ -694,8 +707,9 @@ namespace MedicalProject
                 preparation_add_recipe_combobox.Items.Add($"{reader_recipe[0]}|{reader_recipe[1]}|{reader_recipe[2]}|{reader_recipe[3]}|{reader_recipe[4]}");
             }
             reader_recipe.Close();
-
-
+        }
+        private void preparation_add_license_combobox_Click(object sender, EventArgs e)
+        {
             MySqlCommand command_license = new MySqlCommand("SELECT ID_license,Register,License_date FROM license", ConnectionDB.conn);
             MySqlDataReader reader_license = command_license.ExecuteReader();
             while (reader_license.Read())
@@ -703,18 +717,6 @@ namespace MedicalProject
                 preparation_add_license_combobox.Items.Add($"{reader_license[0]}|{reader_license[1]}|{Convert.ToDateTime(reader_license[2]).ToString("yyyy-MM-dd")}");
             }
             reader_license.Close();
-        }
-        private void preparation_add_medicalform_combobox_Click(object sender, EventArgs e)
-        {
-            PreparationCheck();
-        }
-        private void preparation_add_recipe_combobox_Click(object sender, EventArgs e)
-        {
-            PreparationCheck();
-        }
-        private void preparation_add_license_combobox_Click(object sender, EventArgs e)
-        {
-            PreparationCheck();
         }
 
         private void preparation_add_button_Click(object sender, EventArgs e)
