@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Microsoft.Reporting;
 namespace MedicalProject
 {
     public partial class Panel : MetroForm
@@ -144,6 +144,7 @@ namespace MedicalProject
                 activesubstance_tabcontrol.TabPages.Remove(activesubstance_add_tabpage);
                 activesubstance_tabcontrol.TabPages.Remove(activesubstance_delete_tabpage);
             }
+            this.report_preparation.RefreshReport();
         }
 
         private void ChangeUserButton_Click_1(object sender, EventArgs e)
